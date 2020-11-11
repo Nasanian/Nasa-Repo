@@ -1,5 +1,5 @@
-# description	: 
-# depends	: 
+# description	:
+# depends	:
 
 name=gpa
 version=
@@ -10,6 +10,7 @@ backup=""
 source=""
 
 build() {
+
 	cd $name-$version
 	./configure --prefix=/usr
 	make
