@@ -1,0 +1,32 @@
+# description	: vulkans validation layers - useful for both debugging and runtime. (32-bit)
+# depends	: gcc vulkan-validationlayers-32 libx11 xorg-video-drivers xorg-server xorg-libraries xorg-fonts xorgproto python2-distutils-extra python3-distutils-extra python2 python3 vulkan-loader
+
+name=vulkan-validationlayers-32
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+
+
+  export ASFLAGS=--32
+  export CFLAGS=-m32
+  export CXXFLAGS=-m32
+	export PKG_CONFIG_PATH="/usr/lib32/pkgconfig"
+
+  git clone https://github.com/KhronosGroup/Vulkan-ValidationLayers.git --depth 1 --jobs $(nproc)
+  cd Vulkan-ValidationLayers
+
+	mkdir build
+  cd build
+
+  ../scripts/update_deps.py --config release
+  cmake -C helper.cmake .. -DCMAKE_INSTALL_PREFIX=/usr/
+  cmake -DCMAKE_INSTALL_LIBDIR=lib32 -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr/  --build .
+
+	make all
+	make DESTDIR=$PKG install
+}

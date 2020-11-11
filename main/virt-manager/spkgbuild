@@ -1,0 +1,18 @@
+# description	: virt-manager, a frontend for QEMU/KVM
+# depends	: python3-pip python3 selinux qemu gtksourceview4 python3-gobject gtk3 gettext libvirt libosinfo libvirt-glib libvirt-python
+
+name=virt-manager
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+
+  git clone https://github.com/virt-manager/virt-manager.git --depth 1 --jobs $(nproc)
+  cd virt-manager
+
+	python3 setup.py install --root=$PKG --optimize=1
+}

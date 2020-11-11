@@ -1,0 +1,11 @@
+# description	: literally everything you need for vulkan + shaderc + libplacebo + glslang
+# depends	: git spirv-meta vulkan-headers vulkan-loader vulkan-tools libplacebo glslang mesa-vk
+# vulkan-hpp
+
+name=vulkan-meta
+version=9999
+release=git
+
+build() {
+  mkdir -pv $PKG/etc
+}

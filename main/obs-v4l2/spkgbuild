@@ -1,0 +1,38 @@
+# description	: v4l2loopback for obs to be used in other programs!"
+# depends	: obs
+
+name=obs-v4l2
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source="hevc-vaapi.diff"
+
+build() {
+  git clone https://github.com/obsproject/obs-studio.git --depth 1 --jobs $(nproc)
+  git clone https://github.com/Mixer/ftl-sdk.git --depth 1 --jobs $(nproc)
+  git clone https://github.com/obsproject/obs-browser.git --depth 1 --jobs $(nproc)
+
+  cd obs-studio
+  git config submodule.plugins/obs-outputs/ftl-sdk.url ../ftl-sdk
+  git config submodule.plugins/obs-browser.url ../obs-browser
+
+  git submodule update
+  patch -p1 -i ../hevc-vaapi.diff
+    cmake -DCMAKE_INSTALL_PREFIX=/usr \
+        -DBUILD_BROWSER=ON \
+        -DCEF_ROOT_DIR="/opt/cef" \
+        -B build -S $PKG .
+
+  cmake --build build
+
+  DESTDIR=$PKG cmake --install build
+
+  git clone https://github.com/CatxFish/obs-v4l2sink.git --depth 1 --jobs $(nproc)
+  cd obs-v4l2sink
+  cmake -DLIBOBS_INCLUDE_DIR="../libobs" -DCMAKE_INSTALL_PREFIX=/usr .
+  make
+  make DESTDIR=$PKG install
+
+}

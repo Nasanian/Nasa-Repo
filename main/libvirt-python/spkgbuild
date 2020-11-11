@@ -1,0 +1,21 @@
+# description	: libvirt-python, a lib for virt manager
+# depends	: python3-pip python3 selinux qemu gtksourceview4 python3-gobject gtk3 gettext libosinfo libvirt
+
+name=libvirt-python
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+
+  git clone https://github.com/libvirt/libvirt-python.git --depth 1 --jobs $(nproc)
+  cd libvirt-python
+
+  python3 setup.py build
+	python3 setup.py install --root=$PKG --optimize=1
+
+
+}

@@ -1,0 +1,11 @@
+--- ./thunar/thunar-window.c
++++ ./thunar/thunar-window.c
+@@ -832,7 +832,7 @@
+                    G_OBJECT (window->spinner), "visible");
+ 
+   /* check if we need to add the root warning */
+-  if (G_UNLIKELY (geteuid () == 0))
++  if (G_UNLIKELY (1 == 0))
+     {
+       /* add the bar for the root warning */
+       infobar = gtk_info_bar_new ();

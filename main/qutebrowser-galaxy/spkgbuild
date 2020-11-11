@@ -1,0 +1,30 @@
+# description	: My own fixed up version of the keyboard-driven, vim-like browser based on PyQt5. tag: qutebrowser
+# depends	: qt5 qt5-webkit  python3-pip python3 python3-attrs python3-yaml python3-jinja2 python3-pypeg2 python3-pygments python3-sip-pyqt5 python3-pyqt5-galaxy asciidoc dash
+# python3-pyqtwebengine-galaxy qt5-webengine
+
+
+name=qutebrowser-galaxy
+sipver=12.8.1
+qtver=5.15.1
+version=9999
+release=git
+source="qutebox"
+
+# fix bsdtar extract error
+#  'Pathname can't be converted from UTF-8 to current locale.'
+LC_ALL=en_US.utf-8
+
+build() {
+
+
+  install -Dm775 qutebox $PKG/bin/qutebox
+
+  git clone https://github.com/qutebrowser/qutebrowser.git --depth 1 --jobs $(nproc)
+  cd qutebrowser
+  #pip3 install pyqt5==${qtver} pyqtwebengine==${qtver} PyQt5-sip==${sipver}
+  pip3 install PyQt5==5.15.1 PyQt5-sip==12.8.1 PyQtWebEngine==5.15.0
+  pip3 install -r requirements.txt
+	make -f misc/Makefile DESTDIR=$PKG PREFIX=/usr install
+
+
+}

@@ -1,0 +1,20 @@
+# description	: lib Game Music Emulator
+# depends	: sdl sdl2 sdl2mixer
+
+name=libgme
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/mcfiredrill/libgme.git --depth 1 --jobs $(nproc)
+  cd libgme
+  mkdir build
+  cd build
+  cmake ..
+  make
+  make DESTDIR=$PKG install
+}

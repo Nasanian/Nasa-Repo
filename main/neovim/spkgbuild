@@ -1,0 +1,13 @@
+# description	: an improved version of VIM
+# depends	: gperf luajit lua libuv
+
+name=neovim
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/neovim/neovim.git --depth 1 --jobs $(nproc)
+  cd neovim
+	make CMAKE_INSTALL_PREFIX=/usr/local
+	make DESTDIR=$PKG install
+}

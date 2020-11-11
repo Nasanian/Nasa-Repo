@@ -1,0 +1,19 @@
+# description	: ls on steroids. also written in rust
+# depends	: rust
+
+name=exa
+version=9999
+release=git
+
+build() {
+
+
+ 	export CARGO_HOME="$PWD/cargo"
+  mkdir -p $CARGO_HOME
+
+  git clone https://github.com/ogham/exa.git --depth 1 --jobs $(nproc)
+  cd exa
+
+  cargo build --release
+  install -Dm755 target/release/exa $PKG/usr/bin/exa
+}

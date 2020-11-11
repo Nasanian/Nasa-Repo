@@ -1,0 +1,16 @@
+# description	: Valve's digital software delivery system (galaxy release)
+# depends	: libx11-32 libdrm-32 xz-32 icu-32-git libxshmfence-32 mesa-32
+
+name=steam-galaxy
+version=1.0.0.66
+release=1
+source="http://repo.steampowered.com/steam/pool/steam/s/steam/steam_$version.tar.gz"
+
+build() {
+	cd steam-launcher
+
+	make DESTDIR=$PKG install
+
+	# blank steamdeps because apt-get
+	ln -sf /bin/true $PKG/usr/bin/steamdeps
+}

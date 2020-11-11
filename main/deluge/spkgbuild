@@ -1,0 +1,19 @@
+# description	: safe and fast torrent downloader
+# depends	: cython3 python3-pip python3-setuptools xdg-utils python3-xdg libressl gtk2 gtk3 python3-rencode libtorrent
+
+name=deluge
+version=9999
+release=pip
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/deluge-torrent/deluge.git --depth 1 --jobs $(nproc) -b master
+  cd deluge
+
+  pip3 install six chardet mako twisted setproctitle zope.interface distro rencode
+  python3 setup.py build
+	python3 setup.py install --root=$PKG --optimize=1
+}

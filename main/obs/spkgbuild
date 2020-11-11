@@ -1,0 +1,32 @@
+# description	: OBS - Open Broadacaster Software. Free and open source software for video recording and live streaming - With HEVC!"
+# depends	: python2 python3 alsa luajit fdk-aac libxcomposite swig librsvg git ccache qt5
+
+name=obs
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source="hevc-vaapi.diff"
+
+build() {
+  git clone https://github.com/obsproject/obs-studio.git --depth 1 --jobs $(nproc)
+  git clone https://github.com/Mixer/ftl-sdk.git --depth 1 --jobs $(nproc)
+  git clone https://github.com/obsproject/obs-browser.git --depth 1 --jobs $(nproc)
+
+  cd obs-studio
+  git config submodule.plugins/obs-outputs/ftl-sdk.url ../ftl-sdk
+  git config submodule.plugins/obs-browser.url ../obs-browser
+
+  git submodule update
+  patch -p1 -i ../hevc-vaapi.diff
+    cmake -DCMAKE_INSTALL_PREFIX=/usr \
+        -DBUILD_BROWSER=ON \
+        -DCEF_ROOT_DIR="/opt/cef" \
+        -B build -S $PKG .
+
+  cmake --build build
+
+  DESTDIR=$PKG cmake --install build
+
+}

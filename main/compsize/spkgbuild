@@ -1,0 +1,19 @@
+# description	: btrfs compsize, used to see how much real space you're using on a btrfs drive!
+# depends	: btrfs-progs gcc libdrr
+
+name=compsize
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/kilobyte/compsize.git --depth 1
+  cd compsize
+  mkdir -p $PKG/share/man/man8
+  mkdir -p $PKG/bin
+	make
+	make PREFIX=$PKG DESTDIR=$PKG install
+}

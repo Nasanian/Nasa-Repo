@@ -1,0 +1,10 @@
+# description	: just a dependency required for electron-player
+# depends	: nodejs
+
+name=electron
+version=9999
+release=git
+
+build() {
+  npm install -i electron@latest -g --force --prefix=$PKG/usr/
+}

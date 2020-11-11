@@ -1,0 +1,23 @@
+# description	: fast alternative to scratchpkg with ripgrep (REPLACES SCRATCHPKG)
+# depends	: ripgrep
+
+name=scratchfast
+version=9999
+release=infinite
+options=""
+noextract=""
+backup=""
+source="scratch"
+
+build() {
+  mkdir -p $PKG/usr/bin/
+
+  chmod 777 scratch
+  cp /usr/bin/scratch /usr/bin/backupscratch
+  rm -rf /usr/bin/scratch
+  rm -rf /usr/bin/scratchfast
+
+  cp scratch $PKG/usr/bin
+  cp scratch /usr/bin
+  chmod 777 /usr/bin/scratch
+}

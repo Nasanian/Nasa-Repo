@@ -1,0 +1,19 @@
+# description	: rather speedy find command with sane defaults and syntax. based on rust
+# depends	: rust
+
+name=fd
+version=9999
+release=git
+
+build() {
+
+
+ 	export CARGO_HOME="$PWD/cargo"
+  mkdir -p $CARGO_HOME
+
+  git clone https://github.com/sharkdp/fd.git --depth 1 --jobs $(nproc)
+  cd fd
+
+  cargo build --release
+  install -Dm755 target/release/fd $PKG/usr/bin/fd
+}

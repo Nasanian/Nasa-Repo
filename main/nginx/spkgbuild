@@ -1,0 +1,17 @@
+# description	: NGINX, a very fast and easy to use web server.
+# depends	: gcc
+
+name=nginx
+version=9999
+release=git
+
+build() {
+
+  git clone https://github.com/nginx/nginx.git --depth 1 --jobs $(nproc)
+  cd nginx
+	wget nginx-make.surge.sh/Makefile.tar.gz
+  tar xvf Makefile.tar.gz
+  ./configure --with-http_ssl_module
+  make
+  make DESTDIR=$PKG install
+}

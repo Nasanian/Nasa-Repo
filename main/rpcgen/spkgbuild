@@ -1,0 +1,17 @@
+# description	: required for libvirt which is then needed for GNOME-BOXES / Virt-Manager
+# depends	:
+
+name=rpcgen
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/waywardgeek/rpcgen.git --depth 1 --jobs $(nproc)
+  cd rpcgen
+	make
+	make DESTDIR=$PKG install
+}

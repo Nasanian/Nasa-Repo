@@ -1,0 +1,13 @@
+# description	: grub-btrfs! not exactly needed, but a nice addon for grub by adding things like btrfs snapshots to the grub menu
+# depends	: grub btrfs-progs
+
+name=grub-btrfs
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/Antynea/grub-btrfs.git --depth 1
+  cd grub-btrfs
+	make
+	make DESTDIR=$PKG install
+}

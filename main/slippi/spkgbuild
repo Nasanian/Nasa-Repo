@@ -1,0 +1,20 @@
+# description	: Project Slippi - FM (Faster Melee) emulator for online Melee play on the smash ladder.
+
+# depends	: mesa-vk cmake llvm sudo squashfs-tools fuse2 fuse3 bluez aria2 libevdev xf86-input-evdev libglvnd libglvnd-32 libpng libpng-32 libx11 libx11-32 libxi libxi-32 libxrandr libxrandr-32 lzo qt5
+
+name=slippi
+version=9999
+release=git
+source=""
+
+build() {
+  mkdir -p $PKG/opt
+  cd $PKG/opt
+
+  git clone https://github.com/project-slippi/Ishiiruka.git --depth 1 --jobs $(nproc)
+  cd Ishiiruka
+
+  ./build-linux.sh
+  cd build
+  make DESTDIR=$PKG install
+}

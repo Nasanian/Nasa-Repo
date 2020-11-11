@@ -1,0 +1,21 @@
+# description	: incredibly smart AI smart image upscaler. this version doesn't need CUDA/Nvidia to work.
+# depends	: graphicsmagick libressl vulkan opencl-headers opencv ocl-icd
+
+name=waifu2x
+version=9999
+release=git
+
+build() {
+
+	git clone https://github.com/DeadSix27/waifu2x-converter-cpp.git --recursive --depth 1 --jobs $(nproc)
+  cd waifu2x-converter-cpp
+
+    cmake \
+        -DCMAKE_INSTALL_PREFIX='/usr' \
+        -DCMAKE_BUILD_TYPE='Release' \
+        -DINSTALL_MODELS='ON' \
+        -DOPENCV_PREFIX='/usr' \
+        .
+  make
+	make DESTDIR=$PKG install
+}

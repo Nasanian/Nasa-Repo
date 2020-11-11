@@ -1,0 +1,18 @@
+# description	: lolcat based on C. EXTREMELY fast.
+# depends	: gcc
+
+name=c-lolcat
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  mkdir -pv $PKG/etc
+  git clone https://github.com/jaseg/lolcat.git --depth 1 --jobs $(nproc)
+  cd lolcat
+  make
+  make install
+}

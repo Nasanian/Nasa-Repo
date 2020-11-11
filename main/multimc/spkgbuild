@@ -1,0 +1,37 @@
+# description	: A replacement for the twitch launcher
+# depends	: qt5 adoptjre mesa-vk zlib zlib-32 xrandr bzip2 bzip2-32
+
+name=multimc
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+	git clone --recursive https://github.com/MultiMC/MultiMC5.git --depth 1 --jobs $(nproc)
+  cd MultiMC5
+
+  mkdir build
+  cd build
+
+  export JAVA_HOME=/opt/java-bin
+
+  cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="/usr" -DMultiMC_LAYOUT=lin-system -DMultiMC_NOTIFICATION_URL:STRING="https://files.multimc.org/notifications.json" ..
+	make
+	make DESTDIR=$PKG install
+
+  cd ..
+
+  mkdir -p "$PKG/usr/share/pixmaps"
+  mkdir -p "$PKG/usr/share/applications"
+	cp "application/resources/multimc/scalable/multimc.svg" "$PKG/usr/share/pixmaps/multimc5.svg"
+
+  ln -s /usr/lib32/libbz2.so.1.0 /usr/lib32/libbz2.so.1
+
+  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
+  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
+  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
+  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
+}

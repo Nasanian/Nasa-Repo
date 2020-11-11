@@ -1,0 +1,21 @@
+# description	: PyGObject is a Python package which provides bindings for GObject based libraries such as GTK, GStreamer, GIO, and many more.
+# depends	: python3-pip python3
+
+name=python3-pygobject
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+
+  pip3 install --user wheel evdev dbus-python python-magic astroid certifi cffi chardet cryptography dbus-python entrypoints evdev idna jeepney keyring lazy-object-proxy mccabe pycairo pycparser pyflakes  python-magic pyyaml requests secretstorage six urllib3 wrapt
+
+  git clone https://gitlab.gnome.org/GNOME/pygobject.git --depth 1 --jobs $(nproc)
+  cd pygobject
+
+	python3 setup.py install --root=$PKG --optimize=1
+
+}

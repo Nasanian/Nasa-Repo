@@ -1,0 +1,17 @@
+# description	: sccache is a improved version of ccache which allows you to cache more languages such as Rust.
+# depends	: rust gcc libressl
+
+name=sccache
+version=9999
+release=crate
+
+build() {
+	export CARGO_HOME="$PWD/cargo"
+  mkdir -p $CARGO_HOME
+
+  git clone https://github.com/mozilla/sccache.git --depth 1 --jobs $(nproc)
+  cd sccache
+
+  cargo build  --release --features=all
+  install -Dm755 target/release/sccache $PKG/usr/bin/sccache
+}

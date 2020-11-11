@@ -1,0 +1,22 @@
+# description	: All-in-one voice and text chat for gamers that's free and secure (CANARY)
+# depends : apulse nss cups
+
+name=discord-canary
+version=0.0.115
+release=9999
+
+build() {
+  wget https://dl-canary.discordapp.net/apps/linux/$version/$name-$version.tar.gz
+  tar xvf $name-$version.tar.gz
+	install -d $PKG/usr/share/$name
+	cp -a DiscordCanary/* $PKG/usr/share/$name
+	chmod 755 $PKG/usr/share/$name/DiscordCanary
+	rm $PKG/usr/share/$name/postinst.sh
+
+	install -d $PKG/usr/bin
+	ln -s /usr/share/$name/DiscordCanary $PKG/usr/bin/$name
+
+	install -d $PKG/usr/share/pixmaps $PKG/usr/share/applications
+	ln -s /usr/share/$name/$name.png $PKG/usr/share/pixmaps/$name.png
+	ln -s /usr/share/$name/$name.desktop $PKG/usr/share/applications/$name.desktop
+}

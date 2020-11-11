@@ -1,0 +1,27 @@
+# description	: asciidoc but ruby
+# depends	: ruby
+
+name=asciidoctor
+version=9999
+pkgver=2.0.11
+release=git
+
+build() {
+  git clone https://github.com/asciidoctor/asciidoctor.git --depth 1 --jobs $(nproc)
+	cd asciidoctor
+
+    local _gemdir="$(ruby -e 'puts Gem.default_dir')"
+
+    gem install --ignore-dependencies --no-user-install --verbose \
+        -i "$PKG/$_gemdir" -n "$PKG/usr/bin" \
+        "$name-$pkgver.gem"
+
+    install -Dm644 "$PKG/$_gemdir/gems/$name-$pkgver/LICENSE" \
+        "$PKG/usr/share/licenses/$name/LICENSE"
+    install -Dm644 "$PKG/$_gemdir/gems/$name-$pkgver/man/asciidoctor.1" \
+        "$PKG/usr/share/man/man1/asciidoctor.1"
+
+    rm "$PKG/$_gemdir/cache/$name-$pkgver.gem"
+    rm -rf "$PKG/$_gemdir/gems/$name-$pkgver/man"
+
+}

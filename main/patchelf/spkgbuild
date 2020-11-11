@@ -1,0 +1,17 @@
+# description	: utility to modify the dynamic linker and RPATH of ELF executables
+# depends	: gcc automake bzip2
+
+name=patchelf
+version=9999
+release=git
+
+build() {
+	git clone https://github.com/NixOS/patchelf.git --depth 1 --jobs $(nproc)
+  cd patchelf
+
+  ./bootstrap.sh
+	./configure --prefix=/usr
+
+ 	make
+	make DESTDIR=$PKG install
+}

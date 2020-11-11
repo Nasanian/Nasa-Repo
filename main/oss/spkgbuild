@@ -1,0 +1,16 @@
+# description	: OSS (Open Sound System) a nice an open source audio system.
+# depends	: alsa-lib alsa-plugins alsa-utils
+
+name=oss
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/Open-Sound-System/OpenSoundSystem.git --depth 1 --jobs $(nproc)
+  cd OpenSoundSystem
+  mkdir build
+  cd build
+	../configure
+	make
+	make DESTDIR=$PKG install
+}

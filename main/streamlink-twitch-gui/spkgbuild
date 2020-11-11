@@ -1,0 +1,56 @@
+# description	: a nice graphical user interface on top of the Streamlink command line interface.
+# depends	: nodejs yarn streamlink curl chatterino
+
+name=streamlink-twitch-gui
+version=1.10.0
+release=git
+
+build() {
+  curl -L https://github.com/streamlink/streamlink-twitch-gui/releases/download/v${version}/streamlink-twitch-gui-v${version}-linux64.tar.gz | tar xvz
+
+	cd streamlink-twitch-gui
+
+	# set up package directories
+	install -d \
+		"$PKG/opt/${name}/" \
+		"$PKG/usr/bin/" \
+		"$PKG/usr/share/applications/"
+
+	# copy licenses
+	install -Dm644 \
+		-t "$PKG/usr/share/licenses/${name}/" \
+		"./LICENSE.txt" \
+		"./credits.html"
+
+	# copy application content and remove unneeded files and dirs
+	cp -a "./" "$PKG/opt/${name}/"
+	rm -r "$PKG/opt/${name}/"{{add,remove}-menuitem.sh,LICENSE.txt,credits.html,icons/}
+
+	# create custom start script and disable version check
+	cat > "$PKG/usr/bin/${name}" <<-EOF
+  #!/usr/bin/env bash
+  /opt/${name}/${name} "$@" --no-version-check
+	EOF
+	chmod +x "$PKG/usr/bin/${name}"
+
+	# copy icons
+	for res in 16 32 48 64 128 256; do
+		install -Dm644 \
+			"./icons/icon-${res}.png" \
+			"$PKG/usr/share/icons/hicolor/${res}x${res}/apps/${name}.png"
+	done
+
+	# create menu shortcut
+	cat > "$PKG/usr/share/applications/${name}.desktop" <<-EOF
+		[Desktop Entry]
+		Type=Application
+		Name=Streamlink Twitch GUI
+		GenericName=Twitch.tv browser for Streamlink
+		Comment=Browse Twitch.tv and watch streams in your videoplayer of choice
+		Keywords=streamlink;twitch;streaming;
+		Categories=AudioVideo;Network;
+		Exec=/usr/bin/${name}
+		Icon=${name}
+	EOF
+
+}

@@ -1,0 +1,18 @@
+# description	: zerotier is a virtual global LAN used for things such as low-latency online gaming. (GAN)
+# depends	: nodejs npx cmake gcc binutils bash
+
+name=zerotier
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/zerotier/ZeroTierOne.git --depth 1 --jobs $(nproc)
+	cd ZeroTierOne
+	make
+  make DESTDIR=$PKG install
+
+}

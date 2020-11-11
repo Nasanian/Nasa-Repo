@@ -1,0 +1,14 @@
+# description	: fancy suckless style free floating tray
+# depends	:
+
+name=trayer
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/sargon/trayer-srg --depth 1 --jobs $(nproc)
+  cd trayer-srg
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

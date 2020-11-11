@@ -1,0 +1,15 @@
+# description	: loopback video devices with this to be used in things like OBS
+# depends	: gcc dkms tar
+
+name=v4l2loopback
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/umlaeute/v4l2loopback -b develop --depth 1 --jobs $(nproc)
+  cd v4l2loopback
+	make
+	make DESTDIR=$PKG install
+  depmod -a
+  modprobe v4l2loopback devices=4
+}

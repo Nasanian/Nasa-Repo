@@ -1,0 +1,15 @@
+# description	: libselinux used for selinux userspace (32-bit)
+# depends	: coreutils gcc swig python3 xz ruby libaudit libcap-ng
+
+name=selinux-32
+version=9999
+release=git
+
+
+build() {
+
+  git clone https://github.com/SELinuxProject/selinux.git --depth 1 --jobs $(nproc)
+	cd selinux
+	make DESTDIR=$PKG libdir=/usr/lib32 install install-rubywrap install-pywrap
+
+}

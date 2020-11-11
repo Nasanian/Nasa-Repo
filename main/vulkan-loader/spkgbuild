@@ -1,0 +1,25 @@
+# description	: vulkans loader required for functionality.
+# depends	: gcc libxrandr libx11 xorg-video-drivers xorg-server xorg-libraries xorg-fonts xorgproto python2-distutils-extra python3-distutils-extra python2 python3
+
+name=vulkan-loader
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/KhronosGroup/Vulkan-Loader.git
+  cd Vulkan-Loader
+
+	mkdir build
+  cd build
+
+  ../scripts/update_deps.py --config release
+  cmake -C helper.cmake .. -DCMAKE_INSTALL_PREFIX=/usr/
+  cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr/  --build .
+
+	make all
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,14 @@
+# description	: argon2 is a password-hashing function that summarizes the state of the art in the design of memory-hard functions
+# depends	: cmake make glibc gcc
+
+name=argon2
+version=9999
+release=git
+
+build() {
+	git clone https://github.com/P-H-C/phc-winner-argon2.git --depth 1 --jobs $(nproc)
+  cd phc-winner-argon2
+	make OPTTARGET='none' LIBRARY_REL='lib'  DESTDIR=$PKG PREFEIX=/usr install
+  install -D -m0644 LICENSE $PKG/usr/share/licenses/argon2/LICENSE
+
+}

@@ -1,0 +1,19 @@
+# description	: idk what this is - something for crypto? kinda important
+# depends	: git make nodejs gcc glibc automake cmake binutils
+
+name=libsodium
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/jedisct1/libsodium.git --depth 1 --jobs $(nproc)
+  cd libsodium
+  autoreconf -fi
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

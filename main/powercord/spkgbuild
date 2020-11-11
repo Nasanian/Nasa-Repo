@@ -1,0 +1,16 @@
+# description	: inarguably the best custom FOSS discord client (CANARY ONLY, RESTART CLIENT AFTER INSTALL)
+# depends	: discord-canary nodejs
+name=powercord
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/powercord-org/powercord --depth 1
+  cp -ar powercord /usr/share/discord-canary/
+
+  install -dm755 $PKG/usr/share/discord-canary/powercord
+  cd /usr/share/discord-canary/powercord
+
+  npm i
+  npm run plug
+}

@@ -1,0 +1,35 @@
+# description	: Collection of modular and reusable compiler and toolchain technologies. Statically compiled. Along with other tricks to ensure it compiles.
+# depends	: cmake libffi python2 ninja libxml2
+
+name=llvm-static
+version=10.0.1
+release=1
+source="https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-$version.src.tar.xz
+	llvm-config.h"
+
+build() {
+	cd llvm-$version.src
+
+	export CC=gcc
+	export CXX=g++
+
+	mkdir -v build
+	cd       build
+
+	cmake .. -G Ninja \
+	      -DCMAKE_INSTALL_PREFIX=/usr           \
+	      -DLLVM_ENABLE_FFI=ON                  \
+	      -DCMAKE_BUILD_TYPE=Release            \
+	      -DLLVM_ENABLE_RTTI=ON                 \
+	      -DLLVM_TARGETS_TO_BUILD="X86;AMDGPU;BPF" \
+        -Dshared-llvm=false \
+	      -Wno-dev
+	ninja
+	DESTDIR=$PKG ninja install
+
+	# multilib stub
+	mv $PKG/usr/include/llvm/Config/llvm-config.h \
+	   $PKG/usr/include/llvm/Config/llvm-config-64.h
+	cp $SRC/llvm-config.h \
+	   $PKG/usr/include/llvm/Config/llvm-config.h
+}

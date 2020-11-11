@@ -1,0 +1,35 @@
+# description	: A free, open source, and cross-platform media player - now with vulkan support!
+# depends	: lcms2 aria2 ffmpeg libass libarchive luajit mesa-vk libcdio libcdio-paranoia libvdpau-va-gl libplacebo vulkan-meta
+
+name=mpv-vk
+version=9999
+release=git
+source=""
+
+build() {
+
+
+
+  git clone https://github.com/mpv-player/mpv.git --depth 1 --jobs $(nproc)
+  cd mpv
+	./bootstrap.py
+	./waf configure \
+	    --prefix=/usr \
+	    --confdir=/etc/mpv \
+	    --enable-cdda \
+	    --enable-dvb \
+      --enable-vulkan \
+      --enable-drm \
+      --enable-vdpau \
+      --enable-shaderc \
+      --enable-vaapi \
+      --enable-vaapi-x11 \
+      --enable-vaapi-wayland \
+      --enable-vaapi-drm \
+      --enable-vaapi-x-egl \
+      --enable-libplacebo \
+	    --enable-libarchive \
+	    --enable-lua
+	./waf build
+	./waf install --destdir=$PKG
+}

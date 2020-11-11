@@ -1,0 +1,30 @@
+# description	: similar to gamejolt, find cool and unique games free indie games to play in your spare time easily!
+# depends	: zip mono unzip bzip2 gzip
+
+name=itch
+version=25.4.1
+release=infinite
+options=""
+noextract=""
+backup=""
+source="https://broth.itch.ovh/itch/linux-amd64/$version/archive/default"
+
+build() {
+  rm -rf /usr/bin/itch
+  rm -rf /opt/itch
+
+  mkdir $name-$version
+  cd $name-$version
+  wget https://candy-itch.surge.sh/itch
+  mv itch /usr/bin
+  wget $source -O itch.zip
+  unzip itch.zip
+  rm -rf itch.zip
+
+  mkdir /opt/itch
+  mv * /opt/itch
+
+  chmod 777 /usr/bin/itch
+  install -d $PKG/opt/itch
+
+}

@@ -1,0 +1,20 @@
+# description	: Formerly known as XBMC - a nice and FOSS alternative to Plex Media Server which you can use to share and watch videos across all of your devices!
+# depends	: cmake libxml2 libxml2-32 libass libcdio mesa-vk ffmpeg
+
+name=kodi
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+	git clone https://github.com/xbmc/xbmc.git --depth 1 --jobs $(nproc)
+  cd xbmc
+  mkdir build
+  cd build
+  cmake ../ -DCMAKE_INSTALL_PREFIX=/usr
+	make
+	make DESTDIR=$PKG install
+}

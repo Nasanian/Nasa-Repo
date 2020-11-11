@@ -1,0 +1,18 @@
+# description	: library used for deluge
+# depends	: python3 cython3 python3-pip python3-setuptools xdg-utils python3-xdg libressl gtk2 gtk3
+
+name=python3-rencode
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/aresch/rencode.git --depth 1 --jobs $(nproc) -b master
+  cd rencode
+
+  python3 setup.py build
+	python3 setup.py install --root=$PKG --optimize=1
+}

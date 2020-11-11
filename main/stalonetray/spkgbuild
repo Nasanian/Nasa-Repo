@@ -1,0 +1,16 @@
+# description	: stalonetray
+# depends	:
+
+name=stalonetray
+version=9999
+release=git
+
+build() {
+	wget https://phoenixnap.dl.sourceforge.net/project/stalonetray/stalonetray/stalonetray-0.8.3/stalonetray-0.8.3.tar.bz2
+	tar xvf *
+  rm -rf *.tar.bz2
+  cd stalonetray*
+  ./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

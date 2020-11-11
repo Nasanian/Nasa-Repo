@@ -1,0 +1,15 @@
+# description	: ocl-icd - OpenCL loader
+# depends	: ocl-icd opencl-headers gcc
+
+name=ocl-icd
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/OCL-dev/ocl-icd.git --depth 1 --jobs $(nproc)
+	cd ocl-icd
+  autoreconf -fi
+  ./configure --prefix=/usr/
+	make
+	make DESTDIR=$PKG install
+}

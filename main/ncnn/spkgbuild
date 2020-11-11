@@ -1,0 +1,20 @@
+# description	: ncnn neural network used for things like waifux2x
+# depends	: cmake gcc protobuf
+
+name=ncnn
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/Tencent/ncnn.git
+  cd ncnn
+  mkdir -p build-host-gcc-linux
+  cd build-host-gcc-linux
+  cmake -DCMAKE_TOOLCHAIN_FILE=../toolchains/host.gcc.toolchain.cmake ..
+	make
+	make DESTDIR=$PKG install
+}

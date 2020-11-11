@@ -1,0 +1,33 @@
+# description	: similar to itch, finds free games easily for you to play!
+# depends	: wget tar mono
+
+name=gamejolt
+version=9999
+release=infinite
+options=""
+noextract=""
+backup=""
+
+build() {
+
+  download="https://candy-gamejolt.surge.sh/gamejolt.tar.gz"
+  mkdir -pv $PKG/opt/gamejolt/
+  rm -rf /opt/gamejolt
+  rm -rf /usr/bin/gamejolt
+
+  mkdir $name-$version
+  cd $name-$version
+  wget https://candy-gamejolt.surge.sh/gamejolt
+  mv gamejolt /usr/bin/
+
+  wget $download -O gamejolt.tar.gz
+
+  tar xvf gamejolt.tar.gz
+  rm -rf gamejolt.tar.gz
+
+  mv * /opt/gamejolt
+
+
+
+  chmod 777 /usr/bin/gamejolt
+}

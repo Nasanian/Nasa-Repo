@@ -1,0 +1,22 @@
+# description	: FluidSynth is a cross-platform, real-time software synthesizer based on the Soundfont 2 specification.
+# depends	: alsa dbus readline sdl sdl2 sdl2mixer
+
+name=fluidsynth
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/FluidSynth/fluidsynth.git --depth 1 --jobs $(nproc)
+	cd fluidsynth
+
+  mkdir build
+  cd build
+
+  cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+}

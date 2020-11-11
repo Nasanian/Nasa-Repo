@@ -1,0 +1,26 @@
+# description	: Scalable Vector Graphics editor
+# depends	: gsl boost imagemagick6 gc lcms2 poppler-glib popt libxslt gtkmm2 double-conversion potrace
+
+name=inkscape
+version=1.0
+release=patched
+source="https://gitlab.com/inkscape/inkscape/-/archive/INKSCAPE_${version/./_}/inkscape-INKSCAPE_${version/./_}.tar.bz2
+        fixatomicrel.patch"
+
+build() {
+  scratch remove -y graphicsmagick
+
+	cd $name-INKSCAPE_${version/./_}
+
+  patch -Np1 -i ../fixatomicrel.patch
+	mkdir build
+	cd    build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	      -DCMAKE_BUILD_TYPE=Release  \
+	      -DPOPPLER_INCLUDE_DIR=/usr/include/poppler \
+	      ..
+	make
+	make DESTDIR=$PKG install
+  scratch install -cy graphicsmagick
+}

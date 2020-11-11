@@ -1,0 +1,25 @@
+# description	: AMD Vulkan driver for mesa-vk
+# depends	: gnupg
+
+name=amdvlk
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  mkdir vulkandriver
+  cd vulkandriver
+
+  chmod a+x /usr/bin/repo
+  repo init -u https://github.com/GPUOpen-Drivers/AMDVLK.git -b master --depth 1
+  repo sync
+
+  cd drivers/xgl
+  cmake -H. -G Ninja -Bbuilds/Release64
+  cd builds/Release64
+  ninja
+	DESTDIR=$PKG ninja install
+}

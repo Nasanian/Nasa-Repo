@@ -1,0 +1,16 @@
+# description	: libvirt-glib wraps libvirt to provide a high-level object-oriented API better suited for glib-based applications
+# depends	: python3-gobject3 libxml2 glib libvirt vala gobject-introspection
+
+name=libvirt-glib
+version=9999
+release=git
+
+
+build() {
+	git clone --recursive https://github.com/libvirt/libvirt-glib.git --depth 1 --jobs $(nproc)
+  cd libvirt-glib
+
+  ./autogen.sh --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,10 @@
+# description	: npx package executor for node
+# depends	: nodejs
+
+name=npx
+version=9999
+release=git
+
+build() {
+  npm install -i npx@latest  -g --prefix=$PKG/usr/local
+}

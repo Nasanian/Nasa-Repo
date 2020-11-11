@@ -1,0 +1,30 @@
+# description	: JAVA / JRE / AdoptOpenJDK for java.
+# depends	: glibc fontconfig alsa cups tar selinux zlib freetype2 aria2
+
+name=adoptjre
+version=9999
+subver=8u272-b10
+subrel=8u272b10
+release=galaxy
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  mkdir java
+  cd java
+
+  aria2c -x16 -j16 https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk${subver}/OpenJDK8U-jdk_x64_linux_hotspot_${subrel}.tar.gz
+
+
+  tar xvf OpenJDK8U-jdk_x64_linux_hotspot_${subrel}.tar.gz
+
+  mv jdk${subver} java-bin
+  rm -rf /opt/java-bin
+
+  mkdir -p $PKG/opt/java-bin
+  cp -ar java-bin $PKG/opt/
+
+  chmod 777 -Rv $PKG/opt/java-bin
+}

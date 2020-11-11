@@ -1,0 +1,28 @@
+# description	: installs spirv-tools which is required for shaderc build against mpv-vk (32-bit)
+# depends	: gcc cmake libshaderc-32
+
+name=spirv-tools-32
+version=9999
+release=git
+
+build() {
+
+  export ASFLAGS=--32
+  export CFLAGS=-m32
+  export CXXFLAGS=-m32
+	export PKG_CONFIG_PATH="/usr/lib32/pkgconfig"
+
+  git clone https://github.com/KhronosGroup/SPIRV-Tools.git   spirv-tools --depth 1 --jobs 10
+  git clone https://github.com/KhronosGroup/SPIRV-Headers.git spirv-tools/external/spirv-headers --depth 1 --jobs 10
+  git clone https://github.com/google/googletest.git          spirv-tools/external/googletest --depth 1 --jobs 10
+  git clone https://github.com/google/effcee.git              spirv-tools/external/effcee --depth 1 --jobs 10
+  git clone https://github.com/google/re2.git                 spirv-tools/external/re2 --depth 1 --jobs 10
+
+  cd spirv-tools
+  mkdir build
+  cd build
+
+  cmake -DCMAKE_INSTALL_LIBDIR=lib32 -DCMAKE_INSTALL_PREFIX=/usr/ -DCMAKE_BUILD_TYPE=Release -DSPIRV_WERROR=OFF  ../
+  make
+  make DESTDIR=$PKG install
+}

@@ -1,0 +1,23 @@
+# description	: fast alternative to pkgbuild with ripgrep (REPLACES PKGBUILD)
+# depends	: ripgrep
+
+name=pkgbuildfast
+version=9999
+release=infinite
+options=""
+noextract=""
+backup=""
+source="pkgbuild"
+
+build() {
+  mkdir -p $PKG/usr/bin/
+
+  chmod 777 pkgbuild
+  cp /usr/bin/pkgbuild /usr/bin/backuppkgbuild
+  rm -rf /usr/bin/pkgbuild
+  rm -rf /usr/bin/pkgbuildfast
+
+  cp pkgbuild $PKG/usr/bin
+  cp pkgbuild /usr/bin
+  chmod 777 /usr/bin/pkgbuild
+}

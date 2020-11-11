@@ -1,0 +1,16 @@
+# description	: remote desktop client
+# depends	: avahi libx11 pkgconf libxinerama libxext  libxdamaga libxcursor libxv libxkbfile cups ffmpeg alsa alsa-lib  xmlto xmlto gstreamer x264 gtk3 libgcrypt gnutls vte3 telepathy-glib libsm openjpeg libvncserver libsodium libappindicator
+
+name=remmina
+version=9999
+release=git
+
+build() {
+  git clone https://gitlab.com/Remmina/Remmina.git --depth 1 --jobs $(nproc)
+  cd Remmina
+  cmake -DWITH_LIBSSH=OFF -DCMAKE_BUILD_TYPE=Release -DWITH_APPINDICATOR=OFF -DCMAKE_INSTALL_PREFIX:PATH=/opt/remmina_devel/remmina -DCMAKE_PREFIX_PATH=/opt/remmina_devel/freerdp --build=build .
+
+	make
+	make DESTDIR=$PKG install
+  sudo ln -s /opt/remmina_devel/remmina/bin/remmina /usr/local/bin/
+}

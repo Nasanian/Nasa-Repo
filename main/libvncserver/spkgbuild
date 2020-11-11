@@ -1,0 +1,18 @@
+# description	: lib needed for VNC server
+# depends	: gnutls libjpeg-turbo libgcrypt libpng openssl cmake sdl2 ffmpeg x265
+
+name=libvncserver
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/LibVNC/libvncserver.git --depth 1 --jobs $(nproc)
+  cd libvncserver
+  cmake .
+	make
+	make DESTDIR=$PKG install
+}

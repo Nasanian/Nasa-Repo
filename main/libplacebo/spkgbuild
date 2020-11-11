@@ -1,0 +1,25 @@
+# description	: library needed to extend certain vulkan + gl calls
+# depends	: glslang lcms2 libepoxy libshaderc vulkan-meta python3-mako spirv-meta libepoxy
+
+name=libplacebo
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/haasn/libplacebo.git
+  cd libplacebo
+
+  meson --prefix=/usr \
+    -D vulkan=enabled \
+    -D shaderc=enabled \
+    -D lcms=enabled \
+    ./build
+
+  cd build
+  ninja
+  DESTDIR=$PKG ninja install
+}

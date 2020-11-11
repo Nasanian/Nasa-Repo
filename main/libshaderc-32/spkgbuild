@@ -1,0 +1,22 @@
+# description	: library for compiling shader strings into SPIR-V (32-bit)
+# depends	: glslang glslang-32 libshaderc vulkan-meta spirv-tools-32
+
+name=libshaderc-32
+version=9999
+release=git
+
+build() {
+
+  export ASFLAGS=--32
+  export CFLAGS=-m32
+  export CXXFLAGS=-m32
+	export PKG_CONFIG_PATH="/usr/lib32/pkgconfig"
+
+  git clone https://github.com/google/shaderc.git --depth 1 --jobs $(nproc)
+  cd shaderc
+  ./utils/git-sync-deps -- --depth 1 --jobs $(nproc)
+  cmake -GNinja  -DCMAKE_INSTALL_LIBDIR=lib32 -DCMAKE_INSTALL_PREFIX=/usr/ -DCMAKE_BUILD_TYPE=Release -DSPIRV_WERROR=OFF .
+  ninja
+  ninja add-copyright
+  DESTDIR=$PKG ninja install
+}

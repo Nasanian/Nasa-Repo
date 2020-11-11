@@ -1,0 +1,16 @@
+# description	: opencv - Open Source Computer Vision Library
+# depends	: ocl-icd opencl-headers gcc
+
+name=opencv
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/opencv/opencv.git --depth 1 --jobs $(nproc)
+	cd opencv
+  mkdir build
+  cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr/ -DWITH_OPENCL=ON ../
+	make
+	make DESTDIR=$PKG install
+}

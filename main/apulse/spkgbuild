@@ -1,0 +1,21 @@
+# description	: PulseAudio Emulation for ALSA! (basically pulseaudio but without the cpu overhead)
+# depends	: cmake nasm alsa alsa-lib glib
+
+name=apulse
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/i-rinat/apulse --depth 1 --jobs $(nproc)
+  cd apulse
+
+	mkdir bld
+	cd    bld
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_BUILD_TYPE=Release \
+	      ../
+	make
+	make DESTDIR=$PKG install
+
+}

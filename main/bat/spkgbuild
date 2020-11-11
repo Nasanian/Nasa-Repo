@@ -1,0 +1,19 @@
+# description	: very fast cat alternative with a fancier output. also based on rust
+# depends	: rust
+
+name=bat
+version=9999
+release=git
+
+build() {
+
+
+ 	export CARGO_HOME="$PWD/cargo"
+  mkdir -p $CARGO_HOME
+
+  git clone https://github.com/sharkdp/bat.git --depth 1 --jobs $(nproc)
+  cd bat
+
+  cargo build --release
+  install -Dm755 target/release/bat $PKG/usr/bin/bat
+}

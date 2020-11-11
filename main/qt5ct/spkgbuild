@@ -1,0 +1,14 @@
+# description	: qt5ct - Qt5 Configuration tool and GTK / QT unifier
+# depends	: qt5
+
+name=qt5ct
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/desktop-app/qt5ct.git --depth 1 --jobs $(nproc)
+  cd qt5ct
+  qmake PREFIX=$PKG/usr
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,16 @@
+# description	: modern, secure, and open-source password manager that stores and manages your most sensitive information.
+# depends	: cmake make gcc asciidoc qt5 libgcrypt zlib libxi libxtst libsodium qrencode argon2 ruby
+
+name=keepassxc
+version=9999
+release=git
+
+build() {
+	git clone https://github.com/keepassxreboot/keepassxc.git --depth 1 --jobs $(nproc)
+  cd keepassxc
+	mkdir build
+  cd build
+  gem install asciidoctor
+  cmake -DWITH_CCACHE=ON -DWITH_TESTS=OFF ..
+	make DESTDIR=$PKG install
+}

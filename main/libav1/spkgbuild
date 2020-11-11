@@ -1,0 +1,18 @@
+# description	: av1 codec library. useful for things like mpv-vk (libdav1d)
+# depends	: cmake git perl yasm doxygen python3 nasm vulkan-meta meson ninja
+
+name=libav1
+version=9999
+release=git
+
+build() {
+  git clone https://code.videolan.org/videolan/dav1d --depth 1 --jobs $(nproc)
+	cd dav1d
+
+  mkdir build
+  cd build
+
+  meson ..
+  ninja
+  DESTDIR=$PKG ninja install
+}

@@ -1,0 +1,23 @@
+# description	: vulkans headers required for functionality.
+# depends	: gcc libx11 xorg-video-drivers xorg-server xorg-libraries xorg-fonts xorgproto python2-distutils-extra python3-distutils-extra python2 python3 vulkan-loader vulkan-loader-32
+
+name=vulkan-headers
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/KhronosGroup/Vulkan-Headers.git --depth 1 --jobs $(nproc) -b sdk-1.2.154
+  cd Vulkan-Headers
+
+	mkdir build
+  cd build
+
+  cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr/ ..
+
+	make all
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,20 @@
+# description	: Xfce file manager, a GTK+ 3 GUI to organise the files on your computer. this time without the annoying root warning
+# depends	: exo libxfce4ui gnome-icon-theme libgudev libnotify libexif thunar
+
+name=thunar-noroot
+version=1.8.15
+release=1
+source="http://archive.xfce.org/src/xfce/$name/${version%.*}/thunar-$version.tar.bz2
+        norootwarn.patch"
+
+build() {
+	cd thunar-$version
+  patch -Np1 -i ../norootwarn.patch
+	./configure --prefix=/usr \
+	            --sysconfdir=/etc \
+		    --disable-nls
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/lib/systemd/
+}

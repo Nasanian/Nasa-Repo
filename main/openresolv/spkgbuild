@@ -1,0 +1,18 @@
+# description	: a resolvconf manager
+# depends	:
+
+name=openresolv
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/rsmarples/openresolv.git
+  cd openresolv
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

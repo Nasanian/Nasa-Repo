@@ -1,0 +1,25 @@
+# description	: glslang - something required for shaderc functionality
+# depends	: gcc cmake
+
+name=glslang
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/KhronosGroup/glslang.git
+  cd glslang
+
+  git clone https://github.com/google/googletest.git External/googletest
+  ./update_glslang_sources.py
+
+	mkdir -p build
+  cd build
+
+  cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr/  ../
+	make all
+	make DESTDIR=$PKG install
+}

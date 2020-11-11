@@ -1,0 +1,15 @@
+# description	: library which allows an application to interface with USB and Bluetooth HID-Class devices.
+# depends	: libusb libgusb usbutils eudev libgudev eudev-32
+
+name=hidapi
+version=9999
+release=git
+
+build() {
+  git clone git://github.com/libusb/hidapi.git --depth 1 --jobs $(nproc)
+  cd hidapi
+  ./bootstrap
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

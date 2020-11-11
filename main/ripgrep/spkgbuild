@@ -1,0 +1,19 @@
+# description	: grep on steroids. if you want speedy grep - use this tags: crate, rust
+# depends	: rust
+
+name=ripgrep
+version=9999
+release=git
+
+build() {
+
+
+ 	export CARGO_HOME="$PWD/cargo"
+  mkdir -p $CARGO_HOME
+
+  git clone https://github.com/BurntSushi/ripgrep.git --depth 1 --jobs $(nproc)
+  cd ripgrep
+
+  cargo build --release
+  install -Dm755 target/release/rg $PKG/usr/bin/rg
+}

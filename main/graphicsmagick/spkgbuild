@@ -1,0 +1,18 @@
+# description	: graphicsmagick - faster alternative to imagemagick (but both required imo)
+# depends	:
+
+name=graphicsmagick
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/xorgy/graphicsmagick.git --depth 1 --jobs $(nproc)
+  cd graphicsmagick
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

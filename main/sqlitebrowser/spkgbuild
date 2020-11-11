@@ -1,0 +1,18 @@
+# description	: GUI SQL browser
+# depends	: cmake
+
+name=sqlitebrowser
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/sqlitebrowser/sqlitebrowser.git --depth 1 --jobs $(nproc)
+  cd sqlitebrowser
+  cmake -DFORCE_INTERNAL_QSCINTILLA=ON .
+  make
+  make DESTDIR=$PKG install
+}

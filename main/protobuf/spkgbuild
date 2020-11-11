@@ -1,0 +1,20 @@
+# description	: google's protobuf (protocol buffer)
+# depends	: cmake gcc
+
+name=protobuf
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/protocolbuffers/protobuf.git --depth 1 --jobs $(nproc)
+  cd protobuf
+  cd cmake
+  cmake -Dprotobuf_BUILD_TESTS=OFF .
+
+	make
+	make DESTDIR=$PKG install
+}

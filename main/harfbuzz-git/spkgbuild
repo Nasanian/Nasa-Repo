@@ -1,0 +1,19 @@
+# description	: OpenType text shaping engine
+# depends	: glib freetype2 graphite2
+
+name=harfbuzz-git
+version=2.7.2
+release=git
+source="https://github.com/harfbuzz/harfbuzz/releases/download/$version/harfbuzz-$version.tar.xz"
+
+build() {
+	cd harfbuzz-$version
+
+	./configure \
+		--prefix=/usr \
+		--with-gobject \
+		--with-graphite2 \
+		--with-icu=no
+	make
+	make DESTDIR=$PKG install
+}

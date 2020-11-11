@@ -1,0 +1,22 @@
+# description	: GZDOOM's music system as a standalone library
+# depends	: cmake git alsa fluidsynth zlib zlib-32 libsndfile mpg123
+
+name=zmusic
+version=9999
+release=git
+
+build() {
+	git clone https://github.com/coelckers/ZMusic.git --depth 1 --jobs $(nproc)
+  cd ZMusic
+
+    mkdir -p build
+    cmake -B build \
+          -D CMAKE_BUILD_TYPE=Release \
+          -D CMAKE_INSTALL_PREFIX=/usr \
+          -D DYN_FLUIDSYNTH=OFF \
+          -D DYN_MPG123=OFF \
+          -D DYN_SNDFILE=OFF
+    make -C build install DESTDIR=$PKG
+
+    install licenses/{bsd,dumb,legal,zmusic}.txt -t $PKG/usr/share/licenses/$name -D -m 644
+}

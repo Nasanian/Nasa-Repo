@@ -1,0 +1,29 @@
+# description	: Moddable + enhanced Super Mario 64 PC Port!
+# depends	: cmake make gcc python3 audiofile sdl2 glew git
+
+name=sm64-ex
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/sm64pc/sm64ex.git --jobs $(nproc) --depth 1
+  cd sm64ex
+  wget https://candy-sm64.surge.sh/baserom.us.z64
+  wget https://candy-sm64.surge.sh/sm64
+  make BETTERCAMERA=1 EXTERNAL_DATA=1 RENDER_API=GL NODRAWINGDISTANCE=1 TEXTURE_FIX=1 EXT_OPTIONS_MENU=1 TEXTSAVES=1
+
+  mkdir -p /opt/sm64
+  mkdir -p $PKG/opt/sm64
+  cp -ar build/us_pc/* $PKG/opt/sm64
+  cp -ar build/us_pc/* /opt/sm64
+
+  install  -Dm755 sm64 $PKG/usr/bin/sm64
+  install  -Dm755 sm64 /usr/bin/sm64
+
+  chmod 777 -R /opt/sm64
+  chmod 777 /usr/bin/sm64
+}

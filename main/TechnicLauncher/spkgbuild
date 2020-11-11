@@ -1,0 +1,23 @@
+# description	: tekkit - a minecraft mod launcher
+# depends	: adoptjre bzip2 bzip2-32
+
+name=TechnicLauncher
+version=9999
+release=galaxy
+
+build() {
+  mkdir tekkit
+  cd tekkit
+
+  aria2c -x16 -j16 https://launcher.technicpack.net/launcher4/591/TechnicLauncher.jar
+  aria2c -x16 -j16 https://candy-technic.surge.sh/technic
+
+  mkdir -p "$PKG/opt/tekkit/"
+  cp -ar TechnicLauncher.jar $PKG/opt/tekkit/TechnicLauncher.jar
+  install -Dm775 technic /usr/bin/technic
+
+
+  chmod 777 -R $PKG/opt/tekkit
+  rm -rf /lib/libbz2.so.1
+  ln -s /lib/libbz2.so.1.0  /lib/libbz2.so.1
+}

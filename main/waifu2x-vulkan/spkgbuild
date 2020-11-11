@@ -1,0 +1,21 @@
+# description	: incredibly smart AI smart image upscaler. vulkan powered!
+# depends	: graphicsmagick libressl vulkan-meta spirv-meta opencl-headers opencv ocl-icd
+
+name=waifu2x-vulkan
+version=9999
+release=git
+
+build() {
+
+	git clone https://github.com/nihui/waifu2x-ncnn-vulkan.git --depth 1 --jobs $(nproc)
+  cd waifu2x-ncnn-vulkan
+  git submodule update --init --recursive --depth 1 --jobs $(nproc)
+  mkdir build
+  cd build
+    cmake \
+        -DCMAKE_INSTALL_PREFIX='/usr' \
+        -DCMAKE_BUILD_TYPE='Release' \
+        ../src
+  make
+	make DESTDIR=$PKG install
+}

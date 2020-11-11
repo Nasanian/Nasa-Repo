@@ -1,0 +1,13 @@
+# description	: drop in replacemant for npm. (updates on its own)
+# depends	: node bash
+
+name=yarn
+version=9999
+release=infinite
+
+
+build() {
+  mkdir -p $PKG/root/.yarn
+  rm -rf /root/.yarn
+  curl -o- -L https://yarnpkg.com/install.sh | bash
+}

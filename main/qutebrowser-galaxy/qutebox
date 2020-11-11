@@ -1,0 +1,5 @@
+#!/bin/dash
+
+env QTWEBENGINE_DISABLE_SANDBOX=1 python3 /usr/bin/qutebrowser --qt-flag ignore-gpu-blacklist --qt-flag enable-gpu-rasterization --qt-flag enable-native-gpu-memory-buffers
+
+

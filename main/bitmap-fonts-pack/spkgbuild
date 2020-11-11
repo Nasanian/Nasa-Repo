@@ -1,0 +1,22 @@
+# description	: bitmap fonts pack!
+# depends	: fontconfig
+
+name=bitmap-fonts-pack
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/Tecate/bitmap-fonts.git --depth 1
+  cd bitmap-fonts
+  sudo cp -avr bitmap/ /usr/share/fonts
+  xset fp+ /usr/share/fonts/bitmap
+  fc-cache -fv
+  install -dm755 $PKG/usr/share/fonts
+  install -dm755 $PKG/usr/share/fonts/bitmap
+
+  install -dm644 bitmap/ /usr/share/fonts/bitmap
+}

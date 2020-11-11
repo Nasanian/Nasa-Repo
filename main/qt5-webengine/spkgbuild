@@ -1,0 +1,32 @@
+# description	: Properly packaged qtwebengine. (galaxy release)
+# depends	: qt5 nss python2 libwebp libxslt opus ninja ffmpeg alsa-lib libxcomposite libxtst
+
+name=qt5-webengine
+version=9999
+mainver=5.15
+subver=5.15.1
+release=galaxy
+source="https://download.qt.io/official_releases/qt/${mainver}/${subver}/submodules/qtwebengine-everywhere-src-${subver}.tar.xz"
+
+build() {
+	cd qtwebengine-everywhere-src-${subver}
+
+	mkdir build
+	cd    build
+
+	test -n $MAKEFLAGS && export NINJAFLAGS="$NINJAFLAGS $MAKEFLAGS"
+
+    qmake .. -- \
+    -proprietary-codecs \
+    -system-ffmpeg \
+    -webp \
+    -spellchecker \
+    -webengine-icu \
+    -webengine-kerberos \
+
+	make
+	make INSTALL_ROOT=$PKG install
+
+	find $PKG/usr/ -name \*.prl \
+	   -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+}

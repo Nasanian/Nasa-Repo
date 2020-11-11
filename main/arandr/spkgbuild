@@ -1,0 +1,15 @@
+# description	: arandr. a front-end for XRanrR
+# depends	: python3-pip python3 selinux gtksourceview4 python3-gobject python2 gettext xorg-server
+
+name=arandr
+version=9999
+release=git
+
+build() {
+
+  git clone https://github.com/haad/arandr.git --depth 1 --jobs $(nproc)
+  cd arandr
+
+  pip3 install --user docutils
+	python3 setup.py install --root=$PKG --optimize=1
+}

@@ -1,0 +1,30 @@
+# description	: Used to look at Netflix,  browse amazon, or any other Electron infested application.
+# depends	: nodejs npx electron
+
+name=electron-player
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  rm -rf /opt/ElectronPlayer
+  mkdir -p $PKG/opt/ElectronPlayer
+  mkdir -p /opt/ElectronPlayer
+  cd /opt
+
+  git clone https://github.com/oscartbeaumont/ElectronPlayer.git --depth 1 --jobs $(nproc)
+  cd ElectronPlayer
+  ln -s package.linux.json package.json
+  npm install --force
+
+  wget https://candy-player.surge.sh/ElectronPlayer
+  cp ElectronPlayer /usr/bin/ElectronPlayer
+  install -Dm755 ElectronPlayer $PKG/usr/bin/ElectronPlayer
+
+  chmod 777 -R /opt/ElectronPlayer
+  chmod 755 /usr/bin/ElectronPlayer
+}
+

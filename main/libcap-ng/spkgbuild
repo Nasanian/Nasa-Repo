@@ -1,0 +1,16 @@
+# description	: just needed for selinux
+# depends	: cmake gcc openldap
+
+name=libcap-ng
+version=9999
+release=git
+
+
+build() {
+  git clone https://github.com/stevegrubb/libcap-ng.git --depth 1 --jobs $(nproc)
+  cd libcap-ng
+  ./autogen.sh
+  ./configure --prefix=/usr/
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,14 @@
+# description	: blueman is a GTK+ Bluetooth Manager
+# depends	: bluez gnome-icon-theme papirus-icon-theme gtk3 pango net-tools libappindicator glib python3-gobject3
+
+name=blueman
+version=9999
+release=git
+
+build() {
+	git clone https://github.com/blueman-project/blueman.git --depth 1 --jobs  $(nproc)
+  cd  blueman
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

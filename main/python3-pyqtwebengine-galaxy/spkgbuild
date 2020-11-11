@@ -1,0 +1,18 @@
+# description	: A set of Python 3.x bindings for the PyQtWebEngine (galaxy release)
+# depends	: python3-sip qtwebengine qt5-webkit python3-dbus python2-enum34 python3-sip-pyqt5 python3-pyqt5-galaxy
+
+name=python3-pyqtwebengine-galaxy
+version=5.15.1
+release=1
+source="https://pypi.python.org/packages/source/P/PyQtWebEngine/PyQtWebEngine-$version.tar.gz"
+#source="https://distfiles.macports.org/py-pyqt5/PyQtWebEngine-$version.tar.gz"
+build() {
+	cd PyQtWebEngine-$version
+
+	python3 configure.py
+	make
+	make INSTALL_ROOT=$PKG
+
+	install -d $PKG/usr/share/sip/PyQt5
+	cp -a --reflink=auto sip/* $PKG/usr/share/sip/PyQt5
+}

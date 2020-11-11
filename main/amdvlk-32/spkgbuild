@@ -1,0 +1,32 @@
+# description	: AMD Vulkan driver for mesa-vk (32-bit)
+# depends	: gnupg
+
+name=amdvlk-32
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+
+  export ASFLAGS=--32
+  export CFLAGS=-m32
+  export CXXFLAGS=-m32
+	export PKG_CONFIG_PATH="/usr/lib32/pkgconfig"
+
+
+  mkdir vulkandriver
+  cd vulkandriver
+
+  chmod a+x /usr/bin/repo
+  repo init -u https://github.com/GPUOpen-Drivers/AMDVLK.git -b master --depth 1
+  repo sync
+
+  cd drivers/xgl
+  cmake -H. -G Ninja -Bbuilds/Release32 -DCMAKE_INSTALL_LIBDIR=lib32
+  cd builds/Release32
+  ninja
+	DESTDIR=$PKG ninja install
+}

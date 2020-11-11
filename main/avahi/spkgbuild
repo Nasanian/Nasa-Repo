@@ -1,0 +1,15 @@
+# description	: service discovery for mDNS/DNS-SD
+# depends	: libdaemon python2-dbus python3-dbus libevent python2-gobject2 python2-gobject3  python3-gobject2 python3-gobject3 gobject-introspection mono
+
+name=avahi
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/lathiat/avahi.git --depth 1 --jobs $(nproc)
+	cd avahi
+  autoreconf -fi
+	./configure --prefix=/usr --disable-manpages --with-distro=none
+	make
+	make DESTDIR=$PKG install
+}

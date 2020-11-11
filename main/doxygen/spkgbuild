@@ -1,0 +1,19 @@
+# description	: Doxygen is the de facto standard tool for generating documentation from annotated C++ sources.
+# depends	: graphviz gcc qt5 cmake flex git python3
+
+name=doxygen
+version=9999
+release=git
+
+
+build() {
+	git clone https://github.com/doxygen/doxygen --depth 1 --jobs $(nproc)
+  cd doxygen
+
+  mkdir build
+  cd build
+
+  cmake ..
+	make
+	make DESTDIR=$PKG install
+}

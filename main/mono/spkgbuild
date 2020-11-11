@@ -1,0 +1,20 @@
+# description	: original mono - provides useful things such as mcs and ways of opening Windows C# applications on Linux
+# depends	: bash gdl cmake zlib python2 python3 ca-certificates
+
+name=mono
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/mono/mono.git --depth 1 --jobs $(nproc)
+	cd mono
+  ./autogen.sh
+	./configure --prefix=/usr
+  make get-monolite-latest
+	make
+	make DESTDIR=$PKG install
+}

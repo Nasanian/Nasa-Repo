@@ -1,0 +1,32 @@
+# description	: glslang - something required for shaderc functionality (32-bit)
+# depends	: gcc cmake
+
+name=glslang-32
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+
+
+  export ASFLAGS=--32
+  export CFLAGS=-m32
+  export CXXFLAGS=-m32
+	export PKG_CONFIG_PATH="/usr/lib32/pkgconfig"
+
+  git clone https://github.com/KhronosGroup/glslang.git
+  cd glslang
+
+  git clone https://github.com/google/googletest.git External/googletest
+  ./update_glslang_sources.py
+
+	mkdir -p build
+  cd build
+
+  cmake -DCMAKE_INSTALL_LIBDIR=lib32 -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr/  ../
+	make all
+	make DESTDIR=$PKG install
+}

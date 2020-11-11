@@ -1,0 +1,19 @@
+# description	: ripgrep on steroids. has the ability to ripgrep everything. of course based on rust
+# depends	: rust ripgrep
+
+name=ripgrep-all
+version=9999
+release=git
+
+build() {
+
+
+ 	export CARGO_HOME="$PWD/cargo"
+  mkdir -p $CARGO_HOME
+
+  git clone https://github.com/phiresky/ripgrep-all.git --depth 1 --jobs $(nproc)
+  cd ripgrep-all
+
+  cargo build --release
+  install -Dm755 target/release/rga $PKG/usr/bin/rga
+}

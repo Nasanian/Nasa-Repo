@@ -1,0 +1,20 @@
+# description	: Cool and FOSS screenshot program!
+# depends	: ca-certificates gcc cmake qt5 qt5 python-pyqt5 git openssl gcr libksba
+
+name=flameshot
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/flameshot-org/flameshot.git --depth 1 --jobs $(nproc)
+	cd flameshot
+  mkdir  build
+  cd build
+  cmake ../
+	make
+	make DESTDIR=$PKG install
+}

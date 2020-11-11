@@ -1,0 +1,18 @@
+# description	: SDL2 / SDL Mixer
+# depends	: sdl sdl2
+
+name=sdl2mixer
+version=9999
+release=git
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+	git clone https://github.com/SDL-mirror/SDL_mixer.git --depth 1 --jobs $(nproc)
+  cd SDL_mixer
+	./configure --prefix=/usr/local
+	make
+	make DESTDIR=$PKG install
+}

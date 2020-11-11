@@ -1,0 +1,17 @@
+# description	: lib needed for libvirt-python. which is then needed for virt-manager / gnome-boxes
+# depends	: python3-pip python3 selinux qemu gtksourceview4 python-docutils python3-gobject gtk3 gettext libpcap libnl libtirpc parted selinux selinux-32
+
+name=libvirt
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/libvirt/libvirt.git --depth 1 --jobs $(nproc)
+	cd libvirt
+
+  pip3 install rst2html5 docutils
+	meson build --optimization=3 -Ddocs=disabled -Dtests=disabled -Dexpensive_tests=disabled --prefix=/usr
+  ninja -C build
+
+	DESTDIR=$PKG ninja -C build install
+}

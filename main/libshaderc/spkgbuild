@@ -1,0 +1,16 @@
+# description	: library for compiling shader strings into SPIR-V
+# depends	: glslang libshaderc vulkan-meta spirv-tools
+
+name=libshaderc
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/google/shaderc.git --depth 1 --jobs $(nproc)
+  cd shaderc
+  ./utils/git-sync-deps -- --depth 1 --jobs $(nproc)
+  cmake -GNinja  -DCMAKE_INSTALL_PREFIX=/usr/ -DCMAKE_BUILD_TYPE=Release -DSPIRV_WERROR=OFF .
+  ninja
+  ninja add-copyright
+  DESTDIR=$PKG ninja install
+}

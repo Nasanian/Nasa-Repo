@@ -1,0 +1,10 @@
+# description	: installs spirv-meta which is both spirv-cross and spirv-tools combined to be compiled against mpv-vk
+# depends	: spirv-tools spirv-cross
+
+name=spirv-meta
+version=9999
+release=git
+
+build() {
+  mkdir -pv $PKG/etc
+}

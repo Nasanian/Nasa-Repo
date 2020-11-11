@@ -1,0 +1,14 @@
+# description	: just needed for selinux
+# depends	: cmake gcc
+
+name=openldap
+version=9999
+release=git
+
+build() {
+  git clone https://github.com/openldap/openldap.git --depth 1 --jobs $(nproc)
+  cd openldap
+  ./configure --prefix=/usr/
+	make
+	make DESTDIR=$PKG install
+}
