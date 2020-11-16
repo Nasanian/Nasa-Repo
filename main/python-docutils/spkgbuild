@@ -3,7 +3,7 @@
 
 name=python-docutils
 version=9999
-release=git
+release=git-r1
 
 build() {
 	git clone https://github.com/docutils-mirror/docutils.git --depth 1 --jobs $(nproc)

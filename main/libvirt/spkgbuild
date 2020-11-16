@@ -3,7 +3,7 @@
 
 name=libvirt
 version=9999
-release=git
+release=git-r1
 
 build() {
   git clone https://github.com/libvirt/libvirt.git --depth 1 --jobs $(nproc)

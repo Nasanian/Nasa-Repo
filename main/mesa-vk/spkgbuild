@@ -3,7 +3,7 @@
 
 name=mesa-vk
 version=20.2.2
-release=git
+release=git-r1
 source=""
 
 build() {

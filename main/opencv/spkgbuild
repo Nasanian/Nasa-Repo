@@ -3,7 +3,7 @@
 
 name=opencv
 version=9999
-release=git
+release=git-r1
 
 build() {
   git clone https://github.com/opencv/opencv.git --depth 1 --jobs $(nproc)

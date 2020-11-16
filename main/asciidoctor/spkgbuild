@@ -4,7 +4,7 @@
 name=asciidoctor
 version=9999
 pkgver=2.0.11
-release=git
+release=git-r1
 
 build() {
   git clone https://github.com/asciidoctor/asciidoctor.git --depth 1 --jobs $(nproc)

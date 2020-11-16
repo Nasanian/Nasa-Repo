@@ -3,7 +3,7 @@
 
 name=stalonetray
 version=9999
-release=git
+release=git-r1
 
 build() {
 	wget https://phoenixnap.dl.sourceforge.net/project/stalonetray/stalonetray/stalonetray-0.8.3/stalonetray-0.8.3.tar.bz2

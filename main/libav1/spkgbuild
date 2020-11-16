@@ -3,7 +3,7 @@
 
 name=libav1
 version=9999
-release=git
+release=git-r1
 
 build() {
   git clone https://code.videolan.org/videolan/dav1d --depth 1 --jobs $(nproc)

@@ -3,7 +3,7 @@
 
 name=fd
 version=9999
-release=git
+release=git-r1
 
 build() {
 

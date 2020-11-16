@@ -3,7 +3,7 @@
 
 name=picom-tryone
 version=9999
-release=git
+release=git-r1
 
 build() {
   git clone https://github.com/tryone144/picom.git -b feature/dual_kawase --depth 1 --jobs $(nproc)

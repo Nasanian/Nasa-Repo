@@ -3,11 +3,11 @@
 
 name=neovim
 version=9999
-release=git
+release=git-r1
 
 build() {
   git clone https://github.com/neovim/neovim.git --depth 1 --jobs $(nproc)
   cd neovim
-	make CMAKE_INSTALL_PREFIX=/usr/local
+	make CMAKE_INSTALL_PREFIX=/usr/local CMAKE_BUILD_TYPE=Release
 	make DESTDIR=$PKG install
 }

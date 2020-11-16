@@ -3,7 +3,7 @@
 
 name=openldap
 version=9999
-release=git
+release=git-r1
 
 build() {
   git clone https://github.com/openldap/openldap.git --depth 1 --jobs $(nproc)

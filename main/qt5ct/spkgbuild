@@ -3,7 +3,7 @@
 
 name=qt5ct
 version=9999
-release=git
+release=git-r1
 
 build() {
   git clone https://github.com/desktop-app/qt5ct.git --depth 1 --jobs $(nproc)
