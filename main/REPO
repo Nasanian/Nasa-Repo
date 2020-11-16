@@ -168,7 +168,8 @@ f:2f43e0d9a81b080d74d821c594671f62:anydesk/spkgbuild
 f:1c58e48d7574933cf3e848a2086087e0:anydesk-classic/libgtkglext-x11-1.0.so
 f:9b03a620f4e5172b864a8fc2f8c6a72f:anydesk-classic/spkgbuild
 f:f54b499285412086e00bc8600cca1144:apulse/spkgbuild
-f:b2a1bba5d7b68a91ecfee39b5d708b68:aria2/spkgbuild
+f:1019d18a33cd52fffa8e4db6d3b43eac:aria2/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:aria2/.checksums
 f:a9efbbe084e70107b1cc763b1c3dcab5:avahi/spkgbuild
 f:17dc317aafe7d58454a796427d1698a9:bazel/spkgbuild
 f:e6cfec536076f76747f369496c276c96:bazybooz/spkgbuild
@@ -191,8 +192,10 @@ f:3a5751927fe9d38ca8614c57c2498c3f:graphicsmagick/spkgbuild
 f:8ca403c8d0c98ead34433e4e922867ac:itch/spkgbuild
 f:43d7b66efa3c15917c719bacfe41eb9d:libaudit/.pkgfiles
 f:8a55e24a389a61a0bc96f3e1ccde5c41:libaudit/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:libaudit/.checksums
 f:aa46d4a51ff080c65d9750d2e2e96a81:libcap-ng/.pkgfiles
 f:6d7c6b087554a80689890421d4e31fc9:libcap-ng/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:libcap-ng/.checksums
 f:5a8a8d69efaaf59850423b127b116410:libgme/spkgbuild
 f:ec5eb823a1f977322240ae1967dc6e2e:libiconv/spkgbuild
 f:495ef46b45e1f5e2242b46a46c08dd79:libosinfo/spkgbuild
@@ -225,6 +228,7 @@ f:cdc93765e7bd471bfd956d984fa27c2f:ocl-icd/spkgbuild
 f:664f1645db9c1acb56105dcfdff87e07:opencv/spkgbuild
 f:e8ea4897694d877cdbccd101afdcfeee:openldap/.pkgfiles
 f:1214324c3bea4ffb98f79db91a54895a:openldap/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:openldap/.checksums
 f:43444238499c77b48c7124ffd00aee7a:openresolv/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:patchelf/.checksums
 f:7857e7f0b6faf795f48b510cc8f654b2:patchelf/.pkgfiles
@@ -242,6 +246,7 @@ f:caf18930b0283b432a2394a93583c0da:sdl2mixer/.pkgfiles
 f:6dbd64c100ada37a271ce21ff579a0c2:sdl2mixer/spkgbuild
 f:2ff8ae0513dfe88864a1c8a58c6fba29:selinux/.pkgfiles
 f:7c3644624444e5b84efa75af909d62d3:selinux/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:selinux/.checksums
 f:7e88c928a4a988d58988f33af1bd890c:selinux-32/spkgbuild
 f:0991c904784ac31eece582adb212d813:sm64-ex/spkgbuild
 f:501dd632a716d601860bacb872ba41b0:spirv-cross/spkgbuild

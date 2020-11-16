@@ -13,7 +13,7 @@ build() {
 	git clone https://github.com/aria2/aria2.git --depth 1 --jobs $(nproc)
   cd aria2
   aclocal
-  autoreconf -i
+  autoreconf -fi || autoreconf -fi
   ./configure --prefix=/usr/
 	make
 	make DESTDIR=$PKG install
