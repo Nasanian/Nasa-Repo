@@ -2,8 +2,8 @@
 # depends	: python3-pip selinux qt5 mpv-vk
 
 name=syncplay
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone https://github.com/syncplay/syncplay.git --depth 1 --jobs $(nproc)

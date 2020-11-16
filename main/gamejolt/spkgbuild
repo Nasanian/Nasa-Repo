@@ -2,7 +2,7 @@
 # depends	: wget tar mono
 
 name=gamejolt
-version=9999
+version=git
 release=infinite
 options=""
 noextract=""

@@ -2,8 +2,8 @@
 # depends	: bluez gnome-icon-theme papirus-icon-theme gtk3 pango net-tools libappindicator glib python3-gobject3
 
 name=blueman
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
 	git clone https://github.com/blueman-project/blueman.git --depth 1 --jobs  $(nproc)

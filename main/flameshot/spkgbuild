@@ -2,8 +2,8 @@
 # depends	: ca-certificates gcc cmake qt5 qt5 python-pyqt5 git openssl gcr libksba
 
 name=flameshot
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

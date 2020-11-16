@@ -2,8 +2,8 @@
 # depends	: python3-pip python3 selinux qemu gtksourceview4 python3-gobject gtk3 gettext libvirt libosinfo libvirt-glib libvirt-python
 
 name=virt-manager
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

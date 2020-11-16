@@ -2,7 +2,7 @@
 # depends	: qt5 nss python2 libwebp libxslt opus ninja ffmpeg alsa-lib libxcomposite libxtst
 
 name=qt5-webengine
-version=9999
+version=git
 mainver=5.15
 subver=5.15.1
 release=galaxy

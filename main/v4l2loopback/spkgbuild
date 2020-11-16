@@ -2,8 +2,8 @@
 # depends	: gcc dkms tar
 
 name=v4l2loopback
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone https://github.com/umlaeute/v4l2loopback -b develop --depth 1 --jobs $(nproc)

@@ -2,8 +2,8 @@
 # depends	: graphicsmagick libressl vulkan-meta spirv-meta opencl-headers opencv ocl-icd
 
 name=waifu2x-vulkan
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
 

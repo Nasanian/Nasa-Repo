@@ -2,7 +2,7 @@
 # depends	: libxau mesa-vk pixman pcre pcre2 pcre-32 glib gobject-introspection python2-gobject2 python3-goject2 python3-gobject3
 
 name=anydesk-classic
-version=9999
+version=git
 release=infinite
 source="libgtkglext-x11-1.0.so"
 

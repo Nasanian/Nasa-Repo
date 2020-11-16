@@ -2,8 +2,8 @@
 # depends	: python2 python3 alsa luajit fdk-aac libxcomposite swig librsvg git ccache qt5
 
 name=obs
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

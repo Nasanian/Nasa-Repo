@@ -2,8 +2,8 @@
 # depends	: gcc cmake
 
 name=glslang
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

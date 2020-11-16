@@ -3,7 +3,7 @@
 
 name=harfbuzz-git
 version=2.7.2
-release=git-r1
+release=r1
 source="https://github.com/harfbuzz/harfbuzz/releases/download/$version/harfbuzz-$version.tar.xz"
 
 build() {

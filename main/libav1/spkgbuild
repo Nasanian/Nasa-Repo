@@ -2,8 +2,8 @@
 # depends	: cmake git perl yasm doxygen python3 nasm vulkan-meta meson ninja
 
 name=libav1
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone https://code.videolan.org/videolan/dav1d --depth 1 --jobs $(nproc)

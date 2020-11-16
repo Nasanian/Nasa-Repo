@@ -2,8 +2,8 @@
 # depends	: python3 cython3 python3-pip python3-setuptools xdg-utils python3-xdg libressl gtk2 gtk3
 
 name=python3-rencode
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

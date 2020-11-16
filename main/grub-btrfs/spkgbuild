@@ -2,8 +2,8 @@
 # depends	: grub btrfs-progs
 
 name=grub-btrfs
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone https://github.com/Antynea/grub-btrfs.git --depth 1

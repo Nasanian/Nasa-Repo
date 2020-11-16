@@ -2,8 +2,8 @@
 # depends	: libusb libgusb usbutils eudev libgudev eudev-32
 
 name=hidapi
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone git://github.com/libusb/hidapi.git --depth 1 --jobs $(nproc)

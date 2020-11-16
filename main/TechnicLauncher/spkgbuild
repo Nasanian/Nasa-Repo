@@ -2,7 +2,7 @@
 # depends	: adoptjre bzip2 bzip2-32
 
 name=TechnicLauncher
-version=9999
+version=git
 release=galaxy
 
 build() {

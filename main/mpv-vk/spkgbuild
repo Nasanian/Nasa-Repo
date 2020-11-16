@@ -2,8 +2,8 @@
 # depends	: lcms2 aria2 ffmpeg libass libarchive luajit mesa-vk libcdio libcdio-paranoia libvdpau-va-gl libplacebo vulkan-meta
 
 name=mpv-vk
-version=9999
-release=git-r1
+version=git
+release=r1
 source=""
 
 build() {

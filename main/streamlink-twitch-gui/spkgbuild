@@ -3,7 +3,7 @@
 
 name=streamlink-twitch-gui
 version=1.10.0
-release=git-r1
+release=r1
 
 build() {
   curl -L https://github.com/streamlink/streamlink-twitch-gui/releases/download/v${version}/streamlink-twitch-gui-v${version}-linux64.tar.gz | tar xvz

@@ -2,8 +2,8 @@
 # depends	: llvm clang automake gcc automake
 
 name=ghc
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

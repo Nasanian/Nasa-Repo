@@ -2,7 +2,7 @@
 # depends	: rust gcc libressl
 
 name=sccache
-version=9999
+version=git
 release=crate
 
 build() {

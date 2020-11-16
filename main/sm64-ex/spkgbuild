@@ -2,8 +2,8 @@
 # depends	: cmake make gcc python3 audiofile sdl2 glew git
 
 name=sm64-ex
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

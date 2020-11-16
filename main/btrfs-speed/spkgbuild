@@ -2,7 +2,7 @@
 # depends	: btrfs-progs wget
 
 name=btrfs-speed
-version=9999
+version=git
 release=surge
 options=""
 noextract=""

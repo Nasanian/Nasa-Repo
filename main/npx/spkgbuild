@@ -2,8 +2,8 @@
 # depends	: nodejs
 
 name=npx
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   npm install -i npx@latest  -g --prefix=$PKG/usr/local

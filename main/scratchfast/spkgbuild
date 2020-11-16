@@ -2,7 +2,7 @@
 # depends	: ripgrep
 
 name=scratchfast
-version=9999
+version=git
 release=infinite
 options=""
 noextract=""

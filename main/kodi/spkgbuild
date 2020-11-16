@@ -2,8 +2,8 @@
 # depends	: cmake libxml2 libxml2-32 libass libcdio mesa-vk ffmpeg
 
 name=kodi
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

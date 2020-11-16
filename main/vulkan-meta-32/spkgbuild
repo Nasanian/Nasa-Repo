@@ -2,8 +2,8 @@
 # depends	: vulkan-meta git spirv-meta spirv-meta-32    vulkan-tools-32 libplacebo glslang glslang-32 vulkan-loader-32 mesa-vk
 
 name=vulkan-meta-32
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   mkdir -pv $PKG/etc

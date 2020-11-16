@@ -2,8 +2,8 @@
 # depends	: qt5 adoptjre mesa-vk zlib zlib-32 xrandr bzip2 bzip2-32
 
 name=multimc
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

@@ -6,8 +6,8 @@
 name=qutebrowser-galaxy
 sipver=12.8.1
 qtver=5.15.1
-version=9999
-release=git-r1
+version=git
+release=r1
 source="qutebox"
 
 # fix bsdtar extract error

@@ -2,8 +2,8 @@
 # depends	: gcc libx11 xorg-video-drivers xorg-server xorg-libraries xorg-fonts xorgproto python2-distutils-extra python3-distutils-extra python2 python3 vulkan-loader vulkan-loader-32
 
 name=vulkan-tools
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

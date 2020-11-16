@@ -2,8 +2,8 @@
 # depends	: graphviz gcc qt5 cmake flex git python3
 
 name=doxygen
-version=9999
-release=git-r1
+version=git
+release=r1
 
 
 build() {

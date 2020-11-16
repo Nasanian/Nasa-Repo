@@ -2,8 +2,8 @@
 # depends	:
 
 name=trayer
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone https://github.com/sargon/trayer-srg --depth 1 --jobs $(nproc)

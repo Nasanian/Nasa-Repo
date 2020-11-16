@@ -2,8 +2,8 @@
 # depends	: python3-pip python3 selinux gtksourceview4 python3-gobject python2 gettext xorg-server
 
 name=arandr
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
 

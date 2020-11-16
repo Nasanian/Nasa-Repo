@@ -2,8 +2,8 @@
 # depends	: gcc
 
 name=c-lolcat
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

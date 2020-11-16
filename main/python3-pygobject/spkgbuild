@@ -2,8 +2,8 @@
 # depends	: python3-pip python3
 
 name=python3-pygobject
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

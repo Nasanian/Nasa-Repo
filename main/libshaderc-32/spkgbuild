@@ -2,8 +2,8 @@
 # depends	: glslang glslang-32 libshaderc vulkan-meta spirv-tools-32
 
 name=libshaderc-32
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
 

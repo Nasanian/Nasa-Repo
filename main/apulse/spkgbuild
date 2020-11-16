@@ -2,8 +2,8 @@
 # depends	: cmake nasm alsa alsa-lib glib
 
 name=apulse
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone https://github.com/i-rinat/apulse --depth 1 --jobs $(nproc)

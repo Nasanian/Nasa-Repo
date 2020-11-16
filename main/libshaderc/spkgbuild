@@ -2,8 +2,8 @@
 # depends	: glslang libshaderc vulkan-meta spirv-tools
 
 name=libshaderc
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone https://github.com/google/shaderc.git --depth 1 --jobs $(nproc)

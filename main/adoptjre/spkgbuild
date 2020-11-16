@@ -2,7 +2,7 @@
 # depends	: glibc fontconfig alsa cups tar selinux zlib freetype2 aria2
 
 name=adoptjre
-version=9999
+version=git
 subver=8u272-b10
 subrel=8u272b10
 release=galaxy

@@ -2,8 +2,8 @@
 # depends	: glslang lcms2 libepoxy libshaderc vulkan-meta python3-mako spirv-meta libepoxy
 
 name=libplacebo
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

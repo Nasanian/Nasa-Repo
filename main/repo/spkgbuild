@@ -2,8 +2,8 @@
 # depends	: curl wget
 
 name=repo
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   mkdir repo

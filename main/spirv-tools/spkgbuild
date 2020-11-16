@@ -2,8 +2,8 @@
 # depends	: gcc cmake libshaderc-32
 
 name=spirv-tools
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
 

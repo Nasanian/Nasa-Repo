@@ -2,8 +2,8 @@
 # depends	: cmake make glibc gcc
 
 name=argon2
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
 	git clone https://github.com/P-H-C/phc-winner-argon2.git --depth 1 --jobs $(nproc)

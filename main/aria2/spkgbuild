@@ -2,8 +2,8 @@
 # depends	: libssh2 expat json-c nettle c-ares zlib libressl
 
 name=aria2
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

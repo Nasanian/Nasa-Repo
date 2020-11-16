@@ -2,8 +2,8 @@
 # depends	: cmake make gcc asciidoc qt5 libgcrypt zlib libxi libxtst libsodium qrencode argon2 ruby
 
 name=keepassxc
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
 	git clone https://github.com/keepassxreboot/keepassxc.git --depth 1 --jobs $(nproc)

@@ -3,8 +3,8 @@
 # depends	: mesa-vk cmake llvm sudo squashfs-tools fuse2 fuse3 bluez aria2 libevdev xf86-input-evdev libglvnd libglvnd-32 libpng libpng-32 libx11 libx11-32 libxi libxi-32 libxrandr libxrandr-32 lzo qt5
 
 name=slippi
-version=9999
-release=git-r1
+version=git
+release=r1
 source=""
 
 build() {

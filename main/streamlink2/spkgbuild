@@ -2,8 +2,8 @@
 # depends	: python3-pip python3 youtube-dl2 mpv-vk python3-pysocks python3-websocket-client python3-iso-639 python3-iso3166 python3-isodate python3-pycryptodome gpgme
 
 name=streamlink2
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
 	git clone https://github.com/streamlink/streamlink.git --depth 1 --jobs $(nproc)

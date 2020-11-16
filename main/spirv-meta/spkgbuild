@@ -2,8 +2,8 @@
 # depends	: spirv-tools spirv-cross
 
 name=spirv-meta
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   mkdir -pv $PKG/etc

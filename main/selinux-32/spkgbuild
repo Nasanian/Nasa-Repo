@@ -2,8 +2,8 @@
 # depends	: coreutils gcc swig python3 xz ruby libaudit libcap-ng
 
 name=selinux-32
-version=9999
-release=git-r1
+version=git
+release=r1
 
 
 build() {

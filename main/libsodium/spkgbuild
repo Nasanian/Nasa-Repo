@@ -2,8 +2,8 @@
 # depends	: git make nodejs gcc glibc automake cmake binutils
 
 name=libsodium
-version=9999
-release=git-r1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""

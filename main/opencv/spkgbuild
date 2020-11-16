@@ -2,8 +2,8 @@
 # depends	: ocl-icd opencl-headers gcc
 
 name=opencv
-version=9999
-release=git-r1
+version=git
+release=r1
 
 build() {
   git clone https://github.com/opencv/opencv.git --depth 1 --jobs $(nproc)
