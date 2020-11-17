@@ -1,0 +1,17 @@
+# description	: library that allows manipulating JSON values
+# depends	: cmake
+
+name=jsoncpp
+version=git
+release=r1
+
+
+build() {
+  git clone https://github.com/open-source-parsers/jsoncpp.git --depth 1 --jobs $(nproc)
+  cd jsoncpp
+
+  mkdir -p build/debug
+  cd build/debug
+  cmake -DCMAKE_INSTALL_PREFIX=/usr/ -DCMAKE_BUILD_TYPE=release -G "Unix Makefiles" ../..
+	make DESTDIR=$PKG install
+}

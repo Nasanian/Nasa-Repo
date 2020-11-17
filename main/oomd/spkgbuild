@@ -1,0 +1,17 @@
+# description	: Smart self-corrective userspace oomd killer.
+# depends	: meson jsoncpp
+
+name=oomd
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/facebookincubator/oomd.git --depth 1 --jobs $(nproc)
+  cd oomd
+
+  mkdir build
+  cd build
+
+  meson ..
+  DESTDIR=$PKG ninja install
+}
