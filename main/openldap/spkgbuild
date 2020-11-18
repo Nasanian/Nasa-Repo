@@ -8,6 +8,7 @@ release=r1
 build() {
   git clone https://github.com/openldap/openldap.git --depth 1 --jobs $(nproc)
   cd openldap
+  autoconf -i
   ./configure --prefix=/usr/
 	make
 	make DESTDIR=$PKG install

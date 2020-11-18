@@ -272,7 +272,7 @@ f:d56a318aa6ed7a844977d747ddfa3c87:obs/spkgbuild
 f:cdc93765e7bd471bfd956d984fa27c2f:ocl-icd/spkgbuild
 f:664f1645db9c1acb56105dcfdff87e07:opencv/spkgbuild
 f:e8ea4897694d877cdbccd101afdcfeee:openldap/.pkgfiles
-f:1214324c3bea4ffb98f79db91a54895a:openldap/spkgbuild
+f:12a7db6a87051fc194dafd5bc8831292:openldap/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:openldap/.checksums
 f:43444238499c77b48c7124ffd00aee7a:openresolv/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:patchelf/.checksums
