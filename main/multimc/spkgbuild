@@ -28,7 +28,8 @@ build() {
   mkdir -p "$PKG/usr/share/applications"
 	cp "application/resources/multimc/scalable/multimc.svg" "$PKG/usr/share/pixmaps/multimc5.svg"
 
-  ln -s /usr/lib32/libbz2.so.1.0 /usr/lib32/libbz2.so.1
+  #Was I high when i put this here? Why.
+  #ln -s /usr/lib32/libbz2.so.1.0 /usr/lib32/libbz2.so.1
 
   echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
   echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
