@@ -1,0 +1,13 @@
+# description	: Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. (btrfs recommended)
+# depends	: gtk3 libsoup vte2 vte3 xorg rsync json-glib desktop-file-utils cronie vala diffutils libgee
+
+name=timeshift
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/teejee2008/timeshift.git --depth 1 --jobs $(nproc)
+	cd timeshift
+	make
+	make DESTDIR=$PKG install
+}
