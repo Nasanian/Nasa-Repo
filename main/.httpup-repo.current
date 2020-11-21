@@ -163,6 +163,7 @@ asciidoctor
 xkbset
 oomd
 jsoncpp
+timeshift
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -247,11 +248,15 @@ libsodium/.checksums
 libvirt-python/.checksums
 libvirt-python/spkgbuild
 libvncserver/spkgbuild
+libvncserver/.checksums
+libvncserver/.pkgfiles
 linux-xanmod/spkgbuild
 llvm-static/llvm-config.h
 llvm-static/spkgbuild
 lsof/spkgbuild
 lutris/spkgbuild
+lutris/.checksums
+lutris/.pkgfiles
 mesa-vk/.checksums
 mesa-vk/.pkgfiles
 mesa-vk/spkgbuild
@@ -294,6 +299,8 @@ selinux/.pkgfiles
 selinux/spkgbuild
 selinux/.checksums
 selinux-32/spkgbuild
+selinux-32/.checksums
+selinux-32/.pkgfiles
 sm64-ex/spkgbuild
 spirv-cross/spkgbuild
 spirv-cross/.checksums
@@ -431,6 +438,8 @@ kodi/spkgbuild
 youtube-dl2/spkgbuild
 youtube-dl2/.pkgfiles
 python3-pygobject/spkgbuild
+python3-pygobject/.checksums
+python3-pygobject/.pkgfiles
 adoptjre/spkgbuild
 adoptjre/.checksums
 adoptjre/.pkgfiles
@@ -500,3 +509,5 @@ oomd/.pkgfiles
 jsoncpp/spkgbuild
 jsoncpp/.checksums
 jsoncpp/.pkgfiles
+timeshift/spkgbuild
+timeshift/.checksums
