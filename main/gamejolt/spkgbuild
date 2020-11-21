@@ -25,6 +25,7 @@ build() {
   tar xvf gamejolt.tar.gz
   rm -rf gamejolt.tar.gz
 
+  mkdir -p /opt/gamejolt
   mv * /opt/gamejolt
 
 
