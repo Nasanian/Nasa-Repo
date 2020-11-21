@@ -2,12 +2,8 @@
 # depends	: python3
 
 name=youtube-dl2
-version=9999
-release=git
-options=""
-noextract=""
-backup=""
-source=""
+version=git
+release=r1
 
 build() {
   git clone https://github.com/ytdl-org/youtube-dl.git --depth 1 --jobs $(nproc)
