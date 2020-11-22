@@ -7,12 +7,12 @@ release=r1
 options=""
 noextract=""
 backup=""
-source="hevc-vaapi.diff"
 
 build() {
   git clone https://github.com/obsproject/obs-studio.git --depth 1 --jobs $(nproc)
   git clone https://github.com/Mixer/ftl-sdk.git --depth 1 --jobs $(nproc)
   git clone https://github.com/obsproject/obs-browser.git --depth 1 --jobs $(nproc)
+  wget https://aur.archlinux.org/cgit/aur.git/plain/hevc-vaapi.diff?h=obs-hevc-vaapi-git -O hevc-vaapi.diff
 
   cd obs-studio
   git config submodule.plugins/obs-outputs/ftl-sdk.url ../ftl-sdk
