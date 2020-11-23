@@ -1,0 +1,25 @@
+#!/bin/bash
+set -e
+
+#cd into the direcotry
+cd /usr/src/XanMod
+sed -i -e 's/select DEBUG_KERNEL/# penis/g' init/Kconfig
+make headers_check
+make headers
+make headers_install INSTALL_HDR_PATH=dest
+cp -rv dest/include/* /usr/include
+
+
+#setup your kernel config and begin compile
+make menuconfig MENUCONFIG_COLOR=blackbg -j$(nproc)
+make -j$(nproc)
+make -j$(nproc) modules
+
+#install time!
+make modules_install
+make install
+
+#prepares for bootup
+make prepare
+depmod -a
+grub-mkconfig -o /boot/grub/grub.cfg
