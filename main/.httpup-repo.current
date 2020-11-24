@@ -36,7 +36,6 @@ libshaderc-32
 libsodium
 libvirt-python
 libvncserver
-linux-xanmod
 llvm-static
 lsof
 lutris
@@ -164,6 +163,7 @@ xkbset
 oomd
 jsoncpp
 timeshift
+linux-xanmod-rt
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -250,7 +250,6 @@ libvirt-python/spkgbuild
 libvncserver/spkgbuild
 libvncserver/.checksums
 libvncserver/.pkgfiles
-linux-xanmod/spkgbuild
 llvm-static/llvm-config.h
 llvm-static/spkgbuild
 lsof/spkgbuild
@@ -535,3 +534,7 @@ jsoncpp/.checksums
 jsoncpp/.pkgfiles
 timeshift/spkgbuild
 timeshift/.checksums
+linux-xanmod-rt/spkgbuild
+linux-xanmod-rt/compilefastlinux
+linux-xanmod-rt/.checksums
+linux-xanmod-rt/.pkgfiles
