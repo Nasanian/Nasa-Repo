@@ -3,10 +3,10 @@
 
 name=keepassxc
 version=git
-release=r1
+release=r2
 
 build() {
-	git clone https://github.com/keepassxreboot/keepassxc.git --depth 1 --jobs $(nproc)
+	git clone https://github.com/keepassxreboot/keepassxc.git --depth 1 --jobs $(nproc) -b master
   cd keepassxc
 	mkdir build
   cd build

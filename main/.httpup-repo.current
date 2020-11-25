@@ -420,6 +420,7 @@ obs-v4l2/spkgbuild
 noip/spkgbuild
 trayer/spkgbuild
 discord-canary/spkgbuild
+discord-canary/.checksums
 arandr/spkgbuild
 arandr/.checksums
 arandr/.pkgfiles

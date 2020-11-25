@@ -391,7 +391,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:0f87b08fca9626bd3ee3dd1d19cea7b0:.httpup-repo.current
+f:fbe09b548117307176f3fc17f8ef4021:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:05dcfc12efe398f897bcfda65f79a34e:bat/spkgbuild
@@ -421,6 +421,7 @@ f:b80ae00a84a92c966b9fa8522bcd7d5e:noip/spkgbuild
 f:3e817f369eaff04c41fe7d2414b7636a:trayer/spkgbuild
 f:6a2321ce04147f93e42947c50bad410f:discord-canary/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:discord-canary/.checksums
+f:d3ae6cbb2292c213ada7dca0679756f3:discord-canary/.pkgfiles
 f:ffd1ed924bf2d9c3ee232b46b27aa453:arandr/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:arandr/.checksums
 f:c1c61ad2d5c12e30bd51c48e5e6c458b:arandr/.pkgfiles
@@ -439,7 +440,7 @@ f:7dc5700fb0e71dba4b48d0aa641e8a72:slippi/.pkgfiles
 f:75e7b12222635ea74379f1ef7f1ee87f:slippi/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:keepassxc/.checksums
 f:a59ea0d66810d42835ad00f184c9c4c0:keepassxc/.pkgfiles
-f:38b2dcbd85c2137942b76e944aabb6b2:keepassxc/spkgbuild
+f:df7db30d586df65fe25994259ee1edc6:keepassxc/spkgbuild
 f:b5d4dbd3fe803f5a35649a986b6fa9d8:thunar-noroot/norootwarn.patch
 f:676d09d03d837ec013f5cae54042ca1b:thunar-noroot/spkgbuild
 f:45fc0ae0ceb7cbcf6abae58c1505640e:powercord/spkgbuild
