@@ -1,0 +1,17 @@
+# description	: alternative to ida/ghidra. also known as a radare2 gui
+# depends	: qt5 radare2 cmake meson bzip2 p7zip unzip zip curl graphviz python3-setuptools pkgconf gcc syntax-highlighting python3
+
+name=cutter
+version=git
+release=r1
+
+build() {
+	git clone --recursive https://github.com/radareorg/cutter.git --depth 1 --jobs $(nproc)
+  cd cutter
+
+  cmake -S src -B build -DCUTTER_USE_BUNDLED_RADARE2=ON -DCUTTER_ENABLE_PYTHON_BINDINGS=ON -DCUTTER_PACKAGE_R2DEC=ON -DCUTTER_PACKAGE_R2GHIDRA=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/
+  cmake --build build
+
+  cd build
+	make DESTDIR=$PKG install
+}

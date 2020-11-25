@@ -1,0 +1,14 @@
+# description	: TUI alternative to ida/ghidra
+# depends	: libressl pkg-config
+
+name=radare2
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/radareorg/radare2.git --depth 1 --jobs $(nproc)
+  cd radare2
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

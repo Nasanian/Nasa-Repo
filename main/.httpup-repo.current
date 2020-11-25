@@ -421,6 +421,7 @@ noip/spkgbuild
 trayer/spkgbuild
 discord-canary/spkgbuild
 discord-canary/.checksums
+discord-canary/.pkgfiles
 arandr/spkgbuild
 arandr/.checksums
 arandr/.pkgfiles
