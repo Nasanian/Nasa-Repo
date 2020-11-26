@@ -1,0 +1,14 @@
+# description	:  small and adorable script that allows you to make small and adorable btrfs snapshots
+# depends	: btrfs-progs wget dash grub-btrfs
+
+
+name=btrfs-snap
+version=serve
+release=r1
+source="btrfs-snap"
+
+build() {
+
+  install  -Dm755 btrfs-snap $PKG/usr/bin/btrfs-snap
+
+}

@@ -1,0 +1,6 @@
+#!/bin/dash
+
+mount -B / /mnt/root
+mkdir -p /.snapshots
+btrfs subvolume snapshot -r /mnt/root /.snapshots/$(uname -r)-$(date +%Y%m%dT%H%M%S)
+grub-mkconfig -o /boot/grub/grub.cfg

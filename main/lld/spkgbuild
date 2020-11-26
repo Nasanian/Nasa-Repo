@@ -1,0 +1,31 @@
+# description	: statically compiled drop-in replacement for the gnu bfd / gold linkers
+# depends	: cmake libffi python2 ninja libxml2
+
+name=lld
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/llvm/llvm-project.git --depth 1 --jobs $(nproc)
+	cd llvm-project
+
+	export CC=gcc
+	export CXX=g++
+
+	mkdir -v build
+	cd       build
+
+	cmake ../llvm -G Ninja \
+	      -DCMAKE_INSTALL_PREFIX=/usr           \
+        -DLLVM_ENABLE_PROJECTS="lld" \
+	      -DLLVM_ENABLE_FFI=ON                  \
+	      -DCMAKE_BUILD_TYPE=Release            \
+	      -DLLVM_ENABLE_RTTI=ON                 \
+	      -DLLVM_TARGETS_TO_BUILD="X86;AMDGPU;BPF" \
+        -Dshared-llvm=false \
+	      -Wno-dev
+	ninja
+	DESTDIR=$PKG ninja install
+
+
+}

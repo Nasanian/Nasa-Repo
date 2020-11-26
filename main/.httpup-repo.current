@@ -164,6 +164,8 @@ oomd
 jsoncpp
 timeshift
 linux-xanmod-rt
+cutter
+radare2
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -540,3 +542,9 @@ linux-xanmod-rt/spkgbuild
 linux-xanmod-rt/compilefastlinux
 linux-xanmod-rt/.checksums
 linux-xanmod-rt/.pkgfiles
+cutter/spkgbuild
+cutter/.checksums
+cutter/.pkgfiles
+radare2/spkgbuild
+radare2/.checksums
+radare2/.pkgfiles
