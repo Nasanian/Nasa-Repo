@@ -168,6 +168,8 @@ d:cutter
 d:radare2
 d:lld
 d:btrfs-snap
+d:nvidia
+d:nvidia-modules
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -395,7 +397,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:922ef601b4b3620af2d218495b285bea:.httpup-repo.current
+f:daae7316ea1e5aa695b45e046fd26c99:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:05dcfc12efe398f897bcfda65f79a34e:bat/spkgbuild
@@ -472,7 +474,7 @@ f:db810fdfa6d1d4ab746cb6fe09e0db3e:python3-pygobject/.pkgfiles
 f:e2497b74f8d8ddf7b1d50546df412c74:adoptjre/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:adoptjre/.checksums
 f:cf2112d3ca6cd08795ba4d431e44e255:adoptjre/.pkgfiles
-f:adb5f97aa55cd36c1fec9e2fa99f9f69:TechnicLauncher/spkgbuild
+f:15bd97425763bdeb954fb3dba4dffcd4:TechnicLauncher/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:TechnicLauncher/.checksums
 f:40fe78f2274867f0036ee998d3650bd7:TechnicLauncher/.pkgfiles
 f:2b24b97cc105d26e57f3f12ec2bb7e5a:lunar/spkgbuild
@@ -552,7 +554,16 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:radare2/.checksums
 f:8dfde073985c5bf35565edb927d22675:radare2/.pkgfiles
 f:a81acb3dbbd17642c789399fdf035b43:lld/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:lld/.checksums
+f:8e7e802383b3571acda6d25a30a4834c:lld/.pkgfiles
 f:0f5226f1cf2c41f875a265cb0be32bb5:btrfs-snap/spkgbuild
 f:7a42e969d91001ce94e58bf15a833ba6:btrfs-snap/btrfs-snap
 f:c892e7b40d460d1925a9d4863c178974:btrfs-snap/.checksums
 f:4ac31d258fc6a27881b8a2e66b0b11f9:btrfs-snap/.pkgfiles
+f:cec7167048a929de5a46473e87f7089d:nvidia/.pkgfiles
+f:b972093abd9e97c7be2428c4aa1ac9ee:nvidia/.checksums
+f:768a64259f7e8d8a46a13b876d6c443c:nvidia/nvidia-drm-outputclass.conf
+f:7df430987d54a1dcb5eedca9be91814c:nvidia/spkgbuild
+f:82b8db2d47df443f0489dbaac1cb0d88:nvidia-modules/.pkgfiles
+f:293f5cd0de5f8d75267264c07d52fec7:nvidia-modules/install
+f:e0612f583affa1c2d2f6f57bf2f880e8:nvidia-modules/.checksums
+f:a609611cebb9f5dfa40957a1435b2626:nvidia-modules/spkgbuild

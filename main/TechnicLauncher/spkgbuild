@@ -1,5 +1,5 @@
 # description	: tekkit - a minecraft mod launcher
-# depends	: adoptjre bzip2 bzip2-32
+# depends	: adoptjre bzip2 bzip2-32 aria2
 
 name=TechnicLauncher
 version=git

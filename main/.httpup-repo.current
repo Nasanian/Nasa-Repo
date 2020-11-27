@@ -166,6 +166,8 @@ timeshift
 linux-xanmod-rt
 cutter
 radare2
+lld
+btrfs-snap
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -548,3 +550,9 @@ cutter/.pkgfiles
 radare2/spkgbuild
 radare2/.checksums
 radare2/.pkgfiles
+lld/spkgbuild
+lld/.checksums
+btrfs-snap/spkgbuild
+btrfs-snap/btrfs-snap
+btrfs-snap/.checksums
+btrfs-snap/.pkgfiles
