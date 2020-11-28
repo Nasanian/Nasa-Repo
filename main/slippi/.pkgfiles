@@ -1,0 +1,379 @@
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/bin/
+-rwxr-xr-x root/root    usr/local/bin/dolphin-emu
+drwxr-xr-x root/root    usr/local/include/
+drwxr-xr-x root/root    usr/local/include/cubeb/
+-rw-r--r-- root/root    usr/local/include/cubeb/cubeb.h
+-rw-r--r-- root/root    usr/local/include/cubeb/cubeb_export.h
+drwxr-xr-x root/root    usr/local/include/google/
+-rw-r--r-- root/root    usr/local/include/google/codetablewriter_interface.h
+-rw-r--r-- root/root    usr/local/include/google/encodetable.h
+-rw-r--r-- root/root    usr/local/include/google/format_extension_flags.h
+-rw-r--r-- root/root    usr/local/include/google/jsonwriter.h
+-rw-r--r-- root/root    usr/local/include/google/output_string.h
+-rw-r--r-- root/root    usr/local/include/google/vcdecoder.h
+-rw-r--r-- root/root    usr/local/include/google/vcencoder.h
+-rw-r--r-- root/root    usr/local/include/pa_linux_alsa.h
+-rw-r--r-- root/root    usr/local/include/portaudio.h
+drwxr-xr-x root/root    usr/local/lib/
+drwxr-xr-x root/root    usr/local/lib/cmake/
+drwxr-xr-x root/root    usr/local/lib/cmake/cubeb/
+-rw-r--r-- root/root    usr/local/lib/cmake/cubeb/cubebConfig.cmake
+-rw-r--r-- root/root    usr/local/lib/cmake/cubeb/cubebConfigVersion.cmake
+-rw-r--r-- root/root    usr/local/lib/cmake/cubeb/cubebTargets-release.cmake
+-rw-r--r-- root/root    usr/local/lib/cmake/cubeb/cubebTargets.cmake
+-rw-r--r-- root/root    usr/local/lib/libcubeb.a
+-rwxr-xr-x root/root    usr/local/lib/libportaudio.so
+-rw-r--r-- root/root    usr/local/lib/libvcdcom.a
+-rw-r--r-- root/root    usr/local/lib/libvcddec.a
+-rw-r--r-- root/root    usr/local/lib/libvcdenc.a
+drwxr-xr-x root/root    usr/local/lib/pkgconfig/
+-rw-r--r-- root/root    usr/local/lib/pkgconfig/portaudio-2.0.pc
+drwxr-xr-x root/root    usr/local/share/
+drwxr-xr-x root/root    usr/local/share/applications/
+-rw-r--r-- root/root    usr/local/share/applications/dolphin-emu.desktop
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Config/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Config/Profiles/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Config/Profiles/GCPad/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Config/Profiles/GCPad/B0XX.ini
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Config/Profiles/GCPad/B0XX_Linux.ini
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Config/Profiles/GCPad/B0XX_macOS.ini
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Config/Profiles/GCPad/slippibot.ini
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/GC/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GC/dsp_coef.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GC/dsp_rom.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GC/font-licenses.txt
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GC/font_ansi.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GC/font_japanese.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GC/font_sjis.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GC/font_western.bin
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/GameFiles/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/GameFiles/GALE01/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameFiles/GALE01/MnExtAll.dat.diff
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameFiles/GALE01/MnExtAll.usd.diff
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameFiles/GALE01/MnMaAll.dat.diff
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameFiles/GALE01/MnMaAll.usd.diff
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameFiles/GALE01/SdMenu.dat.diff
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameFiles/GALE01/SdMenu.usd.diff
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/GameSettings/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameSettings/GAL.ini
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameSettings/GALE01r2.ini
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameSettings/GALEXX.ini
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameSettings/GALJ01r2.ini
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/GameSettings/GTME01.ini
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Maps/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Maps/GFZE01.map
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Maps/GMBE8P.map
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/OpenCL/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/OpenCL/TextureDecoder.cl
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Resources/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Dolphin.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Australia.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Australia@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Australia@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Europe.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Europe@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Europe@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_France.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_France@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_France@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Germany.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Germany@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Germany@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_International.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_International@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_International@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Italy.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Italy@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Italy@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Japan.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Japan@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Japan@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Korea.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Korea@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Korea@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Netherlands.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Netherlands@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Netherlands@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Russia.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Russia@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Russia@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Spain.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Spain@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Spain@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Taiwan.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Taiwan@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Taiwan@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_USA.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_USA@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_USA@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Unknown.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Unknown@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Flag_Unknown@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_File.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_File@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_File@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Gamecube.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Gamecube@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Gamecube@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Wad.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Wad@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Wad@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Wii.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Wii@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/Platform_Wii@4x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/dolphin_logo.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/dolphin_logo@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/isoproperties_disc.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/isoproperties_file.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/isoproperties_folder.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/nobanner.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/nobanner@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/rating0.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/rating1.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/rating2.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/rating3.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/rating4.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/rating5.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_add_breakpoint.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_add_memorycheck.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_debugger_delete.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_debugger_goto_pc.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_debugger_set_pc.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_debugger_skip.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_debugger_step.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_debugger_step_out.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Resources/toolbar_debugger_step_over.png
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Shaders/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/16bit.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/32bit.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/Barrel.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/DOF.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/Depth.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/DolphinFX.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/FXAA.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/HQResampling.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/IshiirukaFX-Light.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/IshiirukaFX.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/MATSODOF.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/SSAO.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/SSAO2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/SSGI.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/SuperDepth3D.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/acidmetal.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/acidtrip.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/acidtrip2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/adaptive-sharpen.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/auto_toon.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/auto_toon2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/bad_bloom.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/brighten.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/chrismas.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/cool1.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/darkerbrighter.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/emboss.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/fire.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/fire2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/firewater.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/grayscale.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/grayscale2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/invert.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/invert_blue.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/invertedoutline.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/mad_world.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/motionblur.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/nightvision.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/nightvision2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/nightvision2scanlines.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/posterize.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/posterize2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/primarycolors.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/sepia.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/sketchy.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/spookey1.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/spookey2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/sunset.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/swap_RGB_BGR.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/swap_RGB_BRG.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/swap_RGB_GBR.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/swap_RGB_GRB.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/swap_RGB_RBG.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Postprocessing/toxic.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/README.txt
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/RG_SSAA.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/aa-shader-4.o.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/crt-hyllian.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/jinc2-multi-res.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/jinc2-sharper.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/natural-vision.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/nearest-neighbor.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/nedi.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/passthrough.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/reverse-aa.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/super-xbr-super-res.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/super-xbr.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Scaling/xbr-lv2.glsl
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Anaglyph/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Anaglyph/dubois-LCD-Amber-Blue.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Anaglyph/dubois-LCD-Green-Magenta.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Anaglyph/dubois.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Anaglyph/fullcolor.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Anaglyph/grayscale.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Anaglyph/grayscale2.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Side-by-side.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/Top-and-bottom.glsl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Shaders/Stereoscopy/interlaced.glsl
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Themes/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/README.txt
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/browse.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/browse@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/classic.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/classic@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/config.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/config@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/fullscreen.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/fullscreen@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/gcpad.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/gcpad@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/graphics.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/graphics@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/open.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/open@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/pause.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/pause@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/play.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/play@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/refresh.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/refresh@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/screenshot.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/screenshot@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/stop.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/stop@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/wiimote.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Blue/wiimote@2x.png
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/README.txt
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/browse.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/browse@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/classic.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/classic@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/config.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/config@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/fullscreen.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/fullscreen@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/gcpad.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/gcpad@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/graphics.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/graphics@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/open.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/open@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/pause.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/pause@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/play.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/play@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/refresh.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/refresh@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/screenshot.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/screenshot@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/stop.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/stop@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/wiimote.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Lite/wiimote@2x.png
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/README.txt
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/browse.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/browse@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/classic.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/classic@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/config.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/config@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/fullscreen.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/fullscreen@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/gcpad.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/gcpad@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/graphics.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/graphics@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/open.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/open@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/pause.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/pause@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/play.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/play@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/refresh.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/refresh@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/screenshot.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/screenshot@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/stop.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/stop@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/wiimote.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean Pink/wiimote@2x.png
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/README.txt
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/browse.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/browse@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/classic.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/classic@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/config.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/config@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/fullscreen.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/fullscreen@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/gcpad.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/gcpad@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/graphics.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/graphics@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/open.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/open@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/pause.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/pause@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/play.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/play@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/refresh.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/refresh@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/screenshot.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/screenshot@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/stop.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/stop@2x.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/wiimote.png
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Themes/Clean/wiimote@2x.png
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Wii/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/ec/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/ec/shopsetu.log
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/succession/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/succession/shop.log
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/sys/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/sys/SYSCONF
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/
+drwxr-xr-x root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/mbox/
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/mbox/Readme.txt
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/mbox/wc24recv.ctl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/mbox/wc24recv.mbx
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/mbox/wc24send.ctl
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/mbox/wc24send.mbx
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/misc.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/nwc24dl.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/nwc24fl.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/nwc24fls.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/nwc24msg.cbk
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/Wii/shared2/wc24/nwc24msg.cfg
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/codehandler.bin
+-rw-r--r-- root/root    usr/local/share/dolphin-emu/sys/totaldb.dsy
+drwxr-xr-x root/root    usr/local/share/icons/
+drwxr-xr-x root/root    usr/local/share/icons/hicolor/
+drwxr-xr-x root/root    usr/local/share/icons/hicolor/48x48/
+drwxr-xr-x root/root    usr/local/share/icons/hicolor/48x48/apps/
+-rw-r--r-- root/root    usr/local/share/icons/hicolor/48x48/apps/dolphin-emu.png
+drwxr-xr-x root/root    usr/local/share/icons/hicolor/scalable/
+drwxr-xr-x root/root    usr/local/share/icons/hicolor/scalable/apps/
+-rw-r--r-- root/root    usr/local/share/icons/hicolor/scalable/apps/dolphin-emu.svg
+drwxr-xr-x root/root    usr/local/share/man/
+drwxr-xr-x root/root    usr/local/share/man/man6/
+-rw-r--r-- root/root    usr/local/share/man/man6/dolphin-emu-nogui.6.gz
+-rw-r--r-- root/root    usr/local/share/man/man6/dolphin-emu.6.gz

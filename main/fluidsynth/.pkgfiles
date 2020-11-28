@@ -1,0 +1,34 @@
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/bin/
+-rwxr-xr-x root/root    usr/local/bin/fluidsynth
+drwxr-xr-x root/root    usr/local/include/
+-rw-r--r-- root/root    usr/local/include/fluidsynth.h
+drwxr-xr-x root/root    usr/local/include/fluidsynth/
+-rw-r--r-- root/root    usr/local/include/fluidsynth/audio.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/event.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/gen.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/ladspa.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/log.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/midi.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/misc.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/mod.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/seq.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/seqbind.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/settings.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/sfont.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/shell.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/synth.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/types.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/version.h
+-rw-r--r-- root/root    usr/local/include/fluidsynth/voice.h
+drwxr-xr-x root/root    usr/local/lib64/
+lrwxrwxrwx root/root    usr/local/lib64/libfluidsynth.so -> libfluidsynth.so.3
+lrwxrwxrwx root/root    usr/local/lib64/libfluidsynth.so.3 -> libfluidsynth.so.3.0.0
+-rwxr-xr-x root/root    usr/local/lib64/libfluidsynth.so.3.0.0
+drwxr-xr-x root/root    usr/local/lib64/pkgconfig/
+-rw-r--r-- root/root    usr/local/lib64/pkgconfig/fluidsynth.pc
+drwxr-xr-x root/root    usr/local/share/
+drwxr-xr-x root/root    usr/local/share/man/
+drwxr-xr-x root/root    usr/local/share/man/man1/
+-rw-r--r-- root/root    usr/local/share/man/man1/fluidsynth.1.gz

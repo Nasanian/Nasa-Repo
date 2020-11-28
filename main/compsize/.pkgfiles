@@ -1,0 +1,6 @@
+drwxr-xr-x root/root    bin/
+-rwxr-xr-x root/root    bin/compsize
+drwxr-xr-x root/root    share/
+drwxr-xr-x root/root    share/man/
+drwxr-xr-x root/root    share/man/man8/
+-rw-r--r-- root/root    share/man/man8/compsize.8.gz

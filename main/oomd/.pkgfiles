@@ -1,0 +1,15 @@
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/bin/
+-rwxr-xr-x root/root    usr/local/bin/oomd
+drwxr-xr-x root/root    usr/local/etc/
+drwxr-xr-x root/root    usr/local/etc/oomd/
+-rw-r--r-- root/root    usr/local/etc/oomd/oomd.json
+drwxr-xr-x root/root    usr/local/lib/
+drwxr-xr-x root/root    usr/local/lib/systemd/
+drwxr-xr-x root/root    usr/local/lib/systemd/system/
+-rw-r--r-- root/root    usr/local/lib/systemd/system/oomd.service
+drwxr-xr-x root/root    usr/local/share/
+drwxr-xr-x root/root    usr/local/share/man/
+drwxr-xr-x root/root    usr/local/share/man/man1/
+-rw-r--r-- root/root    usr/local/share/man/man1/oomd.1.gz

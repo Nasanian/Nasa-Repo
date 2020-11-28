@@ -1,0 +1,17 @@
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/include/
+-rw-r--r-- root/root    usr/include/zmusic.h
+drwxr-xr-x root/root    usr/lib/
+lrwxrwxrwx root/root    usr/lib/libzmusic.so -> libzmusic.so.1
+lrwxrwxrwx root/root    usr/lib/libzmusic.so.1 -> libzmusic.so.1.1.0
+-rwxr-xr-x root/root    usr/lib/libzmusic.so.1.1.0
+lrwxrwxrwx root/root    usr/lib/libzmusiclite.so -> libzmusiclite.so.1
+lrwxrwxrwx root/root    usr/lib/libzmusiclite.so.1 -> libzmusiclite.so.1.1.0
+-rwxr-xr-x root/root    usr/lib/libzmusiclite.so.1.1.0
+drwxr-xr-x root/root    usr/share/
+drwxr-xr-x root/root    usr/share/licenses/
+drwxr-xr-x root/root    usr/share/licenses/zmusic/
+-rw-r--r-- root/root    usr/share/licenses/zmusic/bsd.txt
+-rw-r--r-- root/root    usr/share/licenses/zmusic/dumb.txt
+-rw-r--r-- root/root    usr/share/licenses/zmusic/legal.txt
+-rw-r--r-- root/root    usr/share/licenses/zmusic/zmusic.txt
