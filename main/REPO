@@ -212,7 +212,7 @@ f:7e46c0ede8f5aa1ca9b40aff96f9ae80:flameshot/.pkgfiles
 f:e77c53012e4f0c85e6cd5c642d76649c:fzf/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:fzf/.checksums
 f:598b8ec5175aba63982b05cf9abbba11:fzf/.pkgfiles
-f:1fc6101dbb276f711df33245087c5b2c:gamejolt/spkgbuild
+f:984aefcb2e3355c934689b2a4be268bd:gamejolt/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:gamejolt/.checksums
 f:810100bdca42a8ceb0cce49aca75f013:gamejolt/.pkgfiles
 f:beafc618183b96a4a393afae32ae68fe:gdb/spkgbuild
@@ -488,6 +488,7 @@ f:2b86f2695abda15a45bad33295dd538f:harfbuzz-icu-git/spkgbuild
 f:6e61d27551a4cd1f779e819404f69611:icu-git/spkgbuild
 f:d39cfc3ffe332b5db8e91ed01cf74ae4:harfbuzz-32-git/spkgbuild
 f:ff6e9b549f0b360b9d9e5effe25f4193:steam-galaxy/spkgbuild
+f:bc5aeeac0ba42c6133c2993005735ccf:steam-galaxy/.pkgfiles
 f:865caadaba12eb4a3d1b2fd39c2c99b1:icu-32-git/spkgbuild
 f:ee39aba34d85eb36cc8c7149df2a26bc:python3-rencode/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:python3-rencode/.checksums
