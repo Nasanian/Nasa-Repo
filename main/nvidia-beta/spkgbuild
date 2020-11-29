@@ -1,5 +1,5 @@
 # description	: NVIDIA Linux Display Driver (short lived branch)
-# depends	: gtk2 gtk3 nvidia-modules
+# depends	: gtk2 gtk3 nvidia-beta-modules
 
 name=nvidia-beta
 version=455.38
