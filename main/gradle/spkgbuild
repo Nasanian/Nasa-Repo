@@ -1,0 +1,20 @@
+# description	: automation build tool for java-based applications
+# depends	: adoptjre binutils zip
+
+name=gradle
+version=galaxy
+release=6.7.1
+options=""
+noextract=""
+backup=""
+
+build() {
+
+
+  wget https://downloads.gradle-dn.com/distributions/gradle-$release-bin.zip
+  mkdir -p $PKG/opt/gradle $PKG/usr/bin/
+  unzip -d $PKG/opt/gradle gradle-$release-bin.zip
+  echo "Please run -> ln -sv /opt/gradle/gradle-$release/bin/gradle /usr/bin/gradle"
+}
+
+
