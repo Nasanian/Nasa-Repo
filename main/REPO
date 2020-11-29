@@ -567,8 +567,8 @@ f:d0f9969bd4a0a934044c9b4d5c1b1fb9:gradle/.pkgfiles
 f:cec7167048a929de5a46473e87f7089d:nvidia-beta/.pkgfiles
 f:b972093abd9e97c7be2428c4aa1ac9ee:nvidia-beta/.checksums
 f:768a64259f7e8d8a46a13b876d6c443c:nvidia-beta/nvidia-drm-outputclass.conf
-f:e5d22c19ef6ccc225eba9dd61e917476:nvidia-beta/spkgbuild
+f:5c3384c371254f004cecd6314501668f:nvidia-beta/spkgbuild
 f:82b8db2d47df443f0489dbaac1cb0d88:nvidia-beta-modules/.pkgfiles
 f:293f5cd0de5f8d75267264c07d52fec7:nvidia-beta-modules/install
 f:e0612f583affa1c2d2f6f57bf2f880e8:nvidia-beta-modules/.checksums
-f:cd4a7d76673ef14a750f6f44c43308e2:nvidia-beta-modules/spkgbuild
+f:a4faab3a6550d9c288b973db65c2c2de:nvidia-beta-modules/spkgbuild
