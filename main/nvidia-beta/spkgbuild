@@ -63,7 +63,6 @@ build() {
 	install -m 0755 libcuda.so.* $PKG/usr/lib/
 	ln -s libcuda.so.* $PKG/usr/lib/libcuda.so.1
 	ln -s libcuda.so.* $PKG/usr/lib/libcuda.so
-	install -m 0755 libnvidia-fatbinaryloader.so.* $PKG/usr/lib/
 	install -m 0755 libnvidia-ptxjitcompiler.so.* $PKG/usr/lib/
 	ln -s libnvidia-ptxjitcompiler.so.* $PKG/usr/lib/libnvidia-ptxjitcompiler.so.1
 	ln -s libnvidia-ptxjitcompiler.so.* $PKG/usr/lib/libnvidia-ptxjitcompiler.so
