@@ -3,8 +3,9 @@
 
 name=steam-galaxy
 version=1.0.0.66
-release=1
-source="http://repo.steampowered.com/steam/pool/steam/s/steam/steam_$version.tar.gz"
+release=666
+source="http://repo.steampowered.com/steam/pool/steam/s/steam/steam_$version.tar.gz
+        steam"
 
 build() {
 	cd steam-launcher
@@ -13,4 +14,5 @@ build() {
 
 	# blank steamdeps because apt-get
 	ln -sf /bin/true $PKG/usr/bin/steamdeps
+	install -Dm775 ../steam $PKG/usr/bin/
 }
