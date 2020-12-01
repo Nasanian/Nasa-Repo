@@ -12,7 +12,7 @@ build() {
   git clone https://github.com/mesa3d/mesa.git --jobs $(nproc) --depth 1
   cd mesa
 
-	PLATFORMS="drm,x11,wayland"
+	PLATFORMS="auto,x11,wayland"
 	GALLIUM_DRV="r300,r600,svga,swrast,radeonsi,nouveau"
 	DRI_DRIVERS="i915,i965,r100,r200,nouveau"
 
