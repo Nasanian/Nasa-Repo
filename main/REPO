@@ -387,6 +387,7 @@ f:8eee520bb9467f6fc83c7a1cd978d673:waifu2x/.pkgfiles
 f:e212b993a6d0fec7296c26473e65604b:waifu2x-vulkan/spkgbuild
 f:d159d5e758a97b7ebd85d99337a2b96a:xephyr/spkgbuild
 f:4b7699237c278c0cffea7e6e8507e3bf:zerotier/spkgbuild
+f:df2c090ffe001638b763c7b3f5023329:zerotier/.pkgfiles
 f:773d8b57e430f67632962eb0b1a33353:zram-init/spkgbuild
 f:24ee6f1da430454d689770d367dc4c41:p7zip-frozen/gcc10-conversion.patch
 f:94479fb2470230fb66e72f03c921ecc4:p7zip-frozen/gcc10-conversion2.patch
@@ -464,7 +465,7 @@ f:a5a7979f98f5e9eacd5734d37c5e1a4f:btrfs-speed/.pkgfiles
 f:409f091025eea7552925e5efc965d4f9:compsize/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:compsize/.checksums
 f:db4b77f9fdfff1fc4d7c5570ce2cdd07:compsize/.pkgfiles
-f:69efeff17fecd6169bccf5e05908e59f:syncplay/spkgbuild
+f:9b1394a0f2b9ef442db4363277dadaa3:syncplay/spkgbuild
 f:46c5b5eba93f507fff5475c848551f21:syncplay/.pkgfiles
 f:92f856cf533aac56ff7d24f7b74d362f:kodi/spkgbuild
 f:474768273a4f6dd3737f6d77de8906e5:youtube-dl2/spkgbuild
