@@ -1,0 +1,16 @@
+# description	: Qt implementation of DbusMenu protocol
+# depends	: qt5 dbus dbus-32 dbus-glib katie
+
+name=libdbusmenu-qt
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/fluxer/libdbusmenu-qt.git --depth 1 --jobs $(nproc)
+  cd libdbusmenu-qt
+  mkdir build
+  cd build
+  cmake -DCMAKE_INSTALL_PREFIX=/usr/   -DCMAKE_BUILD_TYPE=Release .
+	make
+	make DESTDIR=$PKG install
+}

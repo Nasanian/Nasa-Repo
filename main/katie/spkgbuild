@@ -1,0 +1,16 @@
+# description	: Katie is continuation of the Qt4 C++ toolkit with the goal to keep it alive,
+# depends	: qt5 dbus dbus-32 dbus-glib
+
+name=katie
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/fluxer/katie.git --depth 1 --jobs $(nproc)
+  cd katie
+  mkdir build
+  cd build
+  cmake -DCMAKE_INSTALL_PREFIX=/usr/   -DCMAKE_BUILD_TYPE=Release ..
+	make
+	make DESTDIR=$PKG install
+}

@@ -171,6 +171,8 @@ d:btrfs-snap
 d:gradle
 d:nvidia-beta
 d:nvidia-beta-modules
+d:libdbusmenu-qt
+d:katie
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -574,3 +576,7 @@ f:82b8db2d47df443f0489dbaac1cb0d88:nvidia-beta-modules/.pkgfiles
 f:293f5cd0de5f8d75267264c07d52fec7:nvidia-beta-modules/install
 f:e0612f583affa1c2d2f6f57bf2f880e8:nvidia-beta-modules/.checksums
 f:89774cd1d5ef94bbfba54dbc4f4ea13d:nvidia-beta-modules/spkgbuild
+f:590ed2b907dd1ebc6872b027cd0be9c2:libdbusmenu-qt/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:libdbusmenu-qt/.checksums
+f:c7dc2067e3e5f925504369acb0bab328:katie/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:katie/.checksums
