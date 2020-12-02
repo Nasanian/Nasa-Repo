@@ -467,7 +467,7 @@ f:a5a7979f98f5e9eacd5734d37c5e1a4f:btrfs-speed/.pkgfiles
 f:409f091025eea7552925e5efc965d4f9:compsize/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:compsize/.checksums
 f:db4b77f9fdfff1fc4d7c5570ce2cdd07:compsize/.pkgfiles
-f:9b1394a0f2b9ef442db4363277dadaa3:syncplay/spkgbuild
+f:6641ff69085c17736ff3ebb0f947b0bf:syncplay/spkgbuild
 f:46c5b5eba93f507fff5475c848551f21:syncplay/.pkgfiles
 f:92f856cf533aac56ff7d24f7b74d362f:kodi/spkgbuild
 f:474768273a4f6dd3737f6d77de8906e5:youtube-dl2/spkgbuild
@@ -576,7 +576,9 @@ f:82b8db2d47df443f0489dbaac1cb0d88:nvidia-beta-modules/.pkgfiles
 f:293f5cd0de5f8d75267264c07d52fec7:nvidia-beta-modules/install
 f:e0612f583affa1c2d2f6f57bf2f880e8:nvidia-beta-modules/.checksums
 f:89774cd1d5ef94bbfba54dbc4f4ea13d:nvidia-beta-modules/spkgbuild
-f:590ed2b907dd1ebc6872b027cd0be9c2:libdbusmenu-qt/spkgbuild
+f:4fa58c45483934c4461226b6c4efec44:libdbusmenu-qt/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libdbusmenu-qt/.checksums
+f:e76d3a27971efb4eae123324694e8bdd:libdbusmenu-qt/.pkgfiles
 f:c7dc2067e3e5f925504369acb0bab328:katie/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:katie/.checksums
+f:9ae7625e41421719dd9b5ce84c20436d:katie/.pkgfiles

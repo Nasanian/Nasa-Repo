@@ -1,0 +1,20 @@
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/include/
+drwxr-xr-x root/root    usr/include/dbusmenu-katie/
+-rw-r--r-- root/root    usr/include/dbusmenu-katie/dbusmenu_export.h
+-rw-r--r-- root/root    usr/include/dbusmenu-katie/dbusmenu_version.h
+-rw-r--r-- root/root    usr/include/dbusmenu-katie/dbusmenuexporter.h
+-rw-r--r-- root/root    usr/include/dbusmenu-katie/dbusmenuimporter.h
+drwxr-xr-x root/root    usr/lib/
+drwxr-xr-x root/root    usr/lib/cmake/
+drwxr-xr-x root/root    usr/lib/cmake/dbusmenu-katie/
+-rw-r--r-- root/root    usr/lib/cmake/dbusmenu-katie/dbusmenu-katie-config-version.cmake
+-rw-r--r-- root/root    usr/lib/cmake/dbusmenu-katie/dbusmenu-katie-config.cmake
+-rw-r--r-- root/root    usr/lib/cmake/dbusmenu-katie/dbusmenu-katie-targets-release.cmake
+-rw-r--r-- root/root    usr/lib/cmake/dbusmenu-katie/dbusmenu-katie-targets.cmake
+lrwxrwxrwx root/root    usr/lib/libdbusmenu-katie.so -> libdbusmenu-katie.so.2
+lrwxrwxrwx root/root    usr/lib/libdbusmenu-katie.so.2 -> libdbusmenu-katie.so.2.6.0
+-rwxr-xr-x root/root    usr/lib/libdbusmenu-katie.so.2.6.0
+drwxr-xr-x root/root    usr/lib/pkgconfig/
+-rw-r--r-- root/root    usr/lib/pkgconfig/dbusmenu-katie.pc
+drwxr-xr-x root/root    usr/share/
