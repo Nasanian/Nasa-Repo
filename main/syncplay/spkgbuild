@@ -1,9 +1,9 @@
 # description	: Syncplay - application to play video alognside someone else on the internet through mpv!
-# depends	: python3-pip selinux qt5 mpv-vk
+# depends	: python3-pip selinux qt5 mpv-vk gtk2 gtk3
 
 name=syncplay
 version=git
-release=r1
+release=r2
 
 build() {
   git clone https://github.com/syncplay/syncplay.git --depth 1 --jobs $(nproc)
