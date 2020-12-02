@@ -1,7 +1,7 @@
 # description	: Qt implementation of DbusMenu protocol
 # depends	: qt5 dbus dbus-32 dbus-glib katie
 
-name=libdbusmenu-qt
+name=libdbusmenu-qtgit
 version=git
 release=r1
 
