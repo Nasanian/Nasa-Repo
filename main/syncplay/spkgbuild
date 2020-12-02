@@ -3,7 +3,7 @@
 
 name=syncplay
 version=git
-release=r2
+release=r3
 
 build() {
   git clone https://github.com/syncplay/syncplay.git --depth 1 --jobs $(nproc)
