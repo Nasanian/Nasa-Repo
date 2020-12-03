@@ -588,8 +588,9 @@ f:e76d3a27971efb4eae123324694e8bdd:libdbusmenu-qtgit/.pkgfiles
 f:d289acfccd76a7a63bd0db669f2de348:ckbnext/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:ckbnext/.checksums
 f:ebcb4c5c30a90c0214daccce6479b59b:ckbnext/.pkgfiles
-f:56cd0a249213090dc647f8074fcf3524:torbrowser-launcher/spkgbuild
+f:0355608bce4c5e175c670d1bf0f7b542:torbrowser-launcher/spkgbuild
 f:5a850c3920a411bb732e3c212e827fb3:torbrowser-launcher/.checksums
+f:e06761707eeb6518b69561c21cf942c6:torbrowser-launcher/.pkgfiles
 f:0dc946be33c6fada51e6e47ff9292234:tor/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:tor/.checksums
 f:8efc06f48323fee7e6bb3cdaa7cb46bb:tor/.pkgfiles
