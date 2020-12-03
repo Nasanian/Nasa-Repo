@@ -1,0 +1,22 @@
+# description	: corsair keyboard and mouse input driver.
+# depends	: qt5 quazip hicolor-icon-theme git camke libdbusmenu-qt libdbusmenu
+
+name=ckbnext
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/ckb-next/ckb-next.git --depth 1 --jobs $(nproc)
+  cd ckb-next
+
+  cmake -H. -Bbuild \
+    -DCMAKE_INSTALL_PREFIX="/usr"                 \
+    -DCMAKE_BUILD_TYPE="Release"                  \
+    -DDISABLE_UPDATER=1                           \
+    -DUDEV_RULE_DIRECTORY="/usr/lib/udev/rules.d" \
+    -DCMAKE_INSTALL_LIBDIR="lib"                  \
+    -DCMAKE_INSTALL_LIBEXECDIR="lib"
+
+  DESTDIR="$PKG" cmake --build build --target install
+
+}
