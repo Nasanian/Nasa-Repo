@@ -1,0 +1,26 @@
+# description	: An anonymizing overlay network (development version)
+# depends	: rust libressl libevent libseccomp zstd xz python
+
+name=tor
+version=git
+release=r1
+
+build() {
+  git clone --recursive  https://git.torproject.org/tor.git --depth 1 --jobs $(nproc)
+
+    cd tor
+
+    ./autogen.sh
+    ./configure \
+        --prefix=/usr --sysconfdir=/etc --localstatedir=/var \
+        --disable-html-manual \
+        --enable-zstd \
+        --enable-lzma \
+        --enable-pic \
+        --enable-rust \
+        #--disable-module-relay \
+        #--disable-unittests
+
+	make
+	make DESTDIR=$PKG install
+}

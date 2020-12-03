@@ -1,0 +1,24 @@
+# description	: Securely and easily download, verify, install and launch Tor Browser
+# depends	: tor gnupg gpgme python3-pyqt5-galaxy python3-pysocks
+
+name=torbrowser-launcher
+version=git
+release=r1
+source="https://github.com/yardenac/torbrowser-launcher/commit/5fe206b8fcc31ca6b5df444c2bdcf00c2d81a0d0.patch
+        https://github.com/yardenac/torbrowser-launcher/commit/f4f3ae0eb5e8a3e52ff5e2d1b9078ae2ce6680c3.patch"
+
+build() {
+	git clone http://github.com/micahflee/torbrowser-launcher.git --depth 1 --jobs $(nproc)
+  cd torbrowser-launcher
+
+	# fix for python >= 3.8
+	patch --forward --strip=1 --input="../5fe206b8fcc31ca6b5df444c2bdcf00c2d81a0d0.patch"
+
+	# fix for "force english version" on non-english system
+	patch --forward --strip=1 --input="../f4f3ae0eb5e8a3e52ff5e2d1b9078ae2ce6680c3.patch"
+
+	python setup.py install --root="$PKG/" --optimize=1 --skip-build
+
+	install -Dm644 LICENSE -t "$PKG/usr/share/licenses/torbrowser-launcher"
+
+}

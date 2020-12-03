@@ -18,7 +18,6 @@ build() {
   git config submodule.plugins/obs-outputs/ftl-sdk.url ../ftl-sdk
   git config submodule.plugins/obs-browser.url ../obs-browser
 
-  git submodule update
   patch -p1 -i ../hevc-vaapi.diff
     cmake -DCMAKE_INSTALL_PREFIX=/usr \
         -DBUILD_BROWSER=ON \

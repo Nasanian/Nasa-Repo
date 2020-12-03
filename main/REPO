@@ -173,6 +173,9 @@ d:nvidia-beta
 d:nvidia-beta-modules
 d:katie
 d:libdbusmenu-qtgit
+d:ckbnext
+d:torbrowser-launcher
+d:tor
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -287,7 +290,7 @@ f:0c862612fb4adca17753bf5aca830249:npx/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:npx/.checksums
 f:2e4a11d6f4410220c6fff15f2617c192:npx/.pkgfiles
 f:5b54a7b83d088d95ba7d514beb1d22af:obs/hevc-vaapi.diff
-f:dd98a2f845f121554c6c878e1a4a1487:obs/spkgbuild
+f:d94de2c0a8254fe6423242a66cc494ac:obs/spkgbuild
 f:22263b1cfe9295b383fa807fef0851aa:obs/.checksums
 f:8f2ca76edffe79d8087f4123213ddb7b:obs/.pkgfiles
 f:cdc93765e7bd471bfd956d984fa27c2f:ocl-icd/spkgbuild
@@ -582,3 +585,11 @@ f:9ae7625e41421719dd9b5ce84c20436d:katie/.pkgfiles
 f:cc78901d326ca28723f3de8780787df9:libdbusmenu-qtgit/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libdbusmenu-qtgit/.checksums
 f:e76d3a27971efb4eae123324694e8bdd:libdbusmenu-qtgit/.pkgfiles
+f:d289acfccd76a7a63bd0db669f2de348:ckbnext/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:ckbnext/.checksums
+f:ebcb4c5c30a90c0214daccce6479b59b:ckbnext/.pkgfiles
+f:56cd0a249213090dc647f8074fcf3524:torbrowser-launcher/spkgbuild
+f:5a850c3920a411bb732e3c212e827fb3:torbrowser-launcher/.checksums
+f:0dc946be33c6fada51e6e47ff9292234:tor/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:tor/.checksums
+f:8efc06f48323fee7e6bb3cdaa7cb46bb:tor/.pkgfiles
