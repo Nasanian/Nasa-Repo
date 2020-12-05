@@ -17,8 +17,9 @@ build() {
 	# fix for "force english version" on non-english system
 	patch --forward --strip=1 --input="../f4f3ae0eb5e8a3e52ff5e2d1b9078ae2ce6680c3.patch"
 
+  pip2 install PyQt5
 	python setup.py build
-	python2 setup.py install --root="$PKG/" --optimize=1 --skip-build
+	python setup.py install --root="$PKG/" --optimize=1 --skip-build
 
 	install -Dm644 LICENSE -t "$PKG/usr/share/licenses/torbrowser-launcher"
 

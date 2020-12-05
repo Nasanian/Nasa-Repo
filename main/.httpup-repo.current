@@ -171,6 +171,11 @@ btrfs-snap
 gradle
 nvidia-beta
 nvidia-beta-modules
+katie
+libdbusmenu-qtgit
+ckbnext
+torbrowser-launcher
+tor
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -387,6 +392,7 @@ waifu2x/.pkgfiles
 waifu2x-vulkan/spkgbuild
 xephyr/spkgbuild
 zerotier/spkgbuild
+zerotier/.pkgfiles
 zram-init/spkgbuild
 p7zip-frozen/gcc10-conversion.patch
 p7zip-frozen/gcc10-conversion2.patch
@@ -490,6 +496,7 @@ icu-git/spkgbuild
 harfbuzz-32-git/spkgbuild
 steam-galaxy/spkgbuild
 steam-galaxy/.pkgfiles
+steam-galaxy/steam
 icu-32-git/spkgbuild
 python3-rencode/spkgbuild
 python3-rencode/.checksums
@@ -572,3 +579,18 @@ nvidia-beta-modules/.pkgfiles
 nvidia-beta-modules/install
 nvidia-beta-modules/.checksums
 nvidia-beta-modules/spkgbuild
+katie/spkgbuild
+katie/.checksums
+katie/.pkgfiles
+libdbusmenu-qtgit/spkgbuild
+libdbusmenu-qtgit/.checksums
+libdbusmenu-qtgit/.pkgfiles
+ckbnext/spkgbuild
+ckbnext/.checksums
+ckbnext/.pkgfiles
+torbrowser-launcher/spkgbuild
+torbrowser-launcher/.checksums
+torbrowser-launcher/.pkgfiles
+tor/spkgbuild
+tor/.checksums
+tor/.pkgfiles
