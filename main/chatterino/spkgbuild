@@ -3,11 +3,11 @@
 
 name=chatterino
 version=git
-release=r1
+release=r2
 
 
 build() {
-  git clone https://github.com/Chatterino/chatterino2.git --depth 1 --jobs $(nproc)
+  git clone https://github.com/pajlada/chatterino2.git --depth 1 --jobs $(nproc)
   cd chatterino2
   git submodule update --init --recursive --depth 1 --jobs $(nproc)
 
