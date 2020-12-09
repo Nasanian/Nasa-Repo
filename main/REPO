@@ -265,7 +265,7 @@ f:4eb936c77ebcb8b3770f7a5e338a4155:libvncserver/.pkgfiles
 f:295c343dcd457dc534662f011d7cff1a:llvm-static/llvm-config.h
 f:d081889d5d8116a0d29ffaf155e3b447:llvm-static/spkgbuild
 f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
-f:aa75fcf56c4ff71ce082ba10a10c019c:lutris/spkgbuild
+f:3d5c1e07b09aa36281f694bf5f88f1ca:lutris/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:lutris/.checksums
 f:b3c14690e8d1e3bc1984d62e46631590:lutris/.pkgfiles
 f:c1a5d97f6be1b463a7c0faf320eee13e:mesa-vk/.checksums

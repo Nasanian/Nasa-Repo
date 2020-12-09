@@ -1,13 +1,10 @@
 # description	: Lutris! a launcher for wine/windows/emulator games
-# depends	: python3-pip python3-requests python3-pillow python3-yaml python3-gobject3 selinux qt5-webkit mesa-vk gobject-introspection python2-wxpython3 wxgtk3 python3-pygobject
+# depends	: python3-pip python3-requests python3-pillow python3-gobject3 selinux qt5-webkit mesa-vk gobject-introspection python2-wxpython3 wxgtk3 python3-pygobject
 
 name=lutris
 version=git
-release=r1
-options=""
-noextract=""
-backup=""
-source=""
+release=r2
+
 
 build() {
 
