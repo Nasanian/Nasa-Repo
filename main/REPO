@@ -266,7 +266,7 @@ f:4eb936c77ebcb8b3770f7a5e338a4155:libvncserver/.pkgfiles
 f:295c343dcd457dc534662f011d7cff1a:llvm-static/llvm-config.h
 f:d081889d5d8116a0d29ffaf155e3b447:llvm-static/spkgbuild
 f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
-f:3d5c1e07b09aa36281f694bf5f88f1ca:lutris/spkgbuild
+f:0b89edc1ab120383921dec5348b1c508:lutris/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:lutris/.checksums
 f:b3c14690e8d1e3bc1984d62e46631590:lutris/.pkgfiles
 f:c1a5d97f6be1b463a7c0faf320eee13e:mesa-vk/.checksums
@@ -447,6 +447,7 @@ f:98b7b5ab6f89791062a769b999748e81:streamlink-twitch-gui/spkgbuild
 f:33fc99a182f5631cf82536e7a6a0bdd6:streamlink-twitch-gui/.pkgfiles
 f:4e3be6102404c77172745c5f6e3e9c31:inkscape/fixatomicrel.patch
 f:999a51acae16832182b4c623f2cd77da:inkscape/spkgbuild
+f:22dcfa0cce57f51c6858cb91789f8df1:inkscape/.pkgfiles
 f:58b4c7a574a397ae61bf27b4b94f3681:yarn/spkgbuild
 f:d01540f29d7dd8e3ceceba993504739d:yarn/node_modules/.yarn-integrity
 f:dd07d22cbf9a738bdb68b591bc1bc742:yarn/yarn.lock
@@ -498,13 +499,14 @@ f:d39cfc3ffe332b5db8e91ed01cf74ae4:harfbuzz-32-git/spkgbuild
 f:e238c3e3356c8a689d155d69b663a1a7:steam-galaxy/spkgbuild
 f:bc5aeeac0ba42c6133c2993005735ccf:steam-galaxy/.pkgfiles
 f:3dbb0dbbb5d45c6a6ea7b8f8b562cf27:steam-galaxy/steam
+f:9f606e012ca2e548c3822abbf45b20c5:steam-galaxy/.checksums
 f:865caadaba12eb4a3d1b2fd39c2c99b1:icu-32-git/spkgbuild
 f:ee39aba34d85eb36cc8c7149df2a26bc:python3-rencode/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:python3-rencode/.checksums
 f:a8513fd36cc1ff2dbe4dbc4cbef81a04:python3-rencode/.pkgfiles
 f:ddf5cfb1dee166c3c47f56cb9b017b83:qutebrowser-galaxy/.pkgfiles
 f:565030e233d4b3276cff4f9778a246b2:qutebrowser-galaxy/qutebox
-f:b284fb713cd58d98aa4ae97047212110:qutebrowser-galaxy/spkgbuild
+f:a3a89f5ff9bfd7ab73dfe8759bfc79d9:qutebrowser-galaxy/spkgbuild
 f:f6d00fc6cf449339455b5fe01e51d158:libav1/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libav1/.checksums
 f:fc58913219694fe615a1d2083112eca3:libav1/.pkgfiles
