@@ -176,6 +176,7 @@ libdbusmenu-qtgit
 ckbnext
 torbrowser-launcher
 tor
+nvidia-32-beta
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -446,6 +447,7 @@ streamlink-twitch-gui/spkgbuild
 streamlink-twitch-gui/.pkgfiles
 inkscape/fixatomicrel.patch
 inkscape/spkgbuild
+inkscape/.pkgfiles
 yarn/spkgbuild
 yarn/node_modules/.yarn-integrity
 yarn/yarn.lock
@@ -497,6 +499,7 @@ harfbuzz-32-git/spkgbuild
 steam-galaxy/spkgbuild
 steam-galaxy/.pkgfiles
 steam-galaxy/steam
+steam-galaxy/.checksums
 icu-32-git/spkgbuild
 python3-rencode/spkgbuild
 python3-rencode/.checksums
@@ -594,3 +597,7 @@ torbrowser-launcher/.pkgfiles
 tor/spkgbuild
 tor/.checksums
 tor/.pkgfiles
+nvidia-32-beta/.pkgfiles
+nvidia-32-beta/.checksums
+nvidia-32-beta/nvidia-drm-outputclass.conf
+nvidia-32-beta/spkgbuild

@@ -177,6 +177,8 @@ d:ckbnext
 d:torbrowser-launcher
 d:tor
 d:nvidia-32-beta
+d:proxychains-ng
+d:xdelta
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -266,7 +268,7 @@ f:4eb936c77ebcb8b3770f7a5e338a4155:libvncserver/.pkgfiles
 f:295c343dcd457dc534662f011d7cff1a:llvm-static/llvm-config.h
 f:d081889d5d8116a0d29ffaf155e3b447:llvm-static/spkgbuild
 f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
-f:0b89edc1ab120383921dec5348b1c508:lutris/spkgbuild
+f:f675a7ba393acd01649f9ed30af4d523:lutris/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:lutris/.checksums
 f:b3c14690e8d1e3bc1984d62e46631590:lutris/.pkgfiles
 f:c1a5d97f6be1b463a7c0faf320eee13e:mesa-vk/.checksums
@@ -405,7 +407,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:b350764a56ced7124e2dd2639f550f1f:.httpup-repo.current
+f:69c3b5acb41464b6daab8fde646a73c1:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:05dcfc12efe398f897bcfda65f79a34e:bat/spkgbuild
@@ -601,3 +603,8 @@ f:cec7167048a929de5a46473e87f7089d:nvidia-32-beta/.pkgfiles
 f:b972093abd9e97c7be2428c4aa1ac9ee:nvidia-32-beta/.checksums
 f:768a64259f7e8d8a46a13b876d6c443c:nvidia-32-beta/nvidia-drm-outputclass.conf
 f:b3140651713264ad4bfb3ecb0d53f976:nvidia-32-beta/spkgbuild
+f:9881776ca79a2068300d182887d1afe5:proxychains-ng/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:proxychains-ng/.checksums
+f:a3caf8a09239ee247169b47319d8e406:proxychains-ng/.pkgfiles
+f:55395bc7ab780df914937ec697ce7252:xdelta/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:xdelta/.checksums

@@ -1,0 +1,20 @@
+# description	: Xdelta version 3 is a C library and command-line tool for delta compression using VCDIFF/RFC 3284 streams.
+# depends	: make gcc
+
+name=xdelta
+version=git
+release=r1
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/jmacd/xdelta.git --depth 1 --jobs $(nproc)
+  cd xdelta
+  cd xdelta3
+  autoreconf -fi
+  ./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
