@@ -1,0 +1,13 @@
+# description	: Very secure FTP daemon.
+# depends	: glibc
+
+name=vsftpd
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/InfrastructureServices/vsftpd.git --depth 1 --jobs $(nproc)
+  cd vsftpd
+  make
+  make DESTDIR=$PKG install
+}

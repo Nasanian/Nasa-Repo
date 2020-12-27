@@ -4,10 +4,6 @@
 name=deluge
 version=git
 release=pip
-options=""
-noextract=""
-backup=""
-source=""
 
 build() {
   git clone https://github.com/deluge-torrent/deluge.git --depth 1 --jobs $(nproc) -b master

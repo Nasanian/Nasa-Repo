@@ -1,0 +1,14 @@
+# description	: Social-Engineering Tookkit (Virtually installed)
+# depends	: python3 pytohn3-pip
+
+name=setoolkit
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/trustedsec/social-engineer-toolkit.git --depth 1 --jobs $(nproc)
+  cd social-engineer-toolkit
+
+  pip3 install -r requirements.txt
+	python3 setup.py install --root=$PKG --optimize=1
+}

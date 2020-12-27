@@ -177,6 +177,8 @@ ckbnext
 torbrowser-launcher
 tor
 nvidia-32-beta
+proxychains-ng
+xdelta
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -601,3 +603,8 @@ nvidia-32-beta/.pkgfiles
 nvidia-32-beta/.checksums
 nvidia-32-beta/nvidia-drm-outputclass.conf
 nvidia-32-beta/spkgbuild
+proxychains-ng/spkgbuild
+proxychains-ng/.checksums
+proxychains-ng/.pkgfiles
+xdelta/spkgbuild
+xdelta/.checksums
