@@ -1,5 +1,5 @@
 # description	: Social-Engineering Tookkit (Virtually installed)
-# depends	: python3 pytohn3-pip
+# depends	: python3 pytohn3-pip metasploit
 
 name=setoolkit
 version=git

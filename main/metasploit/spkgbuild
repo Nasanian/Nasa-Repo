@@ -1,5 +1,5 @@
-# description	: Large hacking framework.
-# depends	: ruby autoconf gcc libpcap zlib sqlite
+# description	: Large hacking framework. Usefil with setoolkit.
+# depends	: ruby autoconf gcc libpcap zlib sqlite postgresql
 
 name=metasploit
 version=git
@@ -7,10 +7,12 @@ release=r1
 
 build() {
 	git clone https://github.com/rapid7/metasploit-framework.git --depth 1 --jobs $(nproc)
+  mkdir -pv $PKG/opt/metasploit
   cd metasploit-framework
   bundle config build.nokogiri --use-system-libraries
   gem install bundler pg
   bundle install -j"$(nproc)"  --deployment
-
+  cd ..
+  cp -vr metasploit-framework $PKG/opt/
 
 }

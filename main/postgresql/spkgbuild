@@ -1,0 +1,15 @@
+# description	: Database management system.
+# depends	: make gcc
+
+name=postgresql
+version=git
+release=r1
+
+
+build() {
+  git clone https://github.com/postgres/postgres.git --depth 1 --jobs $(nproc)
+  cd postgres
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
