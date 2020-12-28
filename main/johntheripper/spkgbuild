@@ -1,0 +1,16 @@
+# description	: John the Ripper password cracker.
+# depends	: gcc make cmake
+
+name=johntheripper
+version=git
+release=r1
+
+
+build() {
+  git clone https://github.com/racterub/JohnTheRipper.git -b bleeding-jumbo --depth 1 --jobs $(nproc)
+	cd JohnTheRipper
+  cd src
+  autoreconf -fi
+	./configure --prefix=/usr
+	make DESTDIR=$PKG install
+}
