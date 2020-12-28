@@ -418,7 +418,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:322c6ace3ff7eae3430218109ae0140e:.httpup-repo.current
+f:fe09f7977dcdb3bf9bfc5bb9ab3182d0:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:05dcfc12efe398f897bcfda65f79a34e:bat/spkgbuild
@@ -622,9 +622,11 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:xdelta/.checksums
 f:491833c9009d446720abdf8b13e48644:vsftpd/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:vsftpd/.checksums
 f:a3caf8a09239ee247169b47319d8e406:vsftpd/.pkgfiles
-f:b5177ef7baef63353d6f98a147f4d2cf:metasploit/spkgbuild
+f:ed8e5ae41eef27a79febbc798bcf946d:metasploit/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:metasploit/.checksums
 f:e56f8de4b832f430e7aca8c574df37e2:metasploit/.pkgfiles
+f:9d31ed4404f3432f3fe7dc8f5e912930:metasploit/attach
+f:dcc3ad4a96597b062ae41023f914194c:metasploit/detach
 f:355cff2377e1d6d3e7313b9042b030b0:aircrack-ng/spkgbuild
 f:127fe910da96a5b7c0bad82e316139d6:macchanger/spkgbuild
 f:014178141f7075870fbe9b3446c8f16a:steghide/spkgbuild

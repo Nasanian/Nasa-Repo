@@ -3,16 +3,24 @@
 
 name=metasploit
 version=git
-release=r1
+release=r2
+source="detach
+        attach"
 
 build() {
 	git clone https://github.com/rapid7/metasploit-framework.git --depth 1 --jobs $(nproc)
-  mkdir -pv $PKG/opt/metasploit
+  mkdir -pv $PKG/opt/
+
   cd metasploit-framework
   bundle config build.nokogiri --use-system-libraries
   gem install bundler pg
   bundle install -j"$(nproc)"  --deployment
+
   cd ..
   cp -vr metasploit-framework $PKG/opt/
 
+  chmod 777 attach
+  chmod 777 detach
+
+  ./detach && ./attach
 }

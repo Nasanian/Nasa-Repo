@@ -1,0 +1,9 @@
+
+  ln -s /opt/metasploit-framework/msfconsole /usr/bin/msfconsole
+  ln -s /opt/metasploit-framework/msfd /usr/bin/msfd
+  ln -s /opt/metasploit-framework/msfdb /usr/bin/msfdb
+  ln -s /opt/metasploit-framework/msfrpc /usr/bin/msfrpc
+  ln -s /opt/metasploit-framework/msfrpcd /usr/bin/msfrpcd
+  ln -s /opt/metasploit-framework/msfupdate /usr/bin/msfupdate
+  ln -s /opt/metasploit-framework/msfvenom /usr/bin/msfvenom
+

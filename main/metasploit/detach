@@ -1,0 +1,7 @@
+  unlink  /usr/bin/msfconsole &
+  unlink  /usr/bin/msfd &
+  unlink  /usr/bin/msfdb &
+  unlink  /usr/bin/msfrpc &
+  unlink  /usr/bin/msfrpcd &
+  unlink  /usr/bin/msfupdate &
+  unlink  /usr/bin/msfvenom &
