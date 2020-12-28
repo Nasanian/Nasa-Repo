@@ -4,10 +4,6 @@
 name=aria2
 version=git
 release=r1
-options=""
-noextract=""
-backup=""
-source=""
 
 build() {
 	git clone https://github.com/aria2/aria2.git --depth 1 --jobs $(nproc)
