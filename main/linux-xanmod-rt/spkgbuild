@@ -1,9 +1,9 @@
 # description	: Realtime Xanmod kernel. Inarguably the fastest and best kernel for desktop use. Also comes with a script I wrote!
-# depends	: elfutils mkinitramfs openssl linux-firmware yaml
+# depends	: elfutils mkinitramfs openssl linux-firmware yaml rsync
 
 name=linux-xanmod-rt
 version=git
-release=r4
+release=r5
 source="compilefastlinux"
 
 build() {
