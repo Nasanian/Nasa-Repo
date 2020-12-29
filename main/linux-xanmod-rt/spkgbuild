@@ -3,10 +3,11 @@
 
 name=linux-xanmod-rt
 version=git
-release=r3
+release=r4
 source="compilefastlinux"
 
 build() {
+  chmod 777 /usr/bin/compilefastlinux
   mkdir -p $PKG/usr/bin
   mkdir -p $PKG/usr/src/
   cp -ar compilefastlinux $PKG/usr/bin/

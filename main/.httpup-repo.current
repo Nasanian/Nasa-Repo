@@ -189,6 +189,7 @@ binwalk
 social-engineering-toolkit
 setoolkit
 postgresql
+johntheripper
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -625,6 +626,8 @@ vsftpd/.pkgfiles
 metasploit/spkgbuild
 metasploit/.checksums
 metasploit/.pkgfiles
+metasploit/attach
+metasploit/detach
 aircrack-ng/spkgbuild
 macchanger/spkgbuild
 steghide/spkgbuild
@@ -636,3 +639,5 @@ setoolkit/.checksums
 postgresql/spkgbuild
 postgresql/.checksums
 postgresql/.pkgfiles
+johntheripper/spkgbuild
+johntheripper/.checksums
