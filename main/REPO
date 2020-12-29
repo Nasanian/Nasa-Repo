@@ -568,7 +568,7 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:jsoncpp/.checksums
 f:53ff5d84e8761f65aee5e82d7853ed77:jsoncpp/.pkgfiles
 f:7f260a5b33ebc4a515391f8c163d4f2a:timeshift/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:timeshift/.checksums
-f:462c0feeada6eef5f6b2478aca04c85d:linux-xanmod-rt/spkgbuild
+f:654b20116987dd5c4b7f2cef08cd82d6:linux-xanmod-rt/spkgbuild
 f:94a38818fb2daf756831897b250f845d:linux-xanmod-rt/compilefastlinux
 f:74e384556c05cf797d790c39807aab27:linux-xanmod-rt/.checksums
 f:f03bbaf3bf64dbcc9d3d6add2c15af70:linux-xanmod-rt/.pkgfiles
@@ -591,11 +591,11 @@ f:d0f9969bd4a0a934044c9b4d5c1b1fb9:gradle/.pkgfiles
 f:cec7167048a929de5a46473e87f7089d:nvidia-beta/.pkgfiles
 f:b972093abd9e97c7be2428c4aa1ac9ee:nvidia-beta/.checksums
 f:768a64259f7e8d8a46a13b876d6c443c:nvidia-beta/nvidia-drm-outputclass.conf
-f:641409c6bf0d2e5acfc021a7742a5085:nvidia-beta/spkgbuild
+f:3ee5d9a63f3347ba5b3ca274304cbf1d:nvidia-beta/spkgbuild
 f:82b8db2d47df443f0489dbaac1cb0d88:nvidia-beta-modules/.pkgfiles
 f:293f5cd0de5f8d75267264c07d52fec7:nvidia-beta-modules/install
 f:e0612f583affa1c2d2f6f57bf2f880e8:nvidia-beta-modules/.checksums
-f:89774cd1d5ef94bbfba54dbc4f4ea13d:nvidia-beta-modules/spkgbuild
+f:802a1fe1203f58dfeae6c25ecbb004eb:nvidia-beta-modules/spkgbuild
 f:c7dc2067e3e5f925504369acb0bab328:katie/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:katie/.checksums
 f:9ae7625e41421719dd9b5ce84c20436d:katie/.pkgfiles
@@ -614,7 +614,7 @@ f:8efc06f48323fee7e6bb3cdaa7cb46bb:tor/.pkgfiles
 f:cec7167048a929de5a46473e87f7089d:nvidia-32-beta/.pkgfiles
 f:b972093abd9e97c7be2428c4aa1ac9ee:nvidia-32-beta/.checksums
 f:768a64259f7e8d8a46a13b876d6c443c:nvidia-32-beta/nvidia-drm-outputclass.conf
-f:b3140651713264ad4bfb3ecb0d53f976:nvidia-32-beta/spkgbuild
+f:b8abf1f0559fb7f9bae9cea33a5f8c1f:nvidia-32-beta/spkgbuild
 f:9881776ca79a2068300d182887d1afe5:proxychains-ng/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:proxychains-ng/.checksums
 f:a3caf8a09239ee247169b47319d8e406:proxychains-ng/.pkgfiles
