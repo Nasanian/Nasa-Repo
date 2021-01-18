@@ -1,0 +1,23 @@
+# description	: JavaScript runtime built on Chrome's V8 JavaScript engine (LTS)
+# depends	: c-ares icu python2 libuv zlib
+
+name=nodejs-lts
+version=14.15.4
+release=1
+source="https://nodejs.org/dist/v$version/node-v$version.tar.xz"
+
+build() {
+  scratch uninstall nodejs
+
+	cd node-v$version
+
+	./configure \
+		--prefix=/usr \
+		--shared-cares \
+		--shared-zlib \
+		--shared-libuv \
+		--with-intl=system-icu
+	make
+	make DESTDIR=$PKG install
+}
+

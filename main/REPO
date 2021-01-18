@@ -190,6 +190,7 @@ d:social-engineering-toolkit
 d:setoolkit
 d:postgresql
 d:johntheripper
+d:nodejs-lts
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -641,3 +642,6 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:postgresql/.checksums
 f:4f0bd1b1b9fe008957b2d357432e6b70:postgresql/.pkgfiles
 f:b619b6368397c86c7541d41739f0f410:johntheripper/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:johntheripper/.checksums
+f:6c5f3baa6388462f05c559b55410e33e:nodejs-lts/.checksums
+f:7f2b13f0f08346dfe0d2beacff03589e:nodejs-lts/.pkgfiles
+f:e92c03f868fc539e9a86a83b80304ab2:nodejs-lts/spkgbuild
