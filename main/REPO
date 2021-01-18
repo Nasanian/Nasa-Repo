@@ -530,4 +530,4 @@ f:4f0bd1b1b9fe008957b2d357432e6b70:postgresql/.pkgfiles
 f:8e222152d8538e7b7ca546622ebe5ae7:postgresql/spkgbuild
 f:b619b6368397c86c7541d41739f0f410:johntheripper/spkgbuild
 f:7f2b13f0f08346dfe0d2beacff03589e:nodejs-lts/.pkgfiles
-f:0c046b5474550aead935cd18cfece248:nodejs-lts/spkgbuild
+f:6143c21a654b0ba358a20a385797d507:nodejs-lts/spkgbuild

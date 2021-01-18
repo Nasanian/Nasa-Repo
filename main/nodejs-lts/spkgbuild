@@ -4,7 +4,7 @@
 name=nodejs-lts
 version=14.15.4
 release=1
-source="https://nodejs.org/dist/v$version/node-v$version-linux-x64.tar.xz"
+source="https://nodejs.org/dist/v$version/node-v$version.tar.gz"
 
 build() {
 
