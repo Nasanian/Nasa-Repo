@@ -7,7 +7,6 @@ release=1
 source="https://nodejs.org/dist/v$version/node-v$version-linux-x64.tar.xz"
 
 build() {
-  scratch uninstall nodejs-lts
 
 	cd node-v$version
 
