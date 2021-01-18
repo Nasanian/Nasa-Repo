@@ -1,5 +1,5 @@
 # description	: inarguably the best custom FOSS discord client (CANARY ONLY, RESTART CLIENT AFTER INSTALL)
-# depends	: discord-canary nodejs
+# depends	: discord-canary nodejs-lts
 name=powercord
 version=git
 release=r2

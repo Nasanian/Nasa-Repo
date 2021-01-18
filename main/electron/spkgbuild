@@ -1,5 +1,5 @@
 # description	: just a dependency required for electron-player
-# depends	: nodejs
+# depends	: nodejs-lts
 
 name=electron
 version=git

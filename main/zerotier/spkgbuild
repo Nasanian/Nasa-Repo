@@ -1,5 +1,5 @@
 # description	: zerotier is a virtual global LAN used for things such as low-latency online gaming. (GAN)
-# depends	: nodejs npx cmake gcc binutils bash
+# depends	: nodejs-lts npx cmake gcc binutils bash
 
 name=zerotier
 version=9999

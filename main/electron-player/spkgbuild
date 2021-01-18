@@ -1,5 +1,5 @@
 # description	: Used to look at Netflix,  browse amazon, or any other Electron infested application.
-# depends	: nodejs npx electron
+# depends	: nodejs-lts npx electron
 
 name=electron-player
 version=git

@@ -1,5 +1,5 @@
 # description	: npx package executor for node
-# depends	: nodejs
+# depends	: nodejs-lts
 
 name=npx
 version=git

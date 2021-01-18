@@ -1,5 +1,5 @@
 # description	: idk what this is - something for crypto? kinda important
-# depends	: git make nodejs gcc glibc automake cmake binutils
+# depends	: git make nodejs-lts gcc glibc automake cmake binutils
 
 name=libsodium
 version=git

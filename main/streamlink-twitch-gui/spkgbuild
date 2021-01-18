@@ -1,5 +1,5 @@
 # description	: a nice graphical user interface on top of the Streamlink command line interface.
-# depends	: nodejs yarn streamlink curl chatterino
+# depends	: nodejs-lts yarn streamlink curl chatterino
 
 name=streamlink-twitch-gui
 version=1.10.0
