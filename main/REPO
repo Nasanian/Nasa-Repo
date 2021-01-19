@@ -259,7 +259,8 @@ f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
 f:b3c14690e8d1e3bc1984d62e46631590:lutris/.pkgfiles
 f:f675a7ba393acd01649f9ed30af4d523:lutris/spkgbuild
 f:3299d5039315eb4a4a354fe36d57f91f:mesa-vk/.pkgfiles
-f:bb6fcde95edc3b27244ce3bd36db9cf3:mesa-vk/spkgbuild
+f:7d875695393cfcc3d3a95230d3ecc521:mesa-vk/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:mesa-vk/.checksums
 f:9478fa402ea7011c506a1e1c2f847fec:mono/.pkgfiles
 f:21a1f9f599832cf25c9b249adb9e5108:mono/spkgbuild
 f:4066b1d8d65ac17c525687df47312e9b:mpv-vk/.pkgfiles
@@ -479,7 +480,7 @@ f:8d41d06973a6e77173686b2bba7c1eed:jsoncpp/spkgbuild
 f:7f260a5b33ebc4a515391f8c163d4f2a:timeshift/spkgbuild
 f:f03bbaf3bf64dbcc9d3d6add2c15af70:linux-xanmod-rt/.pkgfiles
 f:94a38818fb2daf756831897b250f845d:linux-xanmod-rt/compilefastlinux
-f:654b20116987dd5c4b7f2cef08cd82d6:linux-xanmod-rt/spkgbuild
+f:ee031529643018971a381b570e1c1534:linux-xanmod-rt/spkgbuild
 f:fbf32bcdcd514887433dbe3305ed4114:cutter/.pkgfiles
 f:b3ea9ad4905c8ea5359ebe56472ccebf:cutter/spkgbuild
 f:8dfde073985c5bf35565edb927d22675:radare2/.pkgfiles
@@ -513,6 +514,7 @@ f:b8abf1f0559fb7f9bae9cea33a5f8c1f:nvidia-32-beta/spkgbuild
 f:a3caf8a09239ee247169b47319d8e406:proxychains-ng/.pkgfiles
 f:9881776ca79a2068300d182887d1afe5:proxychains-ng/spkgbuild
 f:55395bc7ab780df914937ec697ce7252:xdelta/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:xdelta/.checksums
 f:a3caf8a09239ee247169b47319d8e406:vsftpd/.pkgfiles
 f:491833c9009d446720abdf8b13e48644:vsftpd/spkgbuild
 f:e56f8de4b832f430e7aca8c574df37e2:metasploit/.pkgfiles
