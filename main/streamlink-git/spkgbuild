@@ -1,7 +1,7 @@
 # description	: streamlink - a library which can be used for streamlink-twitch-gui, youtube, dailymotion, and more!
 # depends	: python3-pip python3 youtube-dl2 mpv-vk python3-pysocks python3-websocket-client python3-iso-639 python3-iso3166 python3-isodate python3-pycryptodome gpgme
 
-name=streamlink2
+name=streamlink-git
 version=git
 release=r1
 

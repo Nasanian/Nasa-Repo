@@ -1,5 +1,5 @@
 # description	: Chatterino 2 is a chat client for Twitch.tv and streamlink-twitch-gui
-# depends	: qt5 clang gst-plugins-good gst-plugins-ugly gst-plugins-good boost json-glib json-c pkgconf openssl
+# depends	: qt5 clang gst-plugins-good gst-plugins-ugly gst-plugins-good boost json-glib json-c pkgconf openssl streamlink-git
 
 name=chatterino
 version=git
