@@ -3,7 +3,7 @@
 
 name=linux-xanmod-rt
 version=git
-release=r5
+release=r6
 source="compilefastlinux"
 
 build() {
@@ -11,5 +11,5 @@ build() {
   mkdir -p $PKG/usr/bin
   mkdir -p $PKG/usr/src/
   cp -ar compilefastlinux $PKG/usr/bin/
-  git clone https://github.com/xanmod/linux.git -b 5.10-cacule --depth 1 --jobs $(nproc) $PKG/usr/src/XanMod
+  git clone https://github.com/xanmod/linux.git -b 5.10-rt --depth 1 --jobs $(nproc) $PKG/usr/src/XanMod
 }
