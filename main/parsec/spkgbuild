@@ -1,0 +1,15 @@
+# description	: Remotely connect to a gaming pc for a low-latency remote computing experience.
+# depends	: git libxext libxcb libglvnd binutils gcc tar libva
+
+name=parsec
+version=150_28
+release=r1
+source="https://builds.parsecgaming.com/package/parsec-linux.deb"
+
+build() {
+
+    ar x *.deb
+    tar xf data.tar.xz -C $PKG
+    chmod 755 -R $PKG/
+
+}
