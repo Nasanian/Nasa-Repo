@@ -259,7 +259,8 @@ f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
 f:b3c14690e8d1e3bc1984d62e46631590:lutris/.pkgfiles
 f:f675a7ba393acd01649f9ed30af4d523:lutris/spkgbuild
 f:3299d5039315eb4a4a354fe36d57f91f:mesa-vk/.pkgfiles
-f:7d875695393cfcc3d3a95230d3ecc521:mesa-vk/spkgbuild
+f:72b49232c86f91765d4ce6a739557539:mesa-vk/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:mesa-vk/.checksums
 f:9478fa402ea7011c506a1e1c2f847fec:mono/.pkgfiles
 f:21a1f9f599832cf25c9b249adb9e5108:mono/spkgbuild
 f:4066b1d8d65ac17c525687df47312e9b:mpv-vk/.pkgfiles
@@ -323,6 +324,7 @@ f:46f2c9edccbd8ef25cfef245a8f2ee51:spirv-tools-32/spkgbuild
 f:f956fe575cd914c3c99698171511f033:sqlitebrowser/.pkgfiles
 f:a230c23c4481c05d9d8605473000b044:sqlitebrowser/spkgbuild
 f:72f9fd2ae6b6a5480d4b58d33fe3bb83:v4l2loopback/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:v4l2loopback/.checksums
 f:6ce0be1ca358ac371368a0c16dc7999a:virt-manager/.pkgfiles
 f:ff9185095f2fcfda395275e07db8b066:virt-manager/spkgbuild
 f:60bcdc61493e2d0eef1429b9acb79eeb:vulkan-headers/.pkgfiles
@@ -381,8 +383,10 @@ f:e5cccf2e953ca0bf8ace7e3495109e28:scratchfast/scratch
 f:96b6b0b8de8aff9a2a08f8c41e092d27:scratchfast/spkgbuild
 f:9e0caed7edf26d230ca7f2e3f564bfe7:pkgbuildfast/pkgbuild
 f:2d0ffed9d5bc91ef6eafef96fd2b20ea:pkgbuildfast/spkgbuild
-f:5b54a7b83d088d95ba7d514beb1d22af:obs-v4l2/hevc-vaapi.diff
-f:3bd180e3f9f3fab9ea1261f8c89fc571:obs-v4l2/spkgbuild
+f:72275057d062c3bdb90c9c9fd5e541e7:obs-v4l2/spkgbuild
+f:b548eb629f605e002262d8b51ecae5ab:obs-v4l2/hevc-vaapi.diff
+f:817d648561f6e6acd983a55e2c3cc0a1:obs-v4l2/.checksums
+f:fe6e30603fe5db758929feaa67669526:obs-v4l2/.pkgfiles
 f:b80ae00a84a92c966b9fa8522bcd7d5e:noip/spkgbuild
 f:3e817f369eaff04c41fe7d2414b7636a:trayer/spkgbuild
 f:d3ae6cbb2292c213ada7dca0679756f3:discord-canary/.pkgfiles
@@ -394,7 +398,8 @@ f:6be1a5bfe998952f87ff0070cde1df43:themix/spkgbuild
 f:6c6d09b4b309790cf7e1b075b5554abd:stalonetray/.pkgfiles
 f:6054470935d08b978be6f8f09c844f80:stalonetray/spkgbuild
 f:33fc99a182f5631cf82536e7a6a0bdd6:streamlink-twitch-gui/.pkgfiles
-f:367c40befea819b44ca29202e1e929f0:streamlink-twitch-gui/spkgbuild
+f:ed410f70e342c9730822e0e3652152b3:streamlink-twitch-gui/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:streamlink-twitch-gui/.checksums
 f:22dcfa0cce57f51c6858cb91789f8df1:inkscape/.pkgfiles
 f:4e3be6102404c77172745c5f6e3e9c31:inkscape/fixatomicrel.patch
 f:999a51acae16832182b4c623f2cd77da:inkscape/spkgbuild
@@ -532,3 +537,5 @@ f:b619b6368397c86c7541d41739f0f410:johntheripper/spkgbuild
 f:7f2b13f0f08346dfe0d2beacff03589e:nodejs-lts/.pkgfiles
 f:6143c21a654b0ba358a20a385797d507:nodejs-lts/spkgbuild
 f:e629921ba718c08af028ea3422e943b9:streamlink-git/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:streamlink-git/.checksums
+f:48226caecc22154dd06ec2e70b6297f4:streamlink-git/.pkgfiles

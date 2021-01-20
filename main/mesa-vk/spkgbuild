@@ -24,6 +24,7 @@ build() {
 	      -Dvalgrind=false \
 	      -Dglx=dri \
 	      -Degl=true \
+        -Dgallium=true \
 	      -Dosmesa=gallium \
 	      -Dgallium-nine=true \
 	      -Ddri-drivers=$DRI_DRIVERS \
