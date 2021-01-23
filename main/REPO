@@ -266,7 +266,7 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:mesa-vk/.checksums
 f:9478fa402ea7011c506a1e1c2f847fec:mono/.pkgfiles
 f:21a1f9f599832cf25c9b249adb9e5108:mono/spkgbuild
 f:4066b1d8d65ac17c525687df47312e9b:mpv-vk/.pkgfiles
-f:a92c2855ddd91fe9f9154d750513b326:mpv-vk/spkgbuild
+f:665c1355a464f70151f0aa6f2aaf6646:mpv-vk/spkgbuild
 f:d498856af918cb02d7500a516bb17911:ncnn/.pkgfiles
 f:c4c80315608831f9dc60fce8d6f9a2b6:ncnn/spkgbuild
 f:a1caa3e50775497384305dd39dcb841e:neovim/.pkgfiles
@@ -367,7 +367,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:07cd581753ea155be93dae4107eae10f:.httpup-repo.current
+f:f70cc6b3fc0e903006c64c4c0245ae8b:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:fa55a7c3296e3bcd1e172bb5d909e388:bat/.pkgfiles
@@ -425,7 +425,8 @@ f:a2b36a99597c0ff06fb7e5f5d0e454bf:btrfs-speed/spkgbuild
 f:db4b77f9fdfff1fc4d7c5570ce2cdd07:compsize/.pkgfiles
 f:409f091025eea7552925e5efc965d4f9:compsize/spkgbuild
 f:46c5b5eba93f507fff5475c848551f21:syncplay/.pkgfiles
-f:6641ff69085c17736ff3ebb0f947b0bf:syncplay/spkgbuild
+f:b34e6946ee7ec7d3e1a79ed292c562dd:syncplay/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:syncplay/.checksums
 f:92f856cf533aac56ff7d24f7b74d362f:kodi/spkgbuild
 f:474768273a4f6dd3737f6d77de8906e5:youtube-dl2/spkgbuild
 f:4b80b342d2772fb91c6b9fc1294aa376:youtube-dl2/.pkgfiles

@@ -192,6 +192,7 @@ johntheripper
 nodejs-lts
 streamlink-git
 parsec
+nmap
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -543,3 +544,6 @@ streamlink-git/.pkgfiles
 parsec/.pkgfiles
 parsec/spkgbuild
 parsec/.checksums
+nmap/spkgbuild
+nmap/.checksums
+nmap/.pkgfiles
