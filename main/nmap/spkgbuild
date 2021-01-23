@@ -1,0 +1,16 @@
+# description	: alternative to ida/ghidra. also known as a radare2 gui
+# depends	: openssl lua python2-gtk pcre2 pcre sudo xterm
+
+name=nmap
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/nmap/nmap --depth 1 --jobs $(nproc)
+  cd nmap
+
+  ./configure
+  make
+
+	make DESTDIR=$PKG install
+}
