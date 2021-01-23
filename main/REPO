@@ -518,7 +518,7 @@ f:cec7167048a929de5a46473e87f7089d:nvidia-32-beta/.pkgfiles
 f:768a64259f7e8d8a46a13b876d6c443c:nvidia-32-beta/nvidia-drm-outputclass.conf
 f:b8abf1f0559fb7f9bae9cea33a5f8c1f:nvidia-32-beta/spkgbuild
 f:a3caf8a09239ee247169b47319d8e406:proxychains-ng/.pkgfiles
-f:9881776ca79a2068300d182887d1afe5:proxychains-ng/spkgbuild
+f:7e1a5531ea89d26cde106ba3c6a867bc:proxychains-ng/spkgbuild
 f:55395bc7ab780df914937ec697ce7252:xdelta/spkgbuild
 f:a3caf8a09239ee247169b47319d8e406:vsftpd/.pkgfiles
 f:491833c9009d446720abdf8b13e48644:vsftpd/spkgbuild
@@ -545,3 +545,5 @@ f:3299d5039315eb4a4a354fe36d57f91f:parsec/.pkgfiles
 f:75fc17b468339f8c9e24a6080383b415:parsec/spkgbuild
 f:93ee0a4053dbf7406a6223e3e957cde3:parsec/.checksums
 f:8c6e4d4c124fcfcfde5100c12939a650:nmap/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:nmap/.checksums
+f:19295ff13004d402bdcde47332243dce:nmap/.pkgfiles
