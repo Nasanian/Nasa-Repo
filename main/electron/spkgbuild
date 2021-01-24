@@ -3,7 +3,7 @@
 
 name=electron
 version=git
-release=r1
+release=r2
 
 build() {
   npm install -i electron@latest -g --force --prefix=$PKG/usr/
