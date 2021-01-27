@@ -2,7 +2,7 @@
 # depends	: discord-canary nodejs-lts
 name=powercord
 version=git
-release=r2
+release=r3
 
 build() {
   git clone https://github.com/powercord-org/powercord --depth 1
