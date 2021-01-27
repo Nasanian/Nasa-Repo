@@ -426,6 +426,7 @@ compsize/.pkgfiles
 compsize/spkgbuild
 syncplay/.pkgfiles
 syncplay/spkgbuild
+syncplay/.checksums
 kodi/spkgbuild
 youtube-dl2/spkgbuild
 youtube-dl2/.pkgfiles

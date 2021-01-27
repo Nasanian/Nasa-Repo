@@ -3,7 +3,7 @@
 
 name=metasploit
 version=git
-release=r2
+release=r3
 source="detach
         attach"
 
@@ -23,4 +23,6 @@ build() {
   chmod 777 detach
 
   ./detach && ./attach
+
+  echo "\nRun msfconsole to get started."
 }
