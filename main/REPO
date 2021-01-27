@@ -391,7 +391,8 @@ f:fe6e30603fe5db758929feaa67669526:obs-v4l2/.pkgfiles
 f:b80ae00a84a92c966b9fa8522bcd7d5e:noip/spkgbuild
 f:3e817f369eaff04c41fe7d2414b7636a:trayer/spkgbuild
 f:d3ae6cbb2292c213ada7dca0679756f3:discord-canary/.pkgfiles
-f:6a2321ce04147f93e42947c50bad410f:discord-canary/spkgbuild
+f:2fecb1a751b199c3ba16cdd8a7914fde:discord-canary/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:discord-canary/.checksums
 f:c1c61ad2d5c12e30bd51c48e5e6c458b:arandr/.pkgfiles
 f:ffd1ed924bf2d9c3ee232b46b27aa453:arandr/spkgbuild
 f:2b15dabc46b4d4066dd9f60714816644:themix/.pkgfiles
@@ -519,7 +520,8 @@ f:768a64259f7e8d8a46a13b876d6c443c:nvidia-32-beta/nvidia-drm-outputclass.conf
 f:b8abf1f0559fb7f9bae9cea33a5f8c1f:nvidia-32-beta/spkgbuild
 f:a3caf8a09239ee247169b47319d8e406:proxychains-ng/.pkgfiles
 f:7e1a5531ea89d26cde106ba3c6a867bc:proxychains-ng/spkgbuild
-f:55395bc7ab780df914937ec697ce7252:xdelta/spkgbuild
+f:72b2d17b0b25aefbc28ec930c1038fa3:xdelta/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:xdelta/.checksums
 f:a3caf8a09239ee247169b47319d8e406:vsftpd/.pkgfiles
 f:491833c9009d446720abdf8b13e48644:vsftpd/spkgbuild
 f:e56f8de4b832f430e7aca8c574df37e2:metasploit/.pkgfiles

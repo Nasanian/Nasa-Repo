@@ -3,17 +3,15 @@
 
 name=xdelta
 version=git
-release=r1
+release=r2
 options=""
 noextract=""
 backup=""
 source=""
 
 build() {
-  git clone https://github.com/jmacd/xdelta.git --depth 1 --jobs $(nproc)
-  cd xdelta
+  git clone https://github.com/ChronoMonochrome/xdelta3.git --depth 1 --jobs $(nproc)
   cd xdelta3
-  autoreconf -fi
   ./configure --prefix=/usr
 	make
 	make DESTDIR=$PKG install
