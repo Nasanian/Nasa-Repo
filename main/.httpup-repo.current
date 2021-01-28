@@ -185,7 +185,6 @@ macchanger
 steghide
 stegsolve
 binwalk
-social-engineering-toolkit
 setoolkit
 postgresql
 johntheripper
@@ -393,6 +392,7 @@ noip/spkgbuild
 trayer/spkgbuild
 discord-canary/.pkgfiles
 discord-canary/spkgbuild
+discord-canary/.checksums
 arandr/.pkgfiles
 arandr/spkgbuild
 themix/.pkgfiles
@@ -521,6 +521,7 @@ nvidia-32-beta/spkgbuild
 proxychains-ng/.pkgfiles
 proxychains-ng/spkgbuild
 xdelta/spkgbuild
+xdelta/.checksums
 vsftpd/.pkgfiles
 vsftpd/spkgbuild
 metasploit/.pkgfiles
@@ -532,7 +533,6 @@ macchanger/spkgbuild
 steghide/spkgbuild
 stegsolve/spkgbuild
 binwalk/spkgbuild
-social-engineering-toolkit/spkgbuild
 setoolkit/spkgbuild
 postgresql/.pkgfiles
 postgresql/spkgbuild
