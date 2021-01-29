@@ -420,11 +420,11 @@ f:c0873e2b015c6d099671a461dadbed47:powercord/spkgbuild
 f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles
 f:8b6d9191a57be8c386ea85a4646ba24a:bitmap-fonts-pack/spkgbuild
 f:91afce2f12a1e541e1eac0b65ee79305:grub-btrfs/.pkgfiles
-f:55215c57e63820278b6e183d547b2742:grub-btrfs/spkgbuild
+f:fc1678515da8dd0bf6fe4ff3c70c1242:grub-btrfs/spkgbuild
 f:a5a7979f98f5e9eacd5734d37c5e1a4f:btrfs-speed/.pkgfiles
 f:a2b36a99597c0ff06fb7e5f5d0e454bf:btrfs-speed/spkgbuild
 f:db4b77f9fdfff1fc4d7c5570ce2cdd07:compsize/.pkgfiles
-f:409f091025eea7552925e5efc965d4f9:compsize/spkgbuild
+f:0c751e127ccbbca152e77676b7301b68:compsize/spkgbuild
 f:46c5b5eba93f507fff5475c848551f21:syncplay/.pkgfiles
 f:b34e6946ee7ec7d3e1a79ed292c562dd:syncplay/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:syncplay/.checksums
@@ -484,7 +484,7 @@ f:4578c97d3b74d13464693bf962fc5234:oomd/.pkgfiles
 f:f5cc0cb57a5595b15111771cdbd199f1:oomd/spkgbuild
 f:53ff5d84e8761f65aee5e82d7853ed77:jsoncpp/.pkgfiles
 f:8d41d06973a6e77173686b2bba7c1eed:jsoncpp/spkgbuild
-f:7f260a5b33ebc4a515391f8c163d4f2a:timeshift/spkgbuild
+f:6fa18546c68fd77e6042d9f258adde0c:timeshift/spkgbuild
 f:f03bbaf3bf64dbcc9d3d6add2c15af70:linux-xanmod-rt/.pkgfiles
 f:94a38818fb2daf756831897b250f845d:linux-xanmod-rt/compilefastlinux
 f:06a99f1fc66aa96b63adf5c7088b768d:linux-xanmod-rt/spkgbuild

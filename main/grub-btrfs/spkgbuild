@@ -3,7 +3,7 @@
 
 name=grub-btrfs
 version=git
-release=r1
+release=r2
 
 build() {
   git clone https://github.com/Antynea/grub-btrfs.git --depth 1

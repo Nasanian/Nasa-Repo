@@ -3,7 +3,7 @@
 
 name=compsize
 version=git
-release=r1
+release=r2
 options=""
 noextract=""
 backup=""

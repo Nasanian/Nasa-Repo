@@ -3,7 +3,7 @@
 
 name=timeshift
 version=git
-release=r1
+release=r2
 
 build() {
   git clone https://github.com/teejee2008/timeshift.git --depth 1 --jobs $(nproc)
