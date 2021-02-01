@@ -7,7 +7,7 @@ name=qutebrowser-galaxy
 sipver=12.8.1
 qtver=5.15.1
 version=git
-release=r1
+release=r2
 source="qutebox"
 
 # fix bsdtar extract error
@@ -22,9 +22,8 @@ build() {
   git clone https://github.com/qutebrowser/qutebrowser.git --depth 1 --jobs $(nproc)
   cd qutebrowser
   #pip3 install pyqt5==${qtver} pyqtwebengine==${qtver} PyQt5-sip==${sipver}
-  pip3 install PyQt5==5.15.1 PyQt5-sip==12.8.1 PyQtWebEngine==5.15.0
-  pip3 install -r requirements.txt
-	make -f misc/Makefile DESTDIR=$PKG PREFIX=/usr install
+  pip3 install PyQt5==5.15.1 PyQt5-sip==12.8.1 PyQtWebEngine==5.15.0 PyYAML adblock==0.4.1 attrs==20.3.0 colorama==0.4.4 dataclasses importlib-resources Jinja2==2.11.2 MarkupSafe==1.1.1 Pygments==2.7.4
 
+	make -f misc/Makefile DESTDIR=$PKG PREFIX=/usr install
 
 }
