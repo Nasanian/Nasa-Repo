@@ -3,7 +3,7 @@
 
 name=btrfs-speed
 version=git
-release=surge
+release=surger1
 options=""
 noextract=""
 backup=""
@@ -12,6 +12,5 @@ source=""
 build() {
   wget http://btrfs-speed.surge.sh/btrfs-speed
   install  -Dm755 btrfs-speed $PKG/usr/bin/btrfs-speed
-  install  -Dm755 btrfs-speed /usr/bin/btrfs-speed
 
 }
