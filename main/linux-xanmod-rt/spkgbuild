@@ -3,7 +3,7 @@
 
 name=linux-xanmod-rt
 version=git
-release=r10
+release=r11
 source="compilefastlinux"
 
 build() {
@@ -11,7 +11,7 @@ build() {
   mkdir -p $PKG/usr/src/
   cp -ar compilefastlinux $PKG/usr/bin/
   git clone https://github.com/xanmod/linux.git -b 5.10-rt --depth 1 --jobs $(nproc) $PKG/usr/src/XanMod
-  chmod 777 $PKG/usr/bin/compilefastlinux
+  chmod 777 /usr/bin/compilefastlinux
 
   echo "\nDone\! Run compilefastlinux to get started on the new kernel\!"
 }
