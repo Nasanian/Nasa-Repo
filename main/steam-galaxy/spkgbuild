@@ -2,7 +2,7 @@
 # depends	: libx11-32 libdrm-32 xz-32 icu-32-git libxshmfence-32 mesa-32
 
 name=steam-galaxy
-version=1.0.0.66
+version=1.0.0.68
 release=666
 source="http://repo.steampowered.com/steam/pool/steam/s/steam/steam_$version.tar.gz
         steam"

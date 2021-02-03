@@ -192,7 +192,7 @@ d:nodejs-lts
 d:streamlink-git
 d:parsec
 d:nmap
-d:qbittorrent-git
+d:transmission
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -367,7 +367,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:8711a6db0be73e71e59c168315fc558f:.httpup-repo.current
+f:4fa3d5fc5346e4e14ae82449e5a32a2b:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:fa55a7c3296e3bcd1e172bb5d909e388:bat/.pkgfiles
@@ -414,9 +414,9 @@ f:75e7b12222635ea74379f1ef7f1ee87f:slippi/spkgbuild
 f:a59ea0d66810d42835ad00f184c9c4c0:keepassxc/.pkgfiles
 f:df7db30d586df65fe25994259ee1edc6:keepassxc/spkgbuild
 f:b5d4dbd3fe803f5a35649a986b6fa9d8:thunar-noroot/norootwarn.patch
-f:676d09d03d837ec013f5cae54042ca1b:thunar-noroot/spkgbuild
+f:d8d89a7c9e8d0cb37aaff1f0bb3afb05:thunar-noroot/spkgbuild
 f:06ea99333f1a3f92cbf2939daf68ed85:powercord/.pkgfiles
-f:c0873e2b015c6d099671a461dadbed47:powercord/spkgbuild
+f:3160340cffea9c5ae52fedfd3e707595:powercord/spkgbuild
 f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles
 f:8b6d9191a57be8c386ea85a4646ba24a:bitmap-fonts-pack/spkgbuild
 f:91afce2f12a1e541e1eac0b65ee79305:grub-btrfs/.pkgfiles
@@ -446,14 +446,15 @@ f:2b86f2695abda15a45bad33295dd538f:harfbuzz-icu-git/spkgbuild
 f:6e61d27551a4cd1f779e819404f69611:icu-git/spkgbuild
 f:d39cfc3ffe332b5db8e91ed01cf74ae4:harfbuzz-32-git/spkgbuild
 f:bc5aeeac0ba42c6133c2993005735ccf:steam-galaxy/.pkgfiles
-f:e238c3e3356c8a689d155d69b663a1a7:steam-galaxy/spkgbuild
+f:0764da39c6fe841fb255499f45d40df4:steam-galaxy/spkgbuild
 f:3dbb0dbbb5d45c6a6ea7b8f8b562cf27:steam-galaxy/steam
+f:9da9d9be23ddd18a2c247ab951a288c0:steam-galaxy/.checksums
 f:865caadaba12eb4a3d1b2fd39c2c99b1:icu-32-git/spkgbuild
 f:a8513fd36cc1ff2dbe4dbc4cbef81a04:python3-rencode/.pkgfiles
 f:ee39aba34d85eb36cc8c7149df2a26bc:python3-rencode/spkgbuild
 f:ddf5cfb1dee166c3c47f56cb9b017b83:qutebrowser-galaxy/.pkgfiles
 f:565030e233d4b3276cff4f9778a246b2:qutebrowser-galaxy/qutebox
-f:a3a89f5ff9bfd7ab73dfe8759bfc79d9:qutebrowser-galaxy/spkgbuild
+f:ecf6dbc1b2b3c02fa36d1c4c9bbabe7f:qutebrowser-galaxy/spkgbuild
 f:fc58913219694fe615a1d2083112eca3:libav1/.pkgfiles
 f:f6d00fc6cf449339455b5fe01e51d158:libav1/spkgbuild
 f:47aabdeafcb1deee9a347651f54164d1:uget-stable/spkgbuild
@@ -487,7 +488,7 @@ f:8d41d06973a6e77173686b2bba7c1eed:jsoncpp/spkgbuild
 f:6fa18546c68fd77e6042d9f258adde0c:timeshift/spkgbuild
 f:f03bbaf3bf64dbcc9d3d6add2c15af70:linux-xanmod-rt/.pkgfiles
 f:94a38818fb2daf756831897b250f845d:linux-xanmod-rt/compilefastlinux
-f:06a99f1fc66aa96b63adf5c7088b768d:linux-xanmod-rt/spkgbuild
+f:4aa39bbe6b60267b0342ad87c1728ac1:linux-xanmod-rt/spkgbuild
 f:74e384556c05cf797d790c39807aab27:linux-xanmod-rt/.checksums
 f:fbf32bcdcd514887433dbe3305ed4114:cutter/.pkgfiles
 f:b3ea9ad4905c8ea5359ebe56472ccebf:cutter/spkgbuild
@@ -549,6 +550,6 @@ f:93ee0a4053dbf7406a6223e3e957cde3:parsec/.checksums
 f:8c6e4d4c124fcfcfde5100c12939a650:nmap/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:nmap/.checksums
 f:19295ff13004d402bdcde47332243dce:nmap/.pkgfiles
-f:c7867955d65f138af5a8e22e33663532:qbittorrent-git/.pkgfiles
-f:df3c752c263ac457f3f6b9d3f1f9ec80:qbittorrent-git/spkgbuild
-f:c1a5d97f6be1b463a7c0faf320eee13e:qbittorrent-git/.checksums
+f:c7867955d65f138af5a8e22e33663532:transmission/.pkgfiles
+f:7402ac2b23f28eb1b80bac39a113f655:transmission/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:transmission/.checksums

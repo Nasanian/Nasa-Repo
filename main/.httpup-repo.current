@@ -192,6 +192,7 @@ nodejs-lts
 streamlink-git
 parsec
 nmap
+qbittorrent-git
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -548,3 +549,6 @@ parsec/.checksums
 nmap/spkgbuild
 nmap/.checksums
 nmap/.pkgfiles
+qbittorrent-git/.pkgfiles
+qbittorrent-git/spkgbuild
+qbittorrent-git/.checksums

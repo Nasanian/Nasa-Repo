@@ -1,5 +1,5 @@
 # description	: Xfce file manager, a GTK+ 3 GUI to organise the files on your computer. this time without the annoying root warning
-# depends	: exo libxfce4ui gnome-icon-theme libgudev libnotify libexif thunar
+# depends	: exo libxfce4ui gnome-icon-theme libgudev libnotify libexif thunar udisks2 gvfs
 
 name=thunar-noroot
 version=1.8.15

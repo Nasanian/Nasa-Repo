@@ -1,0 +1,23 @@
+# description	: A highly customizable and advanced BitTorrent client programmed in C++.
+# depends	: libtorrent-rasterbar boost qt5 python3 gtk2 gkt3
+
+name=transmission
+version=git
+release=r1
+source=""
+
+build() {
+
+ git clone https://github.com/transmission/transmission Transmission --depth 1
+ cd Transmission
+
+ git submodule update --init
+ mkdir build
+
+ cd build
+ cmake ..
+
+ make
+ make DESTDIR=$PKG install
+
+}
