@@ -1,0 +1,17 @@
+# description	: Fitted-WM, highly customized DWM fork with some of InstantWM's features.
+# depends	: libx11 libxinerama fontconfig libxft dmenu ohsnap siji-font st libxcb gcc xorg libxft libxinerama yajl make
+
+name=fitwm
+version=git
+release=r1
+noextract=""
+backup=""
+source=""
+
+build() {
+  git clone https://github.com/Nasanian/Fit-WM.git --depth 1 --jobs $(nproc)
+  cd Fit-WM
+  cp -ar $PKG/Fit-WM ~/suckless
+	make
+	make DESTDIR=$PKG install
+}
