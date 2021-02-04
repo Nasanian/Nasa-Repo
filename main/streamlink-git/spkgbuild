@@ -3,7 +3,7 @@
 
 name=streamlink-git
 version=git
-release=r1
+release=r2
 
 build() {
 	git clone https://github.com/streamlink/streamlink.git --depth 1 --jobs $(nproc)
