@@ -415,7 +415,8 @@ f:75e7b12222635ea74379f1ef7f1ee87f:slippi/spkgbuild
 f:a59ea0d66810d42835ad00f184c9c4c0:keepassxc/.pkgfiles
 f:df7db30d586df65fe25994259ee1edc6:keepassxc/spkgbuild
 f:b5d4dbd3fe803f5a35649a986b6fa9d8:thunar-noroot/norootwarn.patch
-f:d8d89a7c9e8d0cb37aaff1f0bb3afb05:thunar-noroot/spkgbuild
+f:722ad34863f498c0ec82af848909e849:thunar-noroot/spkgbuild
+f:9b3a944839f066cf29bc6a8c0975b04b:thunar-noroot/.checksums
 f:06ea99333f1a3f92cbf2939daf68ed85:powercord/.pkgfiles
 f:3160340cffea9c5ae52fedfd3e707595:powercord/spkgbuild
 f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles
@@ -427,6 +428,7 @@ f:3dcff9ead39589fa5ac926c297d58912:btrfs-speed/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:btrfs-speed/.checksums
 f:db4b77f9fdfff1fc4d7c5570ce2cdd07:compsize/.pkgfiles
 f:0c751e127ccbbca152e77676b7301b68:compsize/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:compsize/.checksums
 f:46c5b5eba93f507fff5475c848551f21:syncplay/.pkgfiles
 f:b34e6946ee7ec7d3e1a79ed292c562dd:syncplay/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:syncplay/.checksums
@@ -543,7 +545,7 @@ f:8e222152d8538e7b7ca546622ebe5ae7:postgresql/spkgbuild
 f:b619b6368397c86c7541d41739f0f410:johntheripper/spkgbuild
 f:7f2b13f0f08346dfe0d2beacff03589e:nodejs-lts/.pkgfiles
 f:6143c21a654b0ba358a20a385797d507:nodejs-lts/spkgbuild
-f:e629921ba718c08af028ea3422e943b9:streamlink-git/spkgbuild
+f:fc56e6b44175ffbaa443da5277d03284:streamlink-git/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:streamlink-git/.checksums
 f:48226caecc22154dd06ec2e70b6297f4:streamlink-git/.pkgfiles
 f:3299d5039315eb4a4a354fe36d57f91f:parsec/.pkgfiles
