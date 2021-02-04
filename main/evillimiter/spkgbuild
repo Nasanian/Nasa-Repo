@@ -3,12 +3,13 @@
 
 name=evillimiter
 version=git
-release=r1
+release=r2
 
 build() {
 
   git clone https://github.com/bitbrute/evillimiter.git --depth 1
   cd evillimiter
+  pip3 install terminaltables netaddr
   python3 setup.py install --root=$PKG --optimize=1
 
 }
