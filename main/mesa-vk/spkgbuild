@@ -2,7 +2,7 @@
 # depends	: git libdrm vulkan-meta vulkan-meta-32 spirv-meta spirv-meta-32 llvm expat zlib zstd elfutils libxcb libxshmfence libx11 wayland libxvmc libxv libxext libxfixes libxdamage libxxf86vm python3-mako libglvnd xrandr wayland-protocols vulkan-meta spirv-meta
 
 name=mesa-vk
-version=20.3.2
+version=20.3.3
 release=r1
 source=""
 
