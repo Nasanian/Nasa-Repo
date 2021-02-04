@@ -1,0 +1,14 @@
+# description	: Tool used to limit a connection on your network.
+# depends	: python3 python3-pip
+
+name=evillimiter
+version=git
+release=r1
+
+build() {
+
+  git clone https://github.com/bitbrute/evillimiter.git --depth 1
+  cd evillimiter
+  python3 setup.py install --root=$PKG --optimize=1
+
+}

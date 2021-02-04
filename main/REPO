@@ -194,6 +194,7 @@ d:parsec
 d:nmap
 d:transmission
 d:fit-wm
+d:evillimiter
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -262,7 +263,7 @@ f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
 f:b3c14690e8d1e3bc1984d62e46631590:lutris/.pkgfiles
 f:f675a7ba393acd01649f9ed30af4d523:lutris/spkgbuild
 f:3299d5039315eb4a4a354fe36d57f91f:mesa-vk/.pkgfiles
-f:72b49232c86f91765d4ce6a739557539:mesa-vk/spkgbuild
+f:2628b61ceb4f1ecbedad920a2a352970:mesa-vk/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:mesa-vk/.checksums
 f:9478fa402ea7011c506a1e1c2f847fec:mono/.pkgfiles
 f:21a1f9f599832cf25c9b249adb9e5108:mono/spkgbuild
@@ -417,6 +418,7 @@ f:df7db30d586df65fe25994259ee1edc6:keepassxc/spkgbuild
 f:b5d4dbd3fe803f5a35649a986b6fa9d8:thunar-noroot/norootwarn.patch
 f:722ad34863f498c0ec82af848909e849:thunar-noroot/spkgbuild
 f:9b3a944839f066cf29bc6a8c0975b04b:thunar-noroot/.checksums
+f:8b876fdc66166554292781a44d72f901:thunar-noroot/.pkgfiles
 f:06ea99333f1a3f92cbf2939daf68ed85:powercord/.pkgfiles
 f:3160340cffea9c5ae52fedfd3e707595:powercord/spkgbuild
 f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles
@@ -558,3 +560,6 @@ f:c7867955d65f138af5a8e22e33663532:transmission/.pkgfiles
 f:7402ac2b23f28eb1b80bac39a113f655:transmission/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:transmission/.checksums
 f:865bdda43ee5c5b87a4e62632a990dd9:fit-wm/spkgbuild
+f:b8176304cd92dd87e0277ff8ad070ef7:evillimiter/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:evillimiter/.checksums
+f:a5bbf9236ac34309081b391ada9b78f3:evillimiter/.pkgfiles
