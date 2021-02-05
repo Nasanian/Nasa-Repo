@@ -1,10 +1,10 @@
 # description	:  small and adorable script that allows you to make small and adorable btrfs snapshots
-# depends	: btrfs-progs wget dash grub-btrfs
+# depends	: btrfs-progs wget grub-btrfs zsh
 
 
 name=btrfs-snap
 version=serve
-release=r1
+release=r2
 source="btrfs-snap"
 
 build() {
