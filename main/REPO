@@ -395,7 +395,7 @@ f:fe6e30603fe5db758929feaa67669526:obs-v4l2/.pkgfiles
 f:b80ae00a84a92c966b9fa8522bcd7d5e:noip/spkgbuild
 f:3e817f369eaff04c41fe7d2414b7636a:trayer/spkgbuild
 f:d3ae6cbb2292c213ada7dca0679756f3:discord-canary/.pkgfiles
-f:3408d8eceec7ab5387112f0a9b9f46c0:discord-canary/spkgbuild
+f:89dffb879660bdea50cb2fe2847b75e0:discord-canary/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:discord-canary/.checksums
 f:c1c61ad2d5c12e30bd51c48e5e6c458b:arandr/.pkgfiles
 f:ffd1ed924bf2d9c3ee232b46b27aa453:arandr/spkgbuild
@@ -421,7 +421,8 @@ f:722ad34863f498c0ec82af848909e849:thunar-noroot/spkgbuild
 f:9b3a944839f066cf29bc6a8c0975b04b:thunar-noroot/.checksums
 f:8b876fdc66166554292781a44d72f901:thunar-noroot/.pkgfiles
 f:06ea99333f1a3f92cbf2939daf68ed85:powercord/.pkgfiles
-f:3160340cffea9c5ae52fedfd3e707595:powercord/spkgbuild
+f:3da302b523c8bb8a5555c7d1f63e6b93:powercord/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:powercord/.checksums
 f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles
 f:8b6d9191a57be8c386ea85a4646ba24a:bitmap-fonts-pack/spkgbuild
 f:91afce2f12a1e541e1eac0b65ee79305:grub-btrfs/.pkgfiles
@@ -505,7 +506,7 @@ f:8e7e802383b3571acda6d25a30a4834c:lld/.pkgfiles
 f:a81acb3dbbd17642c789399fdf035b43:lld/spkgbuild
 f:4ac31d258fc6a27881b8a2e66b0b11f9:btrfs-snap/.pkgfiles
 f:7a42e969d91001ce94e58bf15a833ba6:btrfs-snap/btrfs-snap
-f:0f5226f1cf2c41f875a265cb0be32bb5:btrfs-snap/spkgbuild
+f:5a3468cd13d8b0946535549e33124f4c:btrfs-snap/spkgbuild
 f:d0f9969bd4a0a934044c9b4d5c1b1fb9:gradle/.pkgfiles
 f:9a778a1d64d7a74a38ed79aee3e34e8f:gradle/spkgbuild
 f:cec7167048a929de5a46473e87f7089d:nvidia-beta/.pkgfiles
@@ -564,6 +565,6 @@ f:865bdda43ee5c5b87a4e62632a990dd9:fit-wm/spkgbuild
 f:5a43a0295b7cd9043f7d138ea1c3c59b:evillimiter/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:evillimiter/.checksums
 f:a5bbf9236ac34309081b391ada9b78f3:evillimiter/.pkgfiles
-f:336c70134ba5686e6ea2aed0a7eb22b0:bchunk/spkgbuild
+f:9bc4988d44bc3a6c91e5aea01d050b57:bchunk/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:bchunk/.checksums
 f:3372969ec9717978a25e379ffff1dac6:bchunk/.pkgfiles
