@@ -196,6 +196,7 @@ d:transmission
 d:fit-wm
 d:evillimiter
 d:bchunk
+d:dino
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -534,6 +535,7 @@ f:72b2d17b0b25aefbc28ec930c1038fa3:xdelta/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:xdelta/.checksums
 f:a3caf8a09239ee247169b47319d8e406:vsftpd/.pkgfiles
 f:491833c9009d446720abdf8b13e48644:vsftpd/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:vsftpd/.checksums
 f:e56f8de4b832f430e7aca8c574df37e2:metasploit/.pkgfiles
 f:9d31ed4404f3432f3fe7dc8f5e912930:metasploit/attach
 f:dcc3ad4a96597b062ae41023f914194c:metasploit/detach
@@ -568,3 +570,6 @@ f:a5bbf9236ac34309081b391ada9b78f3:evillimiter/.pkgfiles
 f:9bc4988d44bc3a6c91e5aea01d050b57:bchunk/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:bchunk/.checksums
 f:3372969ec9717978a25e379ffff1dac6:bchunk/.pkgfiles
+f:af39a53e07f0dc5df38e3048420afbb4:dino/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:dino/.checksums
+f:1a0f93e307d4c4d0a541d8e7c1c1c07f:dino/.pkgfiles
