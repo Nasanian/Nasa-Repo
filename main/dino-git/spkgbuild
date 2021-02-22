@@ -1,7 +1,7 @@
 # description	: Modern JABBER/XMPP client using GTK+/Vala.
 # depends	: gcc make gettext glib glib-networking gtk2 gtk3 gpgme libgee libgcrypt gspell qrencode libsoup ninja vala sqlite libsignal-protocol-c
 
-name=dino
+name=dino-git
 version=git
 release=r1
 

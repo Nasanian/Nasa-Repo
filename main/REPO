@@ -196,7 +196,7 @@ d:transmission
 d:fit-wm
 d:evillimiter
 d:bchunk
-d:dino
+d:dino-git
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -371,7 +371,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:4fa3d5fc5346e4e14ae82449e5a32a2b:.httpup-repo.current
+f:520eb1eeed7c131e1daf587b670be9b3:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:fa55a7c3296e3bcd1e172bb5d909e388:bat/.pkgfiles
@@ -570,6 +570,6 @@ f:a5bbf9236ac34309081b391ada9b78f3:evillimiter/.pkgfiles
 f:9bc4988d44bc3a6c91e5aea01d050b57:bchunk/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:bchunk/.checksums
 f:3372969ec9717978a25e379ffff1dac6:bchunk/.pkgfiles
-f:af39a53e07f0dc5df38e3048420afbb4:dino/spkgbuild
-f:c1a5d97f6be1b463a7c0faf320eee13e:dino/.checksums
-f:1a0f93e307d4c4d0a541d8e7c1c1c07f:dino/.pkgfiles
+f:38c20141177d7293b06627157c9467aa:dino-git/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:dino-git/.checksums
+f:1a0f93e307d4c4d0a541d8e7c1c1c07f:dino-git/.pkgfiles
