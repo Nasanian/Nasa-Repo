@@ -1,0 +1,46 @@
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/bin/
+-rwxr-xr-x root/root    usr/local/bin/alffplay
+-rwxr-xr-x root/root    usr/local/bin/alhrtf
+-rwxr-xr-x root/root    usr/local/bin/allatency
+-rwxr-xr-x root/root    usr/local/bin/alloopback
+-rwxr-xr-x root/root    usr/local/bin/almultireverb
+-rwxr-xr-x root/root    usr/local/bin/alplay
+-rwxr-xr-x root/root    usr/local/bin/alrecord
+-rwxr-xr-x root/root    usr/local/bin/alreverb
+-rwxr-xr-x root/root    usr/local/bin/alsoft-config
+-rwxr-xr-x root/root    usr/local/bin/alstream
+-rwxr-xr-x root/root    usr/local/bin/altonegen
+-rwxr-xr-x root/root    usr/local/bin/openal-info
+drwxr-xr-x root/root    usr/local/include/
+drwxr-xr-x root/root    usr/local/include/AL/
+-rw-r--r-- root/root    usr/local/include/AL/al.h
+-rw-r--r-- root/root    usr/local/include/AL/alc.h
+-rw-r--r-- root/root    usr/local/include/AL/alext.h
+-rw-r--r-- root/root    usr/local/include/AL/efx-creative.h
+-rw-r--r-- root/root    usr/local/include/AL/efx-presets.h
+-rw-r--r-- root/root    usr/local/include/AL/efx.h
+drwxr-xr-x root/root    usr/local/lib/
+drwxr-xr-x root/root    usr/local/lib/cmake/
+drwxr-xr-x root/root    usr/local/lib/cmake/OpenAL/
+-rw-r--r-- root/root    usr/local/lib/cmake/OpenAL/OpenALConfig-relwithdebinfo.cmake
+-rw-r--r-- root/root    usr/local/lib/cmake/OpenAL/OpenALConfig.cmake
+lrwxrwxrwx root/root    usr/local/lib/libopenal.so -> libopenal.so.1
+lrwxrwxrwx root/root    usr/local/lib/libopenal.so.1 -> libopenal.so.1.21.1
+-rwxr-xr-x root/root    usr/local/lib/libopenal.so.1.21.1
+drwxr-xr-x root/root    usr/local/lib/pkgconfig/
+-rw-r--r-- root/root    usr/local/lib/pkgconfig/openal.pc
+drwxr-xr-x root/root    usr/local/share/
+drwxr-xr-x root/root    usr/local/share/openal/
+-rw-r--r-- root/root    usr/local/share/openal/alsoftrc.sample
+drwxr-xr-x root/root    usr/local/share/openal/hrtf/
+-rw-r--r-- root/root    usr/local/share/openal/hrtf/Default HRTF.mhr
+drwxr-xr-x root/root    usr/local/share/openal/presets/
+-rw-r--r-- root/root    usr/local/share/openal/presets/3D7.1.ambdec
+-rw-r--r-- root/root    usr/local/share/openal/presets/hexagon.ambdec
+-rw-r--r-- root/root    usr/local/share/openal/presets/itu5.1-nocenter.ambdec
+-rw-r--r-- root/root    usr/local/share/openal/presets/itu5.1.ambdec
+-rw-r--r-- root/root    usr/local/share/openal/presets/presets.txt
+-rw-r--r-- root/root    usr/local/share/openal/presets/rectangle.ambdec
+-rw-r--r-- root/root    usr/local/share/openal/presets/square.ambdec

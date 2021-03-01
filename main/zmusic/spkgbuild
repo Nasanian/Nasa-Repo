@@ -1,9 +1,9 @@
 # description	: GZDOOM's music system as a standalone library
-# depends	: cmake git alsa fluidsynth zlib zlib-32 libsndfile mpg123
+# depends	: cmake git alsa fluidsynth zlib zlib-32 libsndfile mpg123 openal
 
 name=zmusic
-version=9999
-release=git
+version=git
+release=r1
 
 build() {
 	git clone https://github.com/coelckers/ZMusic.git --depth 1 --jobs $(nproc)
