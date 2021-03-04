@@ -1,5 +1,5 @@
 # description	: aria2c is a fast and lightweight downloader
-# depends	: libssh2 expat json-c nettle c-ares zlib libressl
+# depends	: libssh2 expat json-c nettle c-ares zlib openssl
 
 name=aria2
 version=git

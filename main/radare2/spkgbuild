@@ -1,5 +1,5 @@
 # description	: TUI alternative to ida/ghidra
-# depends	: libressl pkg-config
+# depends	: openssl pkg-config
 
 name=radare2
 version=git

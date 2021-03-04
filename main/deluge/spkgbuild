@@ -1,5 +1,5 @@
 # description	: safe and fast torrent downloader
-# depends	: cython3 python3-pip python3-setuptools xdg-utils python3-xdg libressl gtk2 gtk3 python3-rencode libtorrent
+# depends	: cython3 python3-pip python3-setuptools xdg-utils python3-xdg openssl gtk2 gtk3 python3-rencode libtorrent
 
 name=deluge
 version=git

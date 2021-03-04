@@ -1,5 +1,5 @@
 # description	: sccache is a improved version of ccache which allows you to cache more languages such as Rust.
-# depends	: rust gcc libressl
+# depends	: rust gcc openssl
 
 name=sccache
 version=git

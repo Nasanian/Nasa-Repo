@@ -1,5 +1,5 @@
 # description	: An anonymizing overlay network (development version)
-# depends	: rust libressl libevent libseccomp zstd xz python
+# depends	: rust openssl libevent libseccomp zstd xz python
 
 name=tor
 version=git

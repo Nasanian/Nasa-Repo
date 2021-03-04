@@ -196,7 +196,7 @@ transmission
 fit-wm
 evillimiter
 bchunk
-dino
+dino-git
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
@@ -570,6 +570,6 @@ evillimiter/.pkgfiles
 bchunk/spkgbuild
 bchunk/.checksums
 bchunk/.pkgfiles
-dino/spkgbuild
-dino/.checksums
-dino/.pkgfiles
+dino-git/spkgbuild
+dino-git/.checksums
+dino-git/.pkgfiles

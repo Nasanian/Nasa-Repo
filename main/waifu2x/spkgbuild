@@ -1,5 +1,5 @@
 # description	: incredibly smart AI smart image upscaler. this version doesn't need CUDA/Nvidia to work.
-# depends	: graphicsmagick libressl vulkan opencl-headers opencv ocl-icd
+# depends	: graphicsmagick openssl vulkan opencl-headers opencv ocl-icd
 
 name=waifu2x
 version=git

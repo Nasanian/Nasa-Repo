@@ -1,5 +1,5 @@
 # description	: incredibly smart AI smart image upscaler. vulkan powered!
-# depends	: graphicsmagick libressl vulkan-meta spirv-meta opencl-headers opencv ocl-icd
+# depends	: graphicsmagick openssl vulkan-meta spirv-meta opencl-headers opencv ocl-icd
 
 name=waifu2x-vulkan
 version=git
