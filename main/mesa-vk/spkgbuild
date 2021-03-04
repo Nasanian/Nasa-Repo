@@ -2,16 +2,16 @@
 # depends	: git libdrm vulkan-meta vulkan-meta-32 spirv-meta spirv-meta-32 llvm expat zlib zstd elfutils libxcb libxshmfence libx11 wayland libxvmc libxv libxext libxfixes libxdamage libxxf86vm python3-mako libglvnd xrandr wayland-protocols vulkan-meta spirv-meta
 
 name=mesa-vk
-version=20.3.3
+version=20.3.4
 release=r1
-source=""
-
+source="https://mesa.freedesktop.org/archive/mesa-$version.tar.xz"
 build() {
 
 
-  git clone https://github.com/mesa3d/mesa.git --jobs $(nproc) --depth 1
-  cd mesa
+  #git clone https://github.com/mesa3d/mesa.git --jobs $(nproc) --depth 1
+  #cd mesa
 
+  cd mesa-$version
 	PLATFORMS="auto,x11,wayland"
 	GALLIUM_DRV="r300,r600,svga,swrast,radeonsi,nouveau"
 	DRI_DRIVERS="i915,i965,r100,r200,nouveau"
@@ -35,9 +35,9 @@ build() {
         -Dshared-glapi=true \
 	      -Dllvm=true \
 	      ..
+
+
 	ninja
 	DESTDIR=$PKG ninja install
 
-	# indirect rendering symlink
-	#ln -s libGLX_mesa.so.0 $PKG/usr/lib/libGLX_indirect.so.0
 }
