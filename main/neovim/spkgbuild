@@ -3,7 +3,7 @@
 
 name=neovim
 version=git
-release=r1
+release=r2
 
 build() {
   git clone https://github.com/neovim/neovim.git --depth 1 --jobs $(nproc)
