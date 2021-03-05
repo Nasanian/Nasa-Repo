@@ -1,9 +1,9 @@
-# description	: Cool and FOSS screenshot program!
+# description	: Fancy FOSS screenshot program.
 # depends	: ca-certificates gcc cmake qt5 qt5 python-pyqt5 git openssl gcr libksba
 
 name=flameshot
 version=git
-release=r1
+release=r2
 options=""
 noextract=""
 backup=""
