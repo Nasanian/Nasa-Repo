@@ -1,5 +1,5 @@
 # description	: Fancy FOSS screenshot program.
-# depends	: ca-certificates gcc cmake qt5 qt5 python-pyqt5 git openssl gcr libksba
+# depends	: ca-certificates gcc cmake qt5 qt5 python3-pyqt5-galaxy git openssl gcr libksba
 
 name=flameshot
 version=git

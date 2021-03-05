@@ -227,7 +227,7 @@ f:b7015afd3cc83bed2700de7cfe6ebb93:electron/spkgbuild
 f:90ec6dfed1cda6d543666817981b8002:electron-player/.pkgfiles
 f:2c1fd933201c2ebbe51cda079ec65d03:electron-player/spkgbuild
 f:7e46c0ede8f5aa1ca9b40aff96f9ae80:flameshot/.pkgfiles
-f:8c22a9fcaee9d6edfc710f1212804017:flameshot/spkgbuild
+f:7dd10844580c4fcce74d622a3a999d4c:flameshot/spkgbuild
 f:598b8ec5175aba63982b05cf9abbba11:fzf/.pkgfiles
 f:e77c53012e4f0c85e6cd5c642d76649c:fzf/spkgbuild
 f:810100bdca42a8ceb0cce49aca75f013:gamejolt/.pkgfiles
@@ -478,8 +478,8 @@ f:58f9ad91153f5f6a583a745d944051dd:multimc/spkgbuild
 f:741eb18a783e3f180de70141fb31aafc:hidapi/.pkgfiles
 f:97324fbc00186f7f199fc001726a144f:hidapi/spkgbuild
 f:8c923c424850780268384699e9d5a998:python3-pyqt5-galaxy/.pkgfiles
-f:6db2a57d0e984613f047ab110ceffad9:python3-pyqt5-galaxy/spkgbuild
-f:44f07640fba1bb08b9ef16392d3503ac:python3-pyqtwebengine-galaxy/spkgbuild
+f:c5a4de19c0843614f8b49e45c61dde22:python3-pyqt5-galaxy/spkgbuild
+f:1753e14f91cc3aa642c75bd1c97320e1:python3-pyqtwebengine-galaxy/spkgbuild
 f:95b46b8fe19a5f8caa8ad215630041a0:qt5-webengine/spkgbuild
 f:a97655963d5404e1dbb94c41408ddb75:fluidsynth/.pkgfiles
 f:23983540cd26d54a53474ed82046d4be:fluidsynth/spkgbuild
