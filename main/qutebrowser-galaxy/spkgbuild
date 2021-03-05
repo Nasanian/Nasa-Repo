@@ -1,14 +1,19 @@
-# description	: My own fixed up version of the keyboard-driven, vim-like browser based on PyQt5. tag: qutebrowser
+# description	: My own fixed up version of the keyboard-driven, vim-like browser based on PyQt5.
 # depends	: qt5  python3-pip python3 python3-attrs python3-yaml python3-jinja2 python3-pypeg2 python3-pygments python3-sip-pyqt5 python3-pyqt5-galaxy asciidoc dash
 # python3-pyqtwebengine-galaxy qt5-webengine
 
 
 name=qutebrowser-galaxy
+
+galver=2.0.2
 sipver=12.8.1
-qtver=5.15.1
+qtver=5.15.2
+
 version=git
 release=r3
-source="qutebox"
+
+source="https://github.com/qutebrowser/qutebrowser/releases/download/v$galver/qutebrowser-$galver.tar.gz
+      qutebox"
 
 # fix bsdtar extract error
 #  'Pathname can't be converted from UTF-8 to current locale.'
@@ -19,10 +24,9 @@ build() {
 
   install -Dm775 qutebox $PKG/bin/qutebox
 
-  git clone https://github.com/qutebrowser/qutebrowser.git --depth 1 --jobs $(nproc)
-  cd qutebrowser
-  #pip3 install pyqt5==${qtver} pyqtwebengine==${qtver} PyQt5-sip==${sipver}
-  pip3 install PyQt5==5.15.1 PyQt5-sip==12.8.1 PyQtWebEngine==5.15.0 PyYAML adblock==0.4.1 attrs==20.3.0 colorama==0.4.4 dataclasses importlib-resources Jinja2==2.11.2 MarkupSafe==1.1.1 Pygments==2.7.4
+  #git clone https://github.com/qutebrowser/qutebrowser.git --depth 1 --jobs $(nproc)
+  cd qutebrowser-$galver
+  pip3 install PyQt5==5.15.2 PyQt5-sip==12.8.1 PyQtWebEngine==5.15.2 PyYAML adblock==0.4.1 attrs==20.3.0 colorama==0.4.4 dataclasses importlib-resources Jinja2==2.11.2 MarkupSafe==1.1.1 Pygments==2.7.4
 
 	make -f misc/Makefile DESTDIR=$PKG PREFIX=/usr install
 

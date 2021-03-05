@@ -466,7 +466,8 @@ f:a8513fd36cc1ff2dbe4dbc4cbef81a04:python3-rencode/.pkgfiles
 f:472aa9f2b444dd1fd8882ed6ca1bbcf9:python3-rencode/spkgbuild
 f:ddf5cfb1dee166c3c47f56cb9b017b83:qutebrowser-galaxy/.pkgfiles
 f:565030e233d4b3276cff4f9778a246b2:qutebrowser-galaxy/qutebox
-f:26d8312d8ac9d6902e46dbb6b4fca19f:qutebrowser-galaxy/spkgbuild
+f:112bc60b326337bbfae6d5867694f0bb:qutebrowser-galaxy/spkgbuild
+f:632ab10b3deb046d3f60c940312e73b3:qutebrowser-galaxy/.checksums
 f:fc58913219694fe615a1d2083112eca3:libav1/.pkgfiles
 f:f6d00fc6cf449339455b5fe01e51d158:libav1/spkgbuild
 f:47aabdeafcb1deee9a347651f54164d1:uget-stable/spkgbuild
