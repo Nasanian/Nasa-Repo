@@ -1,0 +1,17 @@
+# description	: A CLI tool that scrapes Google search results and SERPs that provides instant and concise answers
+# depends	: jq httpup recode gawk sed curl
+
+name=tuxi
+version=git
+release=r2
+
+
+build() {
+  git clone https://github.com/Bugswriter/tuxi.git --depth 1 --jobs $(nproc)
+
+  pip3 install pup
+  mkdir -p $PKG/usr/bin
+
+  cd tuxi
+	cp tuxi $PKG/usr/bin
+}
