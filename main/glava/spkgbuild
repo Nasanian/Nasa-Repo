@@ -1,0 +1,17 @@
+# description	: GLava is a general-purpose, highly configurable OpenGL audio spectrum visualizer for X11.
+# depends	: pulseaudio gcc lua meson obs ninja
+
+name=glava
+version=git
+release=r1
+
+build() {
+
+  git clone https://github.com/jarcode-foss/glava.git --depth 1 --jobs $(nproc)
+
+	cd glava
+
+  meson build --prefix /usr
+	ninja -C build
+	DESTDIR=$PKG ninja install
+}

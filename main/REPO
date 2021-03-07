@@ -200,6 +200,7 @@ d:dino-git
 d:openal
 d:glibc-force
 d:tuxi
+d:glava
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -457,6 +458,7 @@ f:e153d18db5a8fda67d20a3bb79afcd7e:chatterino/spkgbuild
 f:2e7c0cc7da7f1da9d074e528493a6d92:harfbuzz-git/spkgbuild
 f:2b86f2695abda15a45bad33295dd538f:harfbuzz-icu-git/spkgbuild
 f:3a0b56a6e3dc7bc980f0c32c5ea77025:icu-git/spkgbuild
+f:429306aa9ce9dc43b1cb374f83ca1ea6:icu-git/.pkgfiles
 f:d39cfc3ffe332b5db8e91ed01cf74ae4:harfbuzz-32-git/spkgbuild
 f:bc5aeeac0ba42c6133c2993005735ccf:steam-galaxy/.pkgfiles
 f:9da9d9be23ddd18a2c247ab951a288c0:steam-galaxy/.checksums
@@ -588,6 +590,8 @@ f:2c5966006f0c66521ab004e469386597:glibc-force/spkgbuild
 f:d3361e270dec35b6c16ce7ab20779069:glibc-force/.checksums
 f:7e48dbd8ebcf8f396a092f1052e318a9:glibc-force/.pkgfiles
 f:ff465f4bea670c7321c439fc433d2ecb:spkgbuild
-f:9d7ae40ba366a013908153a784eb48b8:tuxi/spkgbuild
+f:1105582a5566278439deeb0887a21da4:tuxi/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:tuxi/.checksums
 f:8bc04ce9c5dd80f1e6d23dbaa854f0af:tuxi/.pkgfiles
+f:cf62718cd79d5cc9bc983ccd3eae3d11:glava/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:glava/.checksums
