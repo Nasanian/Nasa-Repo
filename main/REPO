@@ -127,7 +127,6 @@ d:btrfs-speed
 d:compsize
 d:syncplay
 d:kodi
-d:youtube-dl2
 d:python3-pygobject
 d:adoptjre
 d:TechnicLauncher
@@ -447,8 +446,6 @@ f:46c5b5eba93f507fff5475c848551f21:syncplay/.pkgfiles
 f:c1a5d97f6be1b463a7c0faf320eee13e:syncplay/.checksums
 f:b34e6946ee7ec7d3e1a79ed292c562dd:syncplay/spkgbuild
 f:92f856cf533aac56ff7d24f7b74d362f:kodi/spkgbuild
-f:474768273a4f6dd3737f6d77de8906e5:youtube-dl2/spkgbuild
-f:4b80b342d2772fb91c6b9fc1294aa376:youtube-dl2/.pkgfiles
 f:db810fdfa6d1d4ab746cb6fe09e0db3e:python3-pygobject/.pkgfiles
 f:e06606e395bba9296a4791b68f038af3:python3-pygobject/spkgbuild
 f:cf2112d3ca6cd08795ba4d431e44e255:adoptjre/.pkgfiles
@@ -593,7 +590,6 @@ f:9a5997c3452909b1769918c759eff8a2:glibc-force/glibc-fhs-1.patch
 f:6315cb3abb6275e7ce4ac80c4856577e:glibc-force/spkgbuild
 f:d3361e270dec35b6c16ce7ab20779069:glibc-force/.checksums
 f:7e48dbd8ebcf8f396a092f1052e318a9:glibc-force/.pkgfiles
-f:ff465f4bea670c7321c439fc433d2ecb:spkgbuild
 f:1105582a5566278439deeb0887a21da4:tuxi/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:tuxi/.checksums
 f:8bc04ce9c5dd80f1e6d23dbaa854f0af:tuxi/.pkgfiles
