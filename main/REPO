@@ -201,7 +201,7 @@ d:openal
 d:glibc-force
 d:tuxi
 d:glava
-d:qtemu
+d:aqemu
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -264,7 +264,8 @@ f:83d1f2a26b0b1f8b95a3f9f3814e22b1:libsodium/spkgbuild
 f:2c712472162792c0ae04717a9d818cc9:libvirt-python/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libvirt-python/.checksums
 f:4eb936c77ebcb8b3770f7a5e338a4155:libvncserver/.pkgfiles
-f:05d5f1dbc246b8fdd59267d8e32c33f7:libvncserver/spkgbuild
+f:d977101b79f4934811e6151705dfecb4:libvncserver/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:libvncserver/.checksums
 f:295c343dcd457dc534662f011d7cff1a:llvm-static/llvm-config.h
 f:d081889d5d8116a0d29ffaf155e3b447:llvm-static/spkgbuild
 f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
@@ -599,4 +600,5 @@ f:8bc04ce9c5dd80f1e6d23dbaa854f0af:tuxi/.pkgfiles
 f:cad9b5c794deaeeb9d60f8c276ed6d11:glava/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:glava/.checksums
 f:67156ec696535fe3b7ff92512abbbb45:glava/.pkgfiles
-f:b980b8b203aacb96436c643568ac41d7:qtemu/spkgbuild
+f:f56fa0d7d292f063a45e2865403f64fe:aqemu/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:aqemu/.checksums
