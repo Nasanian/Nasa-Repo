@@ -3,14 +3,40 @@
 
 name=libvirt
 version=git
-release=r1
+release=r2
 
 build() {
   git clone https://github.com/libvirt/libvirt.git --depth 1 --jobs $(nproc)
 	cd libvirt
 
   pip3 install rst2html5 docutils
-	meson build --optimization=3 -Ddocs=disabled -Dtests=disabled -Dexpensive_tests=disabled --prefix=/usr
+#meson build --optimization=3 -Dsystem=true -Ddocs=disabled -Dtests=disabled -Dexpensive_tests=disabled --prefix=/usr
+
+  meson build \
+    --optimization=3 \
+    --libexecdir=lib/libvirt \
+    --prefix=/usr \
+    -Drunstatedir=/run \
+    -Dqemu_group=kvm \
+    -Dnetcf=disabled \
+    -Ddocs=disabled \
+    -Dtests=disabled \
+    -Dexpensive_tests=disabled \
+    -Dopenwsman=disabled \
+    -Dapparmor=disabled \
+    -Dselinux=disabled \
+    -Dwireshark_dissector=disabled \
+    -Ddriver_bhyve=disabled \
+    -Ddriver_hyperv=disabled \
+    -Ddriver_libxl=disabled \
+    -Ddriver_vz=disabled \
+    -Dsecdriver_apparmor=disabled \
+    -Dsecdriver_selinux=disabled \
+    -Dstorage_sheepdog=disabled \
+    -Dstorage_vstorage=disabled \
+    -Ddtrace=disabled \
+    -Dnumad=disabled
+
   ninja -C build
 
 	DESTDIR=$PKG ninja -C build install

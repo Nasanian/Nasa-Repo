@@ -201,6 +201,7 @@ d:openal
 d:glibc-force
 d:tuxi
 d:glava
+d:qtemu
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -260,7 +261,8 @@ f:874bb691811b441f758074713c286d66:libshaderc-32/.pkgfiles
 f:80a6cf732080aec0410495525600b204:libshaderc-32/spkgbuild
 f:ca27312faa9aca23d0bf3dab020bf305:libsodium/.pkgfiles
 f:83d1f2a26b0b1f8b95a3f9f3814e22b1:libsodium/spkgbuild
-f:cbc4377857fe15687cd3f4dc9d4b9b59:libvirt-python/spkgbuild
+f:2c712472162792c0ae04717a9d818cc9:libvirt-python/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:libvirt-python/.checksums
 f:4eb936c77ebcb8b3770f7a5e338a4155:libvncserver/.pkgfiles
 f:05d5f1dbc246b8fdd59267d8e32c33f7:libvncserver/spkgbuild
 f:295c343dcd457dc534662f011d7cff1a:llvm-static/llvm-config.h
@@ -338,6 +340,7 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:v4l2loopback/.checksums
 f:72f9fd2ae6b6a5480d4b58d33fe3bb83:v4l2loopback/spkgbuild
 f:6ce0be1ca358ac371368a0c16dc7999a:virt-manager/.pkgfiles
 f:ff9185095f2fcfda395275e07db8b066:virt-manager/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:virt-manager/.checksums
 f:60bcdc61493e2d0eef1429b9acb79eeb:vulkan-headers/.pkgfiles
 f:62c3a76262bd61c809d1557a5c78919b:vulkan-headers/spkgbuild
 f:ea078b71ead78042e11763839fb19e39:vulkan-headers-32/spkgbuild
@@ -388,7 +391,7 @@ f:2e60ca414a938084862d7c46fdd19182:exa/spkgbuild
 f:fc2647d98ddb7a8034041c8ede100b64:oss/spkgbuild
 f:84d4296d564c03750aaa60f8a9773f1e:gpa/spkgbuild
 f:060d886291393b2d135ba261163247ed:libvirt/.pkgfiles
-f:7a7948edfa36beeaeef9754df3e0f669:libvirt/spkgbuild
+f:aedda7460e3fa4cf5b86a2cd7f6d8340:libvirt/spkgbuild
 f:53c5935186135897f1c5e075a73e61cb:rpcgen/spkgbuild
 f:e5cccf2e953ca0bf8ace7e3495109e28:scratchfast/scratch
 f:96b6b0b8de8aff9a2a08f8c41e092d27:scratchfast/spkgbuild
@@ -586,12 +589,14 @@ f:c87b9ca37bf6794d1973066f26843a9c:openal/.pkgfiles
 f:858405b08fb1c85df540206a6aba216e:openal/spkgbuild
 f:cabf312a0adc98de9d52a411b2c14baa:glibc-force/genlocales
 f:9a5997c3452909b1769918c759eff8a2:glibc-force/glibc-fhs-1.patch
-f:2c5966006f0c66521ab004e469386597:glibc-force/spkgbuild
+f:6315cb3abb6275e7ce4ac80c4856577e:glibc-force/spkgbuild
 f:d3361e270dec35b6c16ce7ab20779069:glibc-force/.checksums
 f:7e48dbd8ebcf8f396a092f1052e318a9:glibc-force/.pkgfiles
 f:ff465f4bea670c7321c439fc433d2ecb:spkgbuild
 f:1105582a5566278439deeb0887a21da4:tuxi/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:tuxi/.checksums
 f:8bc04ce9c5dd80f1e6d23dbaa854f0af:tuxi/.pkgfiles
-f:cf62718cd79d5cc9bc983ccd3eae3d11:glava/spkgbuild
+f:cad9b5c794deaeeb9d60f8c276ed6d11:glava/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:glava/.checksums
+f:67156ec696535fe3b7ff92512abbbb45:glava/.pkgfiles
+f:b980b8b203aacb96436c643568ac41d7:qtemu/spkgbuild

@@ -3,15 +3,16 @@
 
 name=glava
 version=git
-release=r1
+release=r2
 
 build() {
 
-  git clone https://github.com/jarcode-foss/glava.git --depth 1 --jobs $(nproc)
+  git clone https://github.com/IsaacHorvath/glava.git --depth 1 --jobs $(nproc)
 
 	cd glava
 
   meson build --prefix /usr
 	ninja -C build
+  cd build
 	DESTDIR=$PKG ninja install
 }

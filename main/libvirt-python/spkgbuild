@@ -3,7 +3,7 @@
 
 name=libvirt-python
 version=git
-release=r1
+release=r2
 options=""
 noextract=""
 backup=""

@@ -17,12 +17,12 @@ build() {
 	cd glibc-$version
 
 
-	eval "$(
-	declare -f build | \
-	sed '
-	s|--prefix=/usr|--prefix=/usr libc_cv_include_x86_isa_level=no|g
-	'
-	)"
+#	eval "$(
+#	declare -f build | \
+#	sed '
+#	s|--prefix=/usr|--prefix=/usr libc_cv_include_x86_isa_level=no|g
+#	'
+#	)"
 
 	_configure_flag="
 		--prefix=/usr \

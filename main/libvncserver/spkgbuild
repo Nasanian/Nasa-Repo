@@ -3,16 +3,18 @@
 
 name=libvncserver
 version=git
-release=r1
-options=""
-noextract=""
-backup=""
-source=""
+release=r2
+
 
 build() {
   git clone https://github.com/LibVNC/libvncserver.git --depth 1 --jobs $(nproc)
   cd libvncserver
-  cmake .
-	make
+
+  mkdir build
+  cd build
+
+  cmake -DWITH_OPENSSL=ON -DWITH_GCRYPT=OFF ..
+  cmake --build .
+
 	make DESTDIR=$PKG install
 }

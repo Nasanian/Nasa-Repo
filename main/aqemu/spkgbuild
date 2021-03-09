@@ -1,0 +1,15 @@
+# description	: GUI for QEMU.
+# depends	: qt5 libvncserver libdbusmenu-qt
+
+name=aqemu
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/tobimensch/aqemu.git --depth 1 --jobs $(nproc)
+	cd aqemu
+
+	meson build --prefix=/usr
+	ninja
+	DESTDIR=$PKG ninja install
+}
