@@ -1,18 +1,17 @@
-# description	: lolcat based on C. EXTREMELY fast.
+# description	: Fast and light lolcat based on C.
 # depends	: gcc
 
 name=c-lolcat
 version=git
-release=r1
-options=""
-noextract=""
-backup=""
-source=""
+release=r2
+
 
 build() {
   mkdir -pv $PKG/etc
   git clone https://github.com/jaseg/lolcat.git --depth 1 --jobs $(nproc)
   cd lolcat
   make
-  make install
+  make DESTDIR=$PKG install
+  mkdir -p $PKG/usr/bin
+  cp lolcat $PKG/usr/bin
 }

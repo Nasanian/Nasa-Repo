@@ -219,7 +219,7 @@ f:17dc317aafe7d58454a796427d1698a9:bazel/spkgbuild
 f:e6cfec536076f76747f369496c276c96:bazybooz/spkgbuild
 f:acddb365498b8288878f438f2714db6e:brotli/spkgbuild
 f:a3caf8a09239ee247169b47319d8e406:c-lolcat/.pkgfiles
-f:4b5c99b5ed5e38d1f32d2f45512952fc:c-lolcat/spkgbuild
+f:d532ed12313cb54d0c276977a9ea6c03:c-lolcat/spkgbuild
 f:cab64966e1d1d20cd859ba81d3a14522:corectrl/spkgbuild
 f:5f153bf46e29769689ec301626f0c041:deluge/.pkgfiles
 f:c3e36444d295aca80248549205e01698:deluge/spkgbuild
