@@ -1,0 +1,16 @@
+# description	: av1 codec library ued alongside libdav1d
+# depends	: libdav1 yasm perl nasm doxygen python3
+
+name=libaom
+version=git
+release=r1
+
+build() {
+
+  git clone https://github.com/link-u/libaom.git --depth 1 --jobs $(nproc)
+  cd libaom
+  cd build
+  cmake -DENABLE_DOCS=0 ../
+	make
+	make DESTDIR=$PKG install
+}

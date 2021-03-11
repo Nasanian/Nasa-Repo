@@ -1,5 +1,5 @@
 # description	: av1 codec library. useful for things like mpv-vk (libdav1d)
-# depends	: cmake git perl yasm doxygen python3 nasm vulkan-meta meson ninja
+# depends	: cmake git perl yasm doxygen python3 nasm vulkan-meta meson ninja libaom
 
 name=libav1
 version=git
