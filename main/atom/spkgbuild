@@ -1,0 +1,24 @@
+# description	: GUI Hackable Text Editor.
+# depends	: gconf gtk2 eudev libgudev libgcrypt libcap libnotify libxtst nss python3 xdg-utils gvfs nodejs tar npm aria2
+
+name=atom
+version=git
+release=v1.55.0
+
+
+build() {
+  mkdir -pv $PKG/opt
+  mkdir -pv $PKG/usr/bin
+
+  aria2c -x16 -j16 https://github.com/atom/atom/releases/download/$release/atom-amd64.tar.gz
+  tar xvfv atom-amd64.tar.gz
+	cp -rv atom-* $PKG/opt
+
+
+	cat > "$PKG/usr/bin/${name}" <<-EOF
+  #!/usr/bin/env bash
+  /opt/atom-*/atom "$@" --no-sandbox
+	EOF
+
+  chmod +x $PKG/usr/bin/atom
+}

@@ -3,11 +3,21 @@
 
 name=libvirt
 version=git
-release=r2
+release=r3
 
 build() {
   git clone https://github.com/libvirt/libvirt.git --depth 1 --jobs $(nproc)
-	cd libvirt
+
+  cd libvirt
+
+#  wget https://github.com/libvirt/libvirt/archive/v7.1.0.tar.gz -O libvirt.tar.gz
+#
+#  tar xvf *.tar.gz
+#	cd libvirt-7.1.0/src
+#
+#  git clone https://gitlab.com/keycodemap/keycodemapdb.git --depth 1 --jobs $(nproc)
+#
+#  cd ..
 
   pip3 install rst2html5 docutils
 #meson build --optimization=3 -Dsystem=true -Ddocs=disabled -Dtests=disabled -Dexpensive_tests=disabled --prefix=/usr
@@ -35,6 +45,7 @@ build() {
     -Dstorage_sheepdog=disabled \
     -Dstorage_vstorage=disabled \
     -Ddtrace=disabled \
+    -Ddocs=enabled \
     -Dnumad=disabled
 
   ninja -C build

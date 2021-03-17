@@ -1,5 +1,5 @@
 # description	: Properly packaged qtwebengine. (galaxy release)
-# depends	: qt5 nss python2 libwebp libxslt opus ninja ffmpeg alsa-lib libxcomposite libxtst
+# depends	: qt5 nss python2 libwebp libxslt opus ninja ffmpeg-git alsa-lib libxcomposite libxtst
 
 name=qt5-webengine
 version=git
@@ -18,7 +18,7 @@ build() {
 
     qmake .. -- \
     -proprietary-codecs \
-    -system-ffmpeg \
+    -system-ffmpeg-git \
     -webp \
     -spellchecker \
     -webengine-icu \

@@ -1,5 +1,5 @@
 # description	: lib needed for VNC server
-# depends	: gnutls libjpeg-turbo libgcrypt libpng openssl cmake sdl2 ffmpeg x265
+# depends	: gnutls libjpeg-turbo libgcrypt libpng openssl cmake sdl2 ffmpeg-git x265
 
 name=libvncserver
 version=git

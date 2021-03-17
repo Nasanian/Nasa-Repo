@@ -1,5 +1,5 @@
 # description	: A free, open source, and cross-platform media player - now with vulkan support!
-# depends	: lcms2 aria2 ffmpeg libass libarchive luajit mesa-vk libcdio libcdio-paranoia libvdpau-va-gl libplacebo vulkan-meta libav1 libaom
+# depends	: lcms2 aria2 ffmpeg-git libass libarchive luajit mesa-vk libcdio libcdio-paranoia libvdpau-va-gl libplacebo vulkan-meta libav1 libaom
 
 name=mpv-vk
 version=git
@@ -7,8 +7,6 @@ release=r4
 source=""
 
 build() {
-
-
 
   git clone https://github.com/mpv-player/mpv.git --depth 1 --jobs $(nproc)
   cd mpv

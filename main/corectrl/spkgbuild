@@ -1,17 +1,22 @@
-# description	: 
-# depends	: 
+# description	: CoreCtrl is a Free and Open Source GNU/Linux application that allows you to control with ease your computer hardware using application profiles. It aims to be flexible, comfortable and accessible to regular users.
+# depends	: git qt5 gcc vulkan-tools procps-ng util-linux dbus kf5auth karchive botan cmake
 
 name=corectrl
-version=
-release=1
+version=git
+release=r1
 options=""
 noextract=""
 backup=""
 source=""
 
 build() {
-	cd $name-$version
-	./configure --prefix=/usr
+
+  git clone https://gitlab.com/corectrl/corectrl.git --depth 1 --jobs $(nproc)
+	cd corectrl
+
+  cd cmake
+
+	cmake ..
 	make
 	make DESTDIR=$PKG install
 }

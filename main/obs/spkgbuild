@@ -1,5 +1,5 @@
 # description	: OBS - Open Broadacaster Software. Free and open source software for video recording and live streaming - With HEVC!"
-# depends	: python2 python3 alsa luajit fdk-aac libxcomposite swig librsvg git ccache qt5
+# depends	: python2 python3 alsa luajit fdk-aac libxcomposite swig librsvg git ccache qt5 ffmpeg-git
 
 name=obs
 version=git

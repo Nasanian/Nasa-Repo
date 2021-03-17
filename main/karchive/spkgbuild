@@ -1,0 +1,16 @@
+# description	: 
+# depends	: 
+
+name=karchive
+version=
+release=1
+noextract=""
+backup=""
+source=""
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

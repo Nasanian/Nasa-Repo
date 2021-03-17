@@ -1,0 +1,21 @@
+libaom-git-r1
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/bin/
+-rwxr-xr-x root/root    usr/local/bin/aomdec
+-rwxr-xr-x root/root    usr/local/bin/aomenc
+drwxr-xr-x root/root    usr/local/include/
+drwxr-xr-x root/root    usr/local/include/aom/
+-rw-r--r-- root/root    usr/local/include/aom/aom.h
+-rw-r--r-- root/root    usr/local/include/aom/aom_codec.h
+-rw-r--r-- root/root    usr/local/include/aom/aom_decoder.h
+-rw-r--r-- root/root    usr/local/include/aom/aom_encoder.h
+-rw-r--r-- root/root    usr/local/include/aom/aom_frame_buffer.h
+-rw-r--r-- root/root    usr/local/include/aom/aom_image.h
+-rw-r--r-- root/root    usr/local/include/aom/aom_integer.h
+-rw-r--r-- root/root    usr/local/include/aom/aomcx.h
+-rw-r--r-- root/root    usr/local/include/aom/aomdx.h
+drwxr-xr-x root/root    usr/local/lib/
+-rw-r--r-- root/root    usr/local/lib/libaom.a
+drwxr-xr-x root/root    usr/local/lib/pkgconfig/
+-rw-r--r-- root/root    usr/local/lib/pkgconfig/aom.pc

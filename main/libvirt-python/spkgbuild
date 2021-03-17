@@ -4,15 +4,13 @@
 name=libvirt-python
 version=git
 release=r2
-options=""
-noextract=""
-backup=""
-source=""
+
 
 build() {
 
   git clone https://github.com/libvirt/libvirt-python.git --depth 1 --jobs $(nproc)
   cd libvirt-python
+
 
   python3 setup.py build
 	python3 setup.py install --root=$PKG --optimize=1

@@ -3,14 +3,14 @@
 
 name=libaom
 version=git
-release=r1
+release=r2
 
 build() {
 
   git clone https://github.com/link-u/libaom.git --depth 1 --jobs $(nproc)
   cd libaom
   cd build
-  cmake -DENABLE_DOCS=0 ../
+  cmake -DENABLE_DOCS=0 -DCMAKE_INSTALL_PREFIX=/usr  ../
 	make
 	make DESTDIR=$PKG install
 }
