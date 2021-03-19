@@ -16,7 +16,7 @@ build() {
   cd shaderc
   ./utils/git-sync-deps -- --depth 1 --jobs $(nproc)
   cmake -GNinja  -DCMAKE_INSTALL_LIBDIR=lib32 -DCMAKE_INSTALL_PREFIX=/usr/ -DCMAKE_BUILD_TYPE=Release -DSPIRV_WERROR=OFF .
-  ninja
   ninja add-copyright
+  ninja
   DESTDIR=$PKG ninja install
 }
