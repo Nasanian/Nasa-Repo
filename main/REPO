@@ -263,7 +263,7 @@ f:495ef46b45e1f5e2242b46a46c08dd79:libosinfo/spkgbuild
 f:935515acd98460a6dd3262d2f75412b5:libplacebo/.pkgfiles
 f:5932e9ad9f15de4a0d4c7437e21e448d:libplacebo/spkgbuild
 f:a3c47feedb440a91581e979b4b9c0dc6:libshaderc/.pkgfiles
-f:6911ed1e84d11fe521cb9c12aa11a11e:libshaderc/spkgbuild
+f:27fa2e6d1febe9861aa75947317bb191:libshaderc/spkgbuild
 f:874bb691811b441f758074713c286d66:libshaderc-32/.pkgfiles
 f:80a6cf732080aec0410495525600b204:libshaderc-32/spkgbuild
 f:ca27312faa9aca23d0bf3dab020bf305:libsodium/.pkgfiles
