@@ -1,5 +1,5 @@
 # description	: virt-manager, a frontend for QEMU/KVM
-# depends	: python3-pip python3 selinux qemu gtksourceview4 python3-gobject gtk3 gettext libvirt libosinfo libvirt-glib libvirt-python
+# depends	: python3-pip python3 selinux qemu gtksourceview4 python3-gobject gtk3 gettext libvirt libosinfo libvirt-glib libvirt-python python3-lxml
 
 name=virt-manager
 version=git

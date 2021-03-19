@@ -208,6 +208,7 @@ d:kf5auth
 d:karchive
 d:botan
 d:atom
+d:rst2html5
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -270,6 +271,7 @@ f:ca27312faa9aca23d0bf3dab020bf305:libsodium/.pkgfiles
 f:83d1f2a26b0b1f8b95a3f9f3814e22b1:libsodium/spkgbuild
 f:72ec0b2137dac684c98ed78ae275c6ed:libvirt-python/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libvirt-python/.checksums
+f:e3178b01c12ac96408162d60ac8a14c0:libvirt-python/.pkgfiles
 f:4eb936c77ebcb8b3770f7a5e338a4155:libvncserver/.pkgfiles
 f:f73447f99c2d33aa3c1c01b775f34e4a:libvncserver/spkgbuild
 f:295c343dcd457dc534662f011d7cff1a:llvm-static/llvm-config.h
@@ -344,7 +346,7 @@ f:f956fe575cd914c3c99698171511f033:sqlitebrowser/.pkgfiles
 f:a230c23c4481c05d9d8605473000b044:sqlitebrowser/spkgbuild
 f:72f9fd2ae6b6a5480d4b58d33fe3bb83:v4l2loopback/spkgbuild
 f:6ce0be1ca358ac371368a0c16dc7999a:virt-manager/.pkgfiles
-f:ff9185095f2fcfda395275e07db8b066:virt-manager/spkgbuild
+f:4df7eb0198d0bfe043982e30232840f1:virt-manager/spkgbuild
 f:60bcdc61493e2d0eef1429b9acb79eeb:vulkan-headers/.pkgfiles
 f:62c3a76262bd61c809d1557a5c78919b:vulkan-headers/spkgbuild
 f:ea078b71ead78042e11763839fb19e39:vulkan-headers-32/spkgbuild
@@ -395,7 +397,8 @@ f:2e60ca414a938084862d7c46fdd19182:exa/spkgbuild
 f:fc2647d98ddb7a8034041c8ede100b64:oss/spkgbuild
 f:84d4296d564c03750aaa60f8a9773f1e:gpa/spkgbuild
 f:060d886291393b2d135ba261163247ed:libvirt/.pkgfiles
-f:0480baa3f46614efc64bb799356b76f1:libvirt/spkgbuild
+f:20916c888c67fc2328d98f1316785eb5:libvirt/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:libvirt/.checksums
 f:53c5935186135897f1c5e075a73e61cb:rpcgen/spkgbuild
 f:e5cccf2e953ca0bf8ace7e3495109e28:scratchfast/scratch
 f:96b6b0b8de8aff9a2a08f8c41e092d27:scratchfast/spkgbuild
@@ -591,3 +594,6 @@ f:ec5cf409f8ee5dbe46c8b79ff1315a01:botan/spkgbuild
 f:cc58f56328b88b55e98bcce0dfe6dea2:atom/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:atom/.checksums
 f:f73915c1ba1f5cbe3dbc1574cc68ed6f:atom/.pkgfiles
+f:d22787450ac6801b73224d90f43ced79:rst2html5/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:rst2html5/.checksums
+f:777cd9f9e66dae758e0d852b95972656:rst2html5/.pkgfiles

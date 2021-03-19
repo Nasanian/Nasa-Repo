@@ -1,0 +1,20 @@
+# description	: Generates simple HTML and CSS.
+# depends	: python3
+
+name=rst2html5
+version=git
+release=r1
+
+
+build() {
+
+  git clone https://github.com/marianoguerra/rst2html5.git --depth 1 --jobs $(nproc)
+	cd rst2html5
+
+  git submodule init
+  git submodule update
+
+  python3 setup.py install --root=$PKG --optimize=1
+
+
+}

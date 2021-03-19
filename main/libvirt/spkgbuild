@@ -1,26 +1,22 @@
 # description	: lib needed for libvirt-python. which is then needed for virt-manager / gnome-boxes
-# depends	: python3-pip python3 selinux qemu gtksourceview4 python-docutils python3-gobject gtk3 gettext libpcap libnl libtirpc parted selinux selinux-32
+# depends	: python3-pip python3 selinux qemu gtksourceview4 python-docutils python3-gobject gtk3 gettext libpcap libnl libtirpc parted selinux selinux-32 rst2html5 tar aria2
 
 name=libvirt
 version=git
 release=r3
 
 build() {
-  git clone https://github.com/libvirt/libvirt.git --depth 1 --jobs $(nproc)
 
-  cd libvirt
+  aria2c -x16 -j16 http://libvirt-xml.surge.sh/xml.tar.xz
+  tar -xvf *.tar*
+  mkdir -p $PKG/usr/local/share/
+  cp -rv libvirt $PKG/usr/local/share
 
-#  wget https://github.com/libvirt/libvirt/archive/v7.1.0.tar.gz -O libvirt.tar.gz
-#
-#  tar xvf *.tar.gz
-#	cd libvirt-7.1.0/src
-#
-#  git clone https://gitlab.com/keycodemap/keycodemapdb.git --depth 1 --jobs $(nproc)
-#
-#  cd ..
+  git clone https://github.com/libvirt/libvirt.git --depth 1 --jobs $(nproc) libvirt-git
 
-  pip3 install rst2html5 docutils
-#meson build --optimization=3 -Dsystem=true -Ddocs=disabled -Dtests=disabled -Dexpensive_tests=disabled --prefix=/usr
+  cd libvirt-git
+
+  pip3 install docutils
 
   meson build \
     --optimization=3 \
@@ -45,7 +41,6 @@ build() {
     -Dstorage_sheepdog=disabled \
     -Dstorage_vstorage=disabled \
     -Ddtrace=disabled \
-    -Ddocs=enabled \
     -Dnumad=disabled
 
   ninja -C build
