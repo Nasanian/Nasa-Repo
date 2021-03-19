@@ -3,7 +3,7 @@
 
 name=libvirt
 version=git
-release=r3
+release=r4
 
 build() {
 
@@ -45,5 +45,6 @@ build() {
 
   ninja -C build
 
+  groupadd -f kvm
 	DESTDIR=$PKG ninja -C build install
 }
