@@ -265,7 +265,7 @@ f:5932e9ad9f15de4a0d4c7437e21e448d:libplacebo/spkgbuild
 f:a3c47feedb440a91581e979b4b9c0dc6:libshaderc/.pkgfiles
 f:27fa2e6d1febe9861aa75947317bb191:libshaderc/spkgbuild
 f:874bb691811b441f758074713c286d66:libshaderc-32/.pkgfiles
-f:80a6cf732080aec0410495525600b204:libshaderc-32/spkgbuild
+f:10fbe77060f382aad0a1c05f9b6e64e5:libshaderc-32/spkgbuild
 f:ca27312faa9aca23d0bf3dab020bf305:libsodium/.pkgfiles
 f:83d1f2a26b0b1f8b95a3f9f3814e22b1:libsodium/spkgbuild
 f:72ec0b2137dac684c98ed78ae275c6ed:libvirt-python/spkgbuild
