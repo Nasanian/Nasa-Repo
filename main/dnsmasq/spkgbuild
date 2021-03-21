@@ -1,0 +1,13 @@
+# description	: DNS masking.
+# depends	: gcc glibc
+
+name=dnsmasq
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/imp/dnsmasq.git --depth 1 --jobs $(nproc)
+	cd dnsmasq
+	make
+	make DESTDIR=$PKG install
+}

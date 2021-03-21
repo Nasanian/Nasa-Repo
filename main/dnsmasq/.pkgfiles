@@ -1,0 +1,9 @@
+dnsmasq-git-r1
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/sbin/
+-rwxr-xr-x root/root    usr/local/sbin/dnsmasq
+drwxr-xr-x root/root    usr/local/share/
+drwxr-xr-x root/root    usr/local/share/man/
+drwxr-xr-x root/root    usr/local/share/man/man8/
+-rw-r--r-- root/root    usr/local/share/man/man8/dnsmasq.8.gz

@@ -3,7 +3,7 @@
 
 name=linux-xanmod-rt
 version=git
-release=r12
+release=r13
 source="compilefastlinux"
 
 build() {
