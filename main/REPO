@@ -235,6 +235,7 @@ f:a3caf8a09239ee247169b47319d8e406:c-lolcat/.pkgfiles
 f:d532ed12313cb54d0c276977a9ea6c03:c-lolcat/spkgbuild
 f:ada5f5403a5d2ca1337bcc82b68de319:corectrl/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:corectrl/.checksums
+f:85d47f2cb06aff09fa6ddfe01ee5bfd8:corectrl/.pkgfiles
 f:5f153bf46e29769689ec301626f0c041:deluge/.pkgfiles
 f:c3e36444d295aca80248549205e01698:deluge/spkgbuild
 f:f75919067f2c84392740b33e33bb6292:doxygen/.pkgfiles
@@ -594,7 +595,7 @@ f:83fe666cd8daa66389bd33c9072c45b1:libaom/spkgbuild
 f:229f630154dd30c9f7f972543d5a856b:ffmpeg-git/.pkgfiles
 f:c392f1b32b254d8e3874fd3662b0e90f:ffmpeg-git/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:ffmpeg-git/.checksums
-f:bc982a5f821528c3d8dd870e43897577:kf5auth/spkgbuild
+f:96ceea9343343b1ab8e43bb6529a6176:kf5auth/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:kf5auth/.checksums
 f:f3566c867801b06035c8ca437e988456:kf5auth/.pkgfiles
 f:4879f32ef89bd5a6a61aa819f39390ba:karchive/spkgbuild

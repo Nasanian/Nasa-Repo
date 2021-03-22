@@ -3,28 +3,9 @@
 
 name=kf5auth
 version=git
-release=r1
+release=r2
 
 build() {
-  git clone https://github.com/KDE/extra-cmake-modules.git --depth 1 --jobs $(nproc)
-
-  cd extra-cmake-modules
-
-  sed -i '/"lib64"/s/64//' kde-modules/KDEInstallDirs.cmake &&
-
-  sed -e '/PACKAGE_INIT/i set(SAVE_PACKAGE_PREFIX_DIR "${PACKAGE_PREFIX_DIR}")' \
-      -e '/^include/a set(PACKAGE_PREFIX_DIR "${SAVE_PACKAGE_PREFIX_DIR}")' \
-      -i ECMConfig.cmake.in &&
-
-  mkdir build &&
-  cd    build &&
-
-  cmake -DCMAKE_INSTALL_PREFIX=/usr .. &&
-  make
-  make DESTDIR=$PKG install
-
-  cd ../..
-
   git clone https://github.com/KDE/kauth.git --depth 1 --jobs $(nproc)
   cd kauth
 
