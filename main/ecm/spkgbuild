@@ -1,0 +1,16 @@
+# description	: Extra Cmake Modules for KF5Auth
+# depends	: cmake qt5 gcc git
+
+name=ecm
+version=git
+release=r1
+
+build() {
+  git clone https://invent.kde.org/frameworks/extra-cmake-modules.git --depth 1 --jobs $(nproc)
+	cd extra-cmake-modules
+  mkdir build
+  cd build
+  cmake ..
+	make
+	make DESTDIR=$PKG install
+}

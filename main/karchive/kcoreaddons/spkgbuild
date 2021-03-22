@@ -1,0 +1,16 @@
+# description	: Addons for kf5.
+# depends	: cmake qt5 gcc git
+
+name=kcoreaddons
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/KDE/kcoreaddons.git --depth 1 --jobs $(nproc)
+	cd kcoreaddons
+  mkdir build
+  cd build
+  cmake ..
+	make
+	make DESTDIR=$PKG install
+}

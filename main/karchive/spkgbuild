@@ -1,16 +1,18 @@
-# description	: 
-# depends	: 
+# description	: KDE Archiver
+# depends	: tar
 
 name=karchive
-version=
-release=1
-noextract=""
-backup=""
-source=""
+version=git
+release=r1
 
 build() {
-	cd $name-$version
-	./configure --prefix=/usr
+	git clone https://github.com/KDE/karchive.git --depth 1 --jobs $(nproc)
+
+	cd karchive
+  mkdir build
+  cd build
+
+  cmake ..
 	make
 	make DESTDIR=$PKG install
 }

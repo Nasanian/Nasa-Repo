@@ -1,5 +1,5 @@
 # description	: GUI for root.
-# depends	: cmake qt5 gcc git
+# depends	: cmake qt5 gcc git ecm kcoreaddons
 
 name=kf5auth
 version=git

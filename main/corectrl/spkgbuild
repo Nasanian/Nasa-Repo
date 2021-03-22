@@ -4,10 +4,7 @@
 name=corectrl
 version=git
 release=r1
-options=""
-noextract=""
-backup=""
-source=""
+
 
 build() {
 
