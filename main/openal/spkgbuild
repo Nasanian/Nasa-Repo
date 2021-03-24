@@ -3,13 +3,13 @@
 
 name=openal
 version=git
-release=r1
+release=r2
 
 build() {
   git clone https://github.com/kcat/openal-soft.git --depth 1 --jobs $(nproc)
 	cd openal-soft
   cd build
-  cmake ..
+  cmake .. -DCMAKE_INSTALL_PREFIX=/usr
 	make
 	make DESTDIR=$PKG install
 }

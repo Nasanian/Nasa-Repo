@@ -3,7 +3,7 @@
 
 name=kf5auth
 version=git
-release=r2
+release=r3
 
 build() {
   git clone https://github.com/KDE/kauth.git --depth 1 --jobs $(nproc)
@@ -11,7 +11,7 @@ build() {
 
 
   cd cmake
-	cmake ..
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
 	make
 	make DESTDIR=$PKG install
 }
