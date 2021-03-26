@@ -3,8 +3,8 @@
 
 name=adoptjre
 version=git
-subver=8u272-b10
-subrel=8u272b10
+subver=8u282-b08
+subrel=8u282b08
 release=galaxy
 options=""
 noextract=""
