@@ -1,0 +1,32 @@
+# description	: JAVA / JRE / AdoptOpenJDK for java-11.
+# depends	: glibc fontconfig alsa cups tar selinux zlib freetype2 aria2
+
+name=adoptjre11
+version=git
+ver=11.0.10%2B9
+subver=11.0.10_9
+subrel=0.24.0
+release=galaxy
+options=""
+noextract=""
+backup=""
+source=""
+
+build() {
+  mkdir java
+  cd java
+
+  aria2c -x16 -j16 https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.10%2B9_openj9-0.24.0/OpenJDK11U-jdk_x64_linux_openj9_${subver}_openj9-${subrel}.tar.gz
+
+
+
+  tar xvf *.tar.gz
+
+  mv jdk-* java-11-bin
+  rm -rf /opt/java-11-bin
+
+  mkdir -p $PKG/opt/java-11-bin
+  cp -ar java-11-bin $PKG/opt/
+
+  chmod 777 -Rv $PKG/opt/java-11-bin
+}

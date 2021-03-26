@@ -128,7 +128,6 @@ d:compsize
 d:syncplay
 d:kodi
 d:python3-pygobject
-d:adoptjre
 d:TechnicLauncher
 d:lunar
 d:blueman
@@ -215,6 +214,8 @@ d:dnsmasq
 d:virsh
 d:ecm
 d:kcoreaddons
+d:adoptjre11
+d:adoptjre8
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
@@ -454,8 +455,6 @@ f:b34e6946ee7ec7d3e1a79ed292c562dd:syncplay/spkgbuild
 f:dffa6c690c10494f991791e725f4b2b0:kodi/spkgbuild
 f:db810fdfa6d1d4ab746cb6fe09e0db3e:python3-pygobject/.pkgfiles
 f:e06606e395bba9296a4791b68f038af3:python3-pygobject/spkgbuild
-f:cf2112d3ca6cd08795ba4d431e44e255:adoptjre/.pkgfiles
-f:e2497b74f8d8ddf7b1d50546df412c74:adoptjre/spkgbuild
 f:40fe78f2274867f0036ee998d3650bd7:TechnicLauncher/.pkgfiles
 f:15bd97425763bdeb954fb3dba4dffcd4:TechnicLauncher/spkgbuild
 f:2b24b97cc105d26e57f3f12ec2bb7e5a:lunar/spkgbuild
@@ -578,6 +577,7 @@ f:1a0f93e307d4c4d0a541d8e7c1c1c07f:dino-git/.pkgfiles
 f:38c20141177d7293b06627157c9467aa:dino-git/spkgbuild
 f:c87b9ca37bf6794d1973066f26843a9c:openal/.pkgfiles
 f:cb7250407bc51b16f9548c3b2ee4a7fb:openal/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:openal/.checksums
 f:7e48dbd8ebcf8f396a092f1052e318a9:glibc-force/.pkgfiles
 f:cabf312a0adc98de9d52a411b2c14baa:glibc-force/genlocales
 f:9a5997c3452909b1769918c759eff8a2:glibc-force/glibc-fhs-1.patch
@@ -624,3 +624,9 @@ f:2a0a3060e8fea819a5463a1fd1e71045:ecm/.pkgfiles
 f:7fa911ad0b11d9418e9d44044c122752:kcoreaddons/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:kcoreaddons/.checksums
 f:8078847d66015c2238b9f8da81296792:kcoreaddons/.pkgfiles
+f:cf2112d3ca6cd08795ba4d431e44e255:adoptjre11/.pkgfiles
+f:377397145bf058ac7fa824a2235baf78:adoptjre11/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:adoptjre11/.checksums
+f:cf2112d3ca6cd08795ba4d431e44e255:adoptjre8/.pkgfiles
+f:fd6a19243944cb8126e0469c75cbb47b:adoptjre8/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:adoptjre8/.checksums
