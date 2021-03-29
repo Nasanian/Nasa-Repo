@@ -1,5 +1,5 @@
-# description	:
-# depends	:
+# description	: Nested X11 sessions
+# depends	: meson git xorg-server xorg-video-drviers xorg xorgproto
 
 name=xephyr
 version=git
@@ -7,7 +7,7 @@ release=r1
 
 build() {
   git clone https://gitlab.freedesktop.org/xorg/xserver.git --depth 1 --jobs $(nproc)
-	cd $name-$version
+	cd xephyr
 	./configure --prefix=/usr
 	make
 	make DESTDIR=$PKG install

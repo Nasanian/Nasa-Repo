@@ -380,7 +380,7 @@ f:4b0a0d46b9bce321d43519844f7a3720:vulkan-validationlayers-32/spkgbuild
 f:8eee520bb9467f6fc83c7a1cd978d673:waifu2x/.pkgfiles
 f:06932a371b6ed08a2de359bf797a2c98:waifu2x/spkgbuild
 f:8cf1300552edffee109854ddcf179343:waifu2x-vulkan/spkgbuild
-f:d159d5e758a97b7ebd85d99337a2b96a:xephyr/spkgbuild
+f:92174cd793e922ccae23e7403c9bea93:xephyr/spkgbuild
 f:3b43afaeb2c50d08d682c5ceec60be60:zerotier/spkgbuild
 f:df2c090ffe001638b763c7b3f5023329:zerotier/.pkgfiles
 f:773d8b57e430f67632962eb0b1a33353:zram-init/spkgbuild
