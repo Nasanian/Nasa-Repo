@@ -290,11 +290,11 @@ f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
 f:b3c14690e8d1e3bc1984d62e46631590:lutris/.pkgfiles
 f:f675a7ba393acd01649f9ed30af4d523:lutris/spkgbuild
 f:3299d5039315eb4a4a354fe36d57f91f:mesa-vk/.pkgfiles
-f:0af284fedbfda8075a88260315ed32b8:mesa-vk/spkgbuild
+f:527a1127554bc137e13bc7b6e8992ac3:mesa-vk/spkgbuild
 f:9478fa402ea7011c506a1e1c2f847fec:mono/.pkgfiles
 f:21a1f9f599832cf25c9b249adb9e5108:mono/spkgbuild
 f:4066b1d8d65ac17c525687df47312e9b:mpv-vk/.pkgfiles
-f:78be2188a25e4f57b89cb334f72ee420:mpv-vk/spkgbuild
+f:abc42844fc663cadf002289dc9def823:mpv-vk/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:mpv-vk/.checksums
 f:d498856af918cb02d7500a516bb17911:ncnn/.pkgfiles
 f:c4c80315608831f9dc60fce8d6f9a2b6:ncnn/spkgbuild
@@ -335,9 +335,11 @@ f:e0e30b5d751bc2d1424f9bf43799a1ec:sccache/spkgbuild
 f:caf18930b0283b432a2394a93583c0da:sdl2mixer/.pkgfiles
 f:6dbd64c100ada37a271ce21ff579a0c2:sdl2mixer/spkgbuild
 f:2ff8ae0513dfe88864a1c8a58c6fba29:selinux/.pkgfiles
-f:7c3644624444e5b84efa75af909d62d3:selinux/spkgbuild
+f:90b08e3fdd968f553797740afa854ce5:selinux/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:selinux/.checksums
 f:2ff8ae0513dfe88864a1c8a58c6fba29:selinux-32/.pkgfiles
-f:7e88c928a4a988d58988f33af1bd890c:selinux-32/spkgbuild
+f:2b28aedd0e818e535c07608955cc0d7d:selinux-32/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:selinux-32/.checksums
 f:457cbb5588aef09e3be1144f7fa938ea:sm64-ex/.pkgfiles
 f:0991c904784ac31eece582adb212d813:sm64-ex/spkgbuild
 f:fdc6154b63b69f5e5730d92bf66e4400:spirv-cross/.pkgfiles
@@ -565,6 +567,7 @@ f:7f2b13f0f08346dfe0d2beacff03589e:nodejs-lts/.pkgfiles
 f:6143c21a654b0ba358a20a385797d507:nodejs-lts/spkgbuild
 f:48226caecc22154dd06ec2e70b6297f4:streamlink-git/.pkgfiles
 f:adbcf1b26f04afccbbaa4eb85ed579ea:streamlink-git/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:streamlink-git/.checksums
 f:3299d5039315eb4a4a354fe36d57f91f:parsec/.pkgfiles
 f:75fc17b468339f8c9e24a6080383b415:parsec/spkgbuild
 f:19295ff13004d402bdcde47332243dce:nmap/.pkgfiles
