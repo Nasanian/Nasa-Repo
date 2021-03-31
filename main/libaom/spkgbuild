@@ -3,10 +3,12 @@
 
 name=libaom
 version=git
-release=r2
+release=r3
 
 build() {
 
+
+  export CFLAGS=-fPIC
   git clone https://github.com/link-u/libaom.git --depth 1 --jobs $(nproc)
   cd libaom
   cd build
