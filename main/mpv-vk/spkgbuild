@@ -3,7 +3,7 @@
 
 name=mpv-vk
 version=git
-release=r4
+release=r5
 source=""
 
 build() {
