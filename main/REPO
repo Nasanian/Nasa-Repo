@@ -374,7 +374,7 @@ f:51854e9146cce34eb0738abb5f2c466e:vulkan-meta-32/spkgbuild
 f:617f2da53449a4432240d58fa1c15613:vulkan-tools/.pkgfiles
 f:046bea91e4f4ac0f4a7bd0c85a2490c0:vulkan-tools/spkgbuild
 f:617f2da53449a4432240d58fa1c15613:vulkan-tools-32/.pkgfiles
-f:2a345aa978a85abdf391ec20d2effaff:vulkan-tools-32/spkgbuild
+f:b41882890acb5cf86270bf5f2685bc05:vulkan-tools-32/spkgbuild
 f:9011269d77dd78ae0892e23b95da1be5:vulkan-validationlayers/spkgbuild
 f:4b0a0d46b9bce321d43519844f7a3720:vulkan-validationlayers-32/spkgbuild
 f:8eee520bb9467f6fc83c7a1cd978d673:waifu2x/.pkgfiles
@@ -393,7 +393,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:5e9a27f0827d4613701cfbad7115e01c:.httpup-repo.current
+f:bef1cdacdfabc7ba098f1718fff7c9cb:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:fa55a7c3296e3bcd1e172bb5d909e388:bat/.pkgfiles
