@@ -3,7 +3,7 @@
 
 name=selinux-32
 version=git
-release=r1
+release=r2
 
 
 build() {
