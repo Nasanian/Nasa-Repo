@@ -3,7 +3,7 @@
 
 name=chatterino
 version=git
-release=r2
+release=r3
 
 
 build() {

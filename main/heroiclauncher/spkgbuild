@@ -1,0 +1,25 @@
+# description	: Heroic Games launcher - launcher for epic games.
+# homepage	: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher
+# depends	: npx nodejs-lts electron yarn
+
+name=heroiclauncher
+version=git
+release=r1
+
+build() {
+  rm -rf /opt/heroic*
+  mkdir -p $PKG/opt
+  cd /opt
+
+  git clone https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher.git --depth 1 --jobs $(nproc) heroic
+  cd heroic
+
+  yarn
+  yarn dist tar.xz
+  tar --xattrs -xpf dist/*.tar.xz -C $PKG/opt
+
+  ln -s /opt/heroic-*/heroic /usr/bin/heroic
+  chmod +x /opt/heroic-*/heroic
+
+
+}
