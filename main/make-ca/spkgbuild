@@ -1,0 +1,39 @@
+# description	: Make-CA for LFS builds.
+# homepage	: https://github.com/djlucas/make-ca
+# depends	: openssl wget p11-kit
+
+name=make-ca
+version=git
+release=r1
+
+
+build() {
+  git clone https://github.com/djlucas/make-ca.git --depth 1 --jobs $(nproc)
+	cd make-ca
+
+	make
+	make DESTDIR=$PKG install
+  install -vdm755 $PKG/etc/ssl/local
+
+
+  wget http://www.cacert.org/certs/root.crt
+  wget http://www.cacert.org/certs/class3.crt
+
+  openssl x509 -in root.crt -text -fingerprint -setalias "CAcert Class 1 root" \
+        -addtrust serverAuth -addtrust emailProtection -addtrust codeSigning \
+        > $PKG/etc/ssl/local/CAcert_Class_1_root.pem
+
+  openssl x509 -in class3.crt -text -fingerprint -setalias "CAcert Class 3 root" \
+        -addtrust serverAuth -addtrust emailProtection -addtrust codeSigning \
+        > $PKG/etc/ssl/local/CAcert_Class_3_root.pem
+
+  openssl x509 -in /etc/ssl/certs/Makebelieve_CA_Root.pem \
+             -text \
+             -fingerprint \
+             -setalias "Disabled Makebelieve CA Root" \
+             -addreject serverAuth \
+             -addreject emailProtection \
+             -addreject codeSigning \ > $PKG/etc/ssl/local/Disabled_Makebelieve_CA_Root.pem
+
+  echo "Please visit http://www.linuxfromscratch.org/blfs/view/svn/postlfs/make-ca.html for more info on how to use this."
+}
