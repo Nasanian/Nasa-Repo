@@ -3,7 +3,7 @@
 
 name=sccache
 version=git
-release=crate
+release=r2
 
 build() {
 	export CARGO_HOME="$PWD/cargo"
