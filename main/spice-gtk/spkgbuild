@@ -1,0 +1,17 @@
+# description	: GTK client and libs for SPICE remote desktop servers.
+# homepage	: https://github.com/freedesktop/spice-gtk
+# depends	: ninja meson gtk3 openssl pulseaudio pixman gobject-introspection libjpeg-turbo zlib gtk-doc gettext python3 vala python3-pyparsing spice-protocol
+
+name=spice-gtk
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/freedesktop/spice-gtk.git --depth 1 --jobs $(nproc)
+	cd spice-gtk
+
+	meson --prefix=/usr ./build
+  ninja -C build
+
+	DESTDIR=$PKG ninja -C build install
+}

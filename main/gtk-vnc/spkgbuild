@@ -1,0 +1,19 @@
+# description	: GTK VNC client.
+# homepage	: https://gitlab.gnome.org/GNOME/gtk-vnc
+# depends	: libvnc ninja meson
+
+name=gtk-vnc
+version=git
+release=r1
+
+build() {
+
+  git clone https://gitlab.gnome.org/GNOME/gtk-vnc.git --depth 1 --jobs $(nproc)
+  cd gtk-vnc
+
+	meson ./build
+  ninja -C build
+
+
+	DESTDIR=$PKG ninja -C build install
+}

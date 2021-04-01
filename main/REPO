@@ -1,7 +1,6 @@
 d:x265
 d:amdvlk
 d:amdvlk-32
-d:anydesk
 d:anydesk-classic
 d:apulse
 d:aria2
@@ -217,10 +216,13 @@ d:kcoreaddons
 d:adoptjre11
 d:adoptjre8
 d:heroiclauncher
+d:gnome-boxes
+d:gtk-vnc
+d:spice-gtk
+d:spice-protocol
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
-f:2f43e0d9a81b080d74d821c594671f62:anydesk/spkgbuild
 f:6d940c0f4a7d00f7847c720b3bf9da8f:anydesk-classic/.pkgfiles
 f:1c58e48d7574933cf3e848a2086087e0:anydesk-classic/libgtkglext-x11-1.0.so
 f:9b03a620f4e5172b864a8fc2f8c6a72f:anydesk-classic/spkgbuild
@@ -290,7 +292,8 @@ f:6ce5814a00f14e82e96a8a4be1394f17:lsof/spkgbuild
 f:b3c14690e8d1e3bc1984d62e46631590:lutris/.pkgfiles
 f:f675a7ba393acd01649f9ed30af4d523:lutris/spkgbuild
 f:3299d5039315eb4a4a354fe36d57f91f:mesa-vk/.pkgfiles
-f:527a1127554bc137e13bc7b6e8992ac3:mesa-vk/spkgbuild
+f:a2d229a4bffa54c89af068354dd64bbc:mesa-vk/spkgbuild
+f:40a5ce81c9c5d6c06fe08649d5392eb9:mesa-vk/.checksums
 f:9478fa402ea7011c506a1e1c2f847fec:mono/.pkgfiles
 f:21a1f9f599832cf25c9b249adb9e5108:mono/spkgbuild
 f:4066b1d8d65ac17c525687df47312e9b:mpv-vk/.pkgfiles
@@ -335,7 +338,7 @@ f:e0e30b5d751bc2d1424f9bf43799a1ec:sccache/spkgbuild
 f:caf18930b0283b432a2394a93583c0da:sdl2mixer/.pkgfiles
 f:6dbd64c100ada37a271ce21ff579a0c2:sdl2mixer/spkgbuild
 f:2ff8ae0513dfe88864a1c8a58c6fba29:selinux/.pkgfiles
-f:90b08e3fdd968f553797740afa854ce5:selinux/spkgbuild
+f:3563e6f262e7012ba2d7bd2c4ee80d6c:selinux/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:selinux/.checksums
 f:2ff8ae0513dfe88864a1c8a58c6fba29:selinux-32/.pkgfiles
 f:2b28aedd0e818e535c07608955cc0d7d:selinux-32/spkgbuild
@@ -466,6 +469,7 @@ f:2b24b97cc105d26e57f3f12ec2bb7e5a:lunar/spkgbuild
 f:ab6c36c78840f8ed44fd29763ff7b999:blueman/spkgbuild
 f:7a0d19a239e5057f52cdde9a096e14fd:chatterino/.pkgfiles
 f:cee776126e6fa6a98827dce4b22de612:chatterino/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:chatterino/.checksums
 f:2e7c0cc7da7f1da9d074e528493a6d92:harfbuzz-git/spkgbuild
 f:2b86f2695abda15a45bad33295dd538f:harfbuzz-icu-git/spkgbuild
 f:429306aa9ce9dc43b1cb374f83ca1ea6:icu-git/.pkgfiles
@@ -501,7 +505,8 @@ f:faf94e3ac40a9d7c4715f3e4ff5ba92a:zmusic/.pkgfiles
 f:e26cf58b951c6d13963b727e94c89ad2:python-docutils/.pkgfiles
 f:3fa57ff226fcdc6d47eff07f2df91d43:python-docutils/spkgbuild
 f:cf76b3428d78cec9f6ebc9ccae439471:libvirt-glib/.pkgfiles
-f:22e85e7436285547086ac0040cf1390d:libvirt-glib/spkgbuild
+f:9f4bfbe208ccbb6d5b14f48953ac80f8:libvirt-glib/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:libvirt-glib/.checksums
 f:b94776d22af261421b04cccb6f90e456:argon2/.pkgfiles
 f:778fafe63d3ee89afa0de05687bbb142:argon2/spkgbuild
 f:bae1792d9c244f53666fb417c43769ff:asciidoctor/spkgbuild
@@ -566,7 +571,7 @@ f:b619b6368397c86c7541d41739f0f410:johntheripper/spkgbuild
 f:7f2b13f0f08346dfe0d2beacff03589e:nodejs-lts/.pkgfiles
 f:6143c21a654b0ba358a20a385797d507:nodejs-lts/spkgbuild
 f:48226caecc22154dd06ec2e70b6297f4:streamlink-git/.pkgfiles
-f:adbcf1b26f04afccbbaa4eb85ed579ea:streamlink-git/spkgbuild
+f:f08d591750aa56ae2a3592ecb41cfedc:streamlink-git/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:streamlink-git/.checksums
 f:3299d5039315eb4a4a354fe36d57f91f:parsec/.pkgfiles
 f:75fc17b468339f8c9e24a6080383b415:parsec/spkgbuild
@@ -597,7 +602,7 @@ f:ab37bc836263674e2124340d53cb0831:coreutils-link/.pkgfiles
 f:91270407d60ad56dcb8eb05a9b211326:coreutils-link/spkgbuild
 f:1c7001d28a13c29acf63aae202d5d2b3:libaom/.pkgfiles
 f:c1a5d97f6be1b463a7c0faf320eee13e:libaom/.checksums
-f:83fe666cd8daa66389bd33c9072c45b1:libaom/spkgbuild
+f:4d70ea61129ba31e3273420b08f366f7:libaom/spkgbuild
 f:229f630154dd30c9f7f972543d5a856b:ffmpeg-git/.pkgfiles
 f:c392f1b32b254d8e3874fd3662b0e90f:ffmpeg-git/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:ffmpeg-git/.checksums
@@ -638,3 +643,14 @@ f:fd6a19243944cb8126e0469c75cbb47b:adoptjre8/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:adoptjre8/.checksums
 f:020413cb3a2fcc2ff1867ce07015a8aa:heroiclauncher/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:heroiclauncher/.checksums
+f:b55438db90fb4d627b225939bc5097c5:gnome-boxes/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:gnome-boxes/.checksums
+f:26c30e6919e3cb56043456afaae03430:gtk-vnc/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:gtk-vnc/.checksums
+f:f04713866f7f8369864ca6d5e6d9913b:gtk-vnc/.pkgfiles
+f:bfb28b90023c62fa45dc48ff39687d63:spice-gtk/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:spice-gtk/.checksums
+f:94b5b33490bc49d1b7a4dfa415d71452:spice-gtk/.pkgfiles
+f:882aa42427283988a3ea44d56cd6bc38:spice-protocol/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:spice-protocol/.checksums
+f:fc99f6aff8c32f27852580d7f7e7e73e:spice-protocol/.pkgfiles

@@ -1,0 +1,17 @@
+# description	: Protocol definition for SPICE.
+# homepage	: https://github.com/freedesktop/spice-protocol
+# depends	: meson ninja
+
+name=spice-protocol
+version=git
+release=r2
+
+build() {
+	git clone https://github.com/freedesktop/spice-protocol.git --depth 1 --jobs $(nproc)
+  cd spice-protocol
+
+	meson --prefix=/usr ./build
+  ninja -C build
+
+	DESTDIR=$PKG ninja -C build install
+}
