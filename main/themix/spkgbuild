@@ -1,9 +1,9 @@
-# description	: Highly advanced GUI GTK theme creator!
+# description	:  Excellent GUI application to make GTK themes.
 # depends	: xrdb glib sassc coreutils binutils parallel gtkmm2 gtkmm3 inkscape imagemagick6  librsvg breeze-icons polkit zip python2-pillow python3-pillow python3-yaml python3 python2-pip python3-pip numix-icon-theme optipng
 
 name=themix
 version=git
-release=r1
+release=r2
 
 build() {
 

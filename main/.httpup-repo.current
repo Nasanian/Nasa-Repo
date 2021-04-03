@@ -1,7 +1,6 @@
 x265
 amdvlk
 amdvlk-32
-anydesk
 anydesk-classic
 apulse
 aria2
@@ -216,10 +215,14 @@ ecm
 kcoreaddons
 adoptjre11
 adoptjre8
+heroiclauncher
+gnome-boxes
+gtk-vnc
+spice-gtk
+spice-protocol
 x265/spkgbuild
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
-anydesk/spkgbuild
 anydesk-classic/.pkgfiles
 anydesk-classic/libgtkglext-x11-1.0.so
 anydesk-classic/spkgbuild
@@ -234,6 +237,7 @@ bazybooz/spkgbuild
 brotli/spkgbuild
 c-lolcat/.pkgfiles
 c-lolcat/spkgbuild
+c-lolcat/.checksums
 corectrl/spkgbuild
 corectrl/.checksums
 corectrl/.pkgfiles
@@ -289,6 +293,7 @@ lutris/.pkgfiles
 lutris/spkgbuild
 mesa-vk/.pkgfiles
 mesa-vk/spkgbuild
+mesa-vk/.checksums
 mono/.pkgfiles
 mono/spkgbuild
 mpv-vk/.pkgfiles
@@ -334,8 +339,10 @@ sdl2mixer/.pkgfiles
 sdl2mixer/spkgbuild
 selinux/.pkgfiles
 selinux/spkgbuild
+selinux/.checksums
 selinux-32/.pkgfiles
 selinux-32/spkgbuild
+selinux-32/.checksums
 sm64-ex/.pkgfiles
 sm64-ex/spkgbuild
 spirv-cross/.pkgfiles
@@ -450,6 +457,7 @@ btrfs-speed/.pkgfiles
 btrfs-speed/spkgbuild
 compsize/.pkgfiles
 compsize/spkgbuild
+compsize/.checksums
 syncplay/.pkgfiles
 syncplay/spkgbuild
 kodi/spkgbuild
@@ -461,6 +469,7 @@ lunar/spkgbuild
 blueman/spkgbuild
 chatterino/.pkgfiles
 chatterino/spkgbuild
+chatterino/.checksums
 harfbuzz-git/spkgbuild
 harfbuzz-icu-git/spkgbuild
 icu-git/.pkgfiles
@@ -497,6 +506,7 @@ python-docutils/.pkgfiles
 python-docutils/spkgbuild
 libvirt-glib/.pkgfiles
 libvirt-glib/spkgbuild
+libvirt-glib/.checksums
 argon2/.pkgfiles
 argon2/spkgbuild
 asciidoctor/spkgbuild
@@ -562,6 +572,7 @@ nodejs-lts/.pkgfiles
 nodejs-lts/spkgbuild
 streamlink-git/.pkgfiles
 streamlink-git/spkgbuild
+streamlink-git/.checksums
 parsec/.pkgfiles
 parsec/spkgbuild
 nmap/.pkgfiles
@@ -630,3 +641,16 @@ adoptjre11/.checksums
 adoptjre8/.pkgfiles
 adoptjre8/spkgbuild
 adoptjre8/.checksums
+heroiclauncher/spkgbuild
+heroiclauncher/.checksums
+gnome-boxes/spkgbuild
+gnome-boxes/.checksums
+gtk-vnc/spkgbuild
+gtk-vnc/.checksums
+gtk-vnc/.pkgfiles
+spice-gtk/spkgbuild
+spice-gtk/.checksums
+spice-gtk/.pkgfiles
+spice-protocol/spkgbuild
+spice-protocol/.checksums
+spice-protocol/.pkgfiles

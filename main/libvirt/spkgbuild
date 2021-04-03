@@ -48,8 +48,5 @@ build() {
   groupadd -f kvm
   groupadd -f libvirt
   groupadd -f libvirtd
-  useradd  -M -g $USER libvirt
-  useradd  -M -g $USER kvm
-  useradd  -M -g $USER kvmd
 	DESTDIR=$PKG ninja -C build install
 }
