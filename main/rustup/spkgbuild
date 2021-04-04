@@ -15,5 +15,5 @@ build() {
 	cd rustup
 
   cargo build --release
-  install -Dm755 target/release/rustup $PKG/usr/bin/rustup
+  install -Dm755 target/release/rustup-init $PKG/usr/bin/rustup
 }
