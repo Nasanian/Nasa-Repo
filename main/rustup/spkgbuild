@@ -1,0 +1,19 @@
+# description	: Rust toolchain installer/manager.
+# homepage	: https://github.com/rust-lang/rustup
+# depends	: rust
+
+name=rustup
+version=git
+release=r1
+
+
+build() {
+	export CARGO_HOME="$PWD/cargo"
+  mkdir -p $CARGO_HOME
+
+  git clone https://github.com/rust-lang/rustup.git --depth 1 --jobs $(nproc)
+	cd rustup
+
+  cargo build --release
+  install -Dm755 target/release/rustup $PKG/usr/bin/rustup
+}

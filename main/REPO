@@ -221,7 +221,9 @@ d:gtk-vnc
 d:spice-gtk
 d:spice-protocol
 d:make-ca
+d:rustup
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
+f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
 f:1dbb469b675facb0b5ff401a5e71fecd:amdvlk-32/spkgbuild
 f:6d940c0f4a7d00f7847c720b3bf9da8f:anydesk-classic/.pkgfiles
@@ -666,3 +668,5 @@ f:fc99f6aff8c32f27852580d7f7e7e73e:spice-protocol/.pkgfiles
 f:5fbf131d987f6060c51574aa4476689a:make-ca/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:make-ca/.checksums
 f:9e73df6c770ec77e008ae2442b050e6a:make-ca/.pkgfiles
+f:7cc004a49df0906b8bff69dfc7cc4bac:rustup/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:rustup/.checksums
