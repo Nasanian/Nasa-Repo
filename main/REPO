@@ -221,7 +221,7 @@ d:gtk-vnc
 d:spice-gtk
 d:spice-protocol
 d:make-ca
-d:rustup
+d:rustup-init
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -668,5 +668,6 @@ f:fc99f6aff8c32f27852580d7f7e7e73e:spice-protocol/.pkgfiles
 f:5fbf131d987f6060c51574aa4476689a:make-ca/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:make-ca/.checksums
 f:9e73df6c770ec77e008ae2442b050e6a:make-ca/.pkgfiles
-f:7cc004a49df0906b8bff69dfc7cc4bac:rustup/spkgbuild
-f:c1a5d97f6be1b463a7c0faf320eee13e:rustup/.checksums
+f:5283424b686667ae731c3abbfcb6aa9a:rustup-init/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:rustup-init/.checksums
+f:c348d4d362a1ecf95987dd15245a7b1e:rustup-init/.pkgfiles
