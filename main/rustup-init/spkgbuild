@@ -2,7 +2,7 @@
 # homepage	: https://github.com/rust-lang/rustup
 # depends	: rust
 
-name=rustup
+name=rustup-init
 version=git
 release=r1
 
@@ -15,5 +15,6 @@ build() {
 	cd rustup
 
   cargo build --release
-  install -Dm755 target/release/rustup-init $PKG/usr/bin/rustup
+  install -Dm755 target/release/rustup-init $PKG/usr/bin/rustup-init
+
 }
