@@ -450,7 +450,7 @@ f:a59ea0d66810d42835ad00f184c9c4c0:keepassxc/.pkgfiles
 f:df7db30d586df65fe25994259ee1edc6:keepassxc/spkgbuild
 f:8b876fdc66166554292781a44d72f901:thunar-noroot/.pkgfiles
 f:b5d4dbd3fe803f5a35649a986b6fa9d8:thunar-noroot/norootwarn.patch
-f:722ad34863f498c0ec82af848909e849:thunar-noroot/spkgbuild
+f:41193e1df9fd8d88904f7abf4785df42:thunar-noroot/spkgbuild
 f:06ea99333f1a3f92cbf2939daf68ed85:powercord/.pkgfiles
 f:3da302b523c8bb8a5555c7d1f63e6b93:powercord/spkgbuild
 f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles
@@ -577,7 +577,7 @@ f:b619b6368397c86c7541d41739f0f410:johntheripper/spkgbuild
 f:7f2b13f0f08346dfe0d2beacff03589e:nodejs-lts/.pkgfiles
 f:6143c21a654b0ba358a20a385797d507:nodejs-lts/spkgbuild
 f:48226caecc22154dd06ec2e70b6297f4:streamlink-git/.pkgfiles
-f:f08d591750aa56ae2a3592ecb41cfedc:streamlink-git/spkgbuild
+f:50278d84e2f30ff4869ffce3b8de954d:streamlink-git/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:streamlink-git/.checksums
 f:3299d5039315eb4a4a354fe36d57f91f:parsec/.pkgfiles
 f:75fc17b468339f8c9e24a6080383b415:parsec/spkgbuild
