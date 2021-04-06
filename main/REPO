@@ -404,7 +404,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:2e7f8837707d58c5cf90ab2fe4d1b0c8:.httpup-repo.current
+f:2a2f78c731cbc9c8669036aef09571bb:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:fa55a7c3296e3bcd1e172bb5d909e388:bat/.pkgfiles
@@ -434,6 +434,7 @@ f:c1c61ad2d5c12e30bd51c48e5e6c458b:arandr/.pkgfiles
 f:ffd1ed924bf2d9c3ee232b46b27aa453:arandr/spkgbuild
 f:2b15dabc46b4d4066dd9f60714816644:themix/.pkgfiles
 f:f294aa44ba8e1894745d2b63bd8159a5:themix/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:themix/.checksums
 f:6c6d09b4b309790cf7e1b075b5554abd:stalonetray/.pkgfiles
 f:6054470935d08b978be6f8f09c844f80:stalonetray/spkgbuild
 f:33fc99a182f5631cf82536e7a6a0bdd6:streamlink-twitch-gui/.pkgfiles
@@ -450,7 +451,8 @@ f:a59ea0d66810d42835ad00f184c9c4c0:keepassxc/.pkgfiles
 f:df7db30d586df65fe25994259ee1edc6:keepassxc/spkgbuild
 f:8b876fdc66166554292781a44d72f901:thunar-noroot/.pkgfiles
 f:b5d4dbd3fe803f5a35649a986b6fa9d8:thunar-noroot/norootwarn.patch
-f:41193e1df9fd8d88904f7abf4785df42:thunar-noroot/spkgbuild
+f:9fe069b810c069efa148f242705425ed:thunar-noroot/spkgbuild
+f:7ad777e11139dc1a3f5c7e26bfeafc7e:thunar-noroot/.checksums
 f:06ea99333f1a3f92cbf2939daf68ed85:powercord/.pkgfiles
 f:3da302b523c8bb8a5555c7d1f63e6b93:powercord/spkgbuild
 f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles

@@ -220,7 +220,10 @@ gnome-boxes
 gtk-vnc
 spice-gtk
 spice-protocol
+make-ca
+rustup-init
 x265/spkgbuild
+x265/.pkgfiles
 amdvlk/spkgbuild
 amdvlk-32/spkgbuild
 anydesk-classic/.pkgfiles
@@ -310,6 +313,7 @@ npx/spkgbuild
 obs/.pkgfiles
 obs/hevc-vaapi.diff
 obs/spkgbuild
+obs/.checksums
 ocl-icd/.pkgfiles
 ocl-icd/spkgbuild
 opencv/.pkgfiles
@@ -496,6 +500,7 @@ hidapi/.pkgfiles
 hidapi/spkgbuild
 python3-pyqt5-galaxy/.pkgfiles
 python3-pyqt5-galaxy/spkgbuild
+python3-pyqt5-galaxy/.checksums
 python3-pyqtwebengine-galaxy/spkgbuild
 qt5-webengine/spkgbuild
 fluidsynth/.pkgfiles
@@ -559,6 +564,7 @@ metasploit/.pkgfiles
 metasploit/attach
 metasploit/detach
 metasploit/spkgbuild
+metasploit/.checksums
 aircrack-ng/spkgbuild
 macchanger/spkgbuild
 steghide/spkgbuild
@@ -651,6 +657,17 @@ gtk-vnc/.pkgfiles
 spice-gtk/spkgbuild
 spice-gtk/.checksums
 spice-gtk/.pkgfiles
+spice-gtk/cakey.pem
+spice-gtk/ca.info
+spice-gtk/cacert.pem
+spice-gtk/servercert.pem
+spice-gtk/servercrt.pem
 spice-protocol/spkgbuild
 spice-protocol/.checksums
 spice-protocol/.pkgfiles
+make-ca/spkgbuild
+make-ca/.checksums
+make-ca/.pkgfiles
+rustup-init/spkgbuild
+rustup-init/.checksums
+rustup-init/.pkgfiles

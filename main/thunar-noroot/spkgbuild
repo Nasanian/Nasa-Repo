@@ -4,7 +4,7 @@
 name=thunar-noroot
 version=4.16.6
 release=1
-source="http://archive.xfce.org/src/xfce/$name/${version%.*}/thunar-$version.tar.bz2
+source="http://archive.xfce.org/src/xfce/thunar/${version%.*}/thunar-$version.tar.bz2
         norootwarn.patch"
 
 build() {
