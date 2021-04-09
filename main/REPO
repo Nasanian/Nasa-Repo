@@ -222,6 +222,7 @@ d:spice-gtk
 d:spice-protocol
 d:make-ca
 d:rustup-init
+d:mangohud
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -455,6 +456,7 @@ f:9fe069b810c069efa148f242705425ed:thunar-noroot/spkgbuild
 f:7ad777e11139dc1a3f5c7e26bfeafc7e:thunar-noroot/.checksums
 f:06ea99333f1a3f92cbf2939daf68ed85:powercord/.pkgfiles
 f:3da302b523c8bb8a5555c7d1f63e6b93:powercord/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:powercord/.checksums
 f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles
 f:8b6d9191a57be8c386ea85a4646ba24a:bitmap-fonts-pack/spkgbuild
 f:91afce2f12a1e541e1eac0b65ee79305:grub-btrfs/.pkgfiles
@@ -673,3 +675,6 @@ f:9e73df6c770ec77e008ae2442b050e6a:make-ca/.pkgfiles
 f:5283424b686667ae731c3abbfcb6aa9a:rustup-init/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:rustup-init/.checksums
 f:c348d4d362a1ecf95987dd15245a7b1e:rustup-init/.pkgfiles
+f:956dc4d405147e466927ac9e438eb349:mangohud/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:mangohud/.checksums
+f:e2428f84a8fb93969aa830c2a2017146:mangohud/.pkgfiles

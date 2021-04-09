@@ -1,0 +1,16 @@
+# description	: OSD for FPS/Temps/Clockspeed.
+# homepage	: https://github.com/flightlessmango/MangoHuds
+# depends	: dbus glslang vulkan-meta vulkan-meta-32 mesa-git python3-mako gcc
+
+name=mangohud
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/flightlessmango/MangoHud.git --depth 1 --jobs $(nproc)
+  cd MangoHud
+  mkdir build
+  meson  -Dwith_xnvctrl=disabled --prefix=/usr ./build
+  cd build
+	DESTDIR=$PKG ninja install
+}

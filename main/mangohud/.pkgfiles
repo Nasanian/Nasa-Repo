@@ -1,0 +1,15 @@
+mangohud-git-r1
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/bin/
+-rwxr-xr-x root/root    usr/bin/mangohud
+drwxr-xr-x root/root    usr/lib64/
+drwxr-xr-x root/root    usr/lib64/mangohud/
+-rwxr-xr-x root/root    usr/lib64/mangohud/libMangoHud.so
+-rwxr-xr-x root/root    usr/lib64/mangohud/libMangoHud_dlsym.so
+drwxr-xr-x root/root    usr/share/
+drwxr-xr-x root/root    usr/share/man/
+drwxr-xr-x root/root    usr/share/man/man1/
+-rw-r--r-- root/root    usr/share/man/man1/mangohud.1.gz
+drwxr-xr-x root/root    usr/share/vulkan/
+drwxr-xr-x root/root    usr/share/vulkan/implicit_layer.d/
+-rw-r--r-- root/root    usr/share/vulkan/implicit_layer.d/MangoHud.json
