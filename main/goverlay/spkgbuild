@@ -1,0 +1,14 @@
+# description	: User interface for vkBasalt/replaysorcery/mangoHud.
+# homepage	: https://github.com/benjamimgois/goverlay
+# depends	: mangohud replaysorcery mesa-demos git qt5 lazarus
+
+name=goverlay
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/benjamimgois/goverlay.git --depth 1 --jobs $(nproc)
+  cd goverlay
+	make
+	make DESTDIR=$PKG install
+}

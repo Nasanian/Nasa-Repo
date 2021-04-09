@@ -1,0 +1,14 @@
+# description	: Pascal IDE + dependency for goverlay.
+# homepage	: https://github.com/graemeg/lazarus
+# depends	: gtk2 xorg-server gcc make freepascal
+
+name=lazarus
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/graemeg/lazarus.git --depth 1 --jobs $(nproc)
+	cd lazarus
+	make clean all
+	make DESTDIR=$PKG install
+}

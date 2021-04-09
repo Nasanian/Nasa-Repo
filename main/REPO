@@ -223,6 +223,10 @@ d:spice-protocol
 d:make-ca
 d:rustup-init
 d:mangohud
+d:goverlay
+d:replaysorcery
+d:lazarus
+d:freepascal
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -678,3 +682,12 @@ f:c348d4d362a1ecf95987dd15245a7b1e:rustup-init/.pkgfiles
 f:956dc4d405147e466927ac9e438eb349:mangohud/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:mangohud/.checksums
 f:e2428f84a8fb93969aa830c2a2017146:mangohud/.pkgfiles
+f:b7edbe5520b68dd34b6e029a976ccf14:goverlay/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:goverlay/.checksums
+f:67fd81e8da21fea9b0aef106cb4cff67:replaysorcery/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:replaysorcery/.checksums
+f:7df83973b91bc7ea0577ada063f8f632:replaysorcery/.pkgfiles
+f:c9583a0769d6df4d09542717d51a033c:lazarus/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:lazarus/.checksums
+f:ac9f57fea5a64c7f9b0577fc27dae740:freepascal/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:freepascal/.checksums

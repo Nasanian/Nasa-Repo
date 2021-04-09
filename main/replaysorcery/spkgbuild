@@ -1,0 +1,17 @@
+# description	: An open-source, instant-replay solution for Linux.
+# homepage	: https://github.com/matanui159/ReplaySorcery
+# depends	: pulseaudio cmake gst-libav ffmpeg-git ffmpegthumbnailer xorg-server xorg-video-drivers
+
+name=replaysorcery
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/matanui159/ReplaySorcery.git --depth 1 --jobs $(nproc)
+  cd ReplaySorcery
+
+  git submodule update --init
+  cmake -B bin -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release
+  make -C bin
+  make DESTDIR=$PKG install -C bin
+}

@@ -1,0 +1,14 @@
+# description	: Pascal compiler.
+# homepage	: https://github.com/graemeg/freepascal
+# depends	: binutils expat ncurses make zlib
+
+name=freepascal
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/graemeg/freepascal.git --depth 1 --jobs $(nproc)
+	cd freepascal/compiler
+	make
+	make DESTDIR=$PKG install
+}
