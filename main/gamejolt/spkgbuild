@@ -1,23 +1,23 @@
 # description	: similar to itch, finds free games easily for you to play!
-# depends	: wget tar mono
+# depends	: aria2 tar mono
 
 name=gamejolt
 version=galaxy
-release=r1
+release=r2
 
 build() {
 
-  download="https://f-cdn.gamejolt.net/data/games/5/162/362412/protected-files-cdn/5fc14f96d98af/gamejoltclient.tar.gz?secure=w7h7svbp3kSNu162j8ilFA%2C1606589696"
+  download="https://f-cdn.gamejolt.net/data/games/5/162/362412/files/6067643c43d31/gamejoltclient.tar.gz?secure=xQysTee10TWW_3fxCfMCuw%2C1618181001"
   mkdir -pv $PKG/opt/gamejolt/
   rm -rf /opt/gamejolt
   rm -rf /usr/bin/gamejolt
 
   mkdir $name-$version
   cd $name-$version
-  wget https://candy-gamejolt.surge.sh/gamejolt
+  aria2c -x16 -j16 https://candy-gamejolt.surge.sh/gamejolt
   mv gamejolt /usr/bin/
 
-  wget $download -O gamejolt.tar.gz
+  aria2c -x16 -j16 $download -o gamejolt.tar.gz
 
   tar xvf gamejolt.tar.gz
   rm -rf gamejolt.tar.gz

@@ -262,7 +262,8 @@ f:7dd10844580c4fcce74d622a3a999d4c:flameshot/spkgbuild
 f:598b8ec5175aba63982b05cf9abbba11:fzf/.pkgfiles
 f:e77c53012e4f0c85e6cd5c642d76649c:fzf/spkgbuild
 f:810100bdca42a8ceb0cce49aca75f013:gamejolt/.pkgfiles
-f:984aefcb2e3355c934689b2a4be268bd:gamejolt/spkgbuild
+f:6fd1c50168cd341ce2d4539745560a89:gamejolt/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:gamejolt/.checksums
 f:7a6e84129f54caa64e7b4bc009786b28:gdb/.pkgfiles
 f:beafc618183b96a4a393afae32ae68fe:gdb/spkgbuild
 f:d41d8cd98f00b204e9800998ecf8427e:glimpse/spkgbuild
