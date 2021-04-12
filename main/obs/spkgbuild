@@ -12,15 +12,18 @@ build() {
   git clone https://github.com/obsproject/obs-studio.git --depth 1 --jobs $(nproc)
   git clone https://github.com/Mixer/ftl-sdk.git --depth 1 --jobs $(nproc)
   git clone https://github.com/obsproject/obs-browser.git --depth 1 --jobs $(nproc)
+
   wget https://aur.archlinux.org/cgit/aur.git/plain/hevc-vaapi.diff?h=obs-hevc-vaapi-git -O hevc-vaapi.diff
 
   cd obs-studio
+
+  git submodule update --init --recursive --depth 1 --jobs $(nproc)
   git config submodule.plugins/obs-outputs/ftl-sdk.url ../ftl-sdk
   git config submodule.plugins/obs-browser.url ../obs-browser
 
   patch -p1 -i ../hevc-vaapi.diff
     cmake -DCMAKE_INSTALL_PREFIX=/usr \
-        -DBUILD_BROWSER=ON \
+        -DBUILD_BROWSER=OFF \
         -DCEF_ROOT_DIR="/opt/cef" \
         -B build -S $PKG .
 

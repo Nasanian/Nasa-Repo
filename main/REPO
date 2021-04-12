@@ -319,7 +319,7 @@ f:2e4a11d6f4410220c6fff15f2617c192:npx/.pkgfiles
 f:c707a4c029f2ab7bc4974e3d404683d3:npx/spkgbuild
 f:8f2ca76edffe79d8087f4123213ddb7b:obs/.pkgfiles
 f:5b54a7b83d088d95ba7d514beb1d22af:obs/hevc-vaapi.diff
-f:1efc816308b6174bed2f196b56ad8cf1:obs/spkgbuild
+f:632479197fb69f8c94484540e5123456:obs/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:obs/.checksums
 f:e4ea2ad64f38e3d140ab0fd4bedd1789:ocl-icd/.pkgfiles
 f:cdc93765e7bd471bfd956d984fa27c2f:ocl-icd/spkgbuild
@@ -695,3 +695,4 @@ f:ac9f57fea5a64c7f9b0577fc27dae740:freepascal/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:freepascal/.checksums
 f:f929331808a9b79246d646bba129bee2:libsndio/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libsndio/.checksums
+f:1a8dbf569cb04464b58a235a836ee14a:libsndio/.pkgfiles
