@@ -1,0 +1,17 @@
+libsndio-git-r1
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/bin/
+-rwxr-xr-x root/root    usr/local/bin/sio_list_devices
+-rwxr-xr-x root/root    usr/local/bin/sio_microphone
+-rwxr-xr-x root/root    usr/local/bin/sio_record
+-rwxr-xr-x root/root    usr/local/bin/sio_sine
+drwxr-xr-x root/root    usr/local/include/
+drwxr-xr-x root/root    usr/local/include/soundio/
+-rw-r--r-- root/root    usr/local/include/soundio/endian.h
+-rw-r--r-- root/root    usr/local/include/soundio/soundio.h
+drwxr-xr-x root/root    usr/local/lib/
+-rw-r--r-- root/root    usr/local/lib/libsoundio.a
+lrwxrwxrwx root/root    usr/local/lib/libsoundio.so -> libsoundio.so.2
+lrwxrwxrwx root/root    usr/local/lib/libsoundio.so.2 -> libsoundio.so.2.0.0
+-rwxr-xr-x root/root    usr/local/lib/libsoundio.so.2.0.0

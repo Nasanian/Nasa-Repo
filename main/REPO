@@ -227,6 +227,7 @@ d:goverlay
 d:replaysorcery
 d:lazarus
 d:freepascal
+d:libsndio
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -318,7 +319,7 @@ f:2e4a11d6f4410220c6fff15f2617c192:npx/.pkgfiles
 f:c707a4c029f2ab7bc4974e3d404683d3:npx/spkgbuild
 f:8f2ca76edffe79d8087f4123213ddb7b:obs/.pkgfiles
 f:5b54a7b83d088d95ba7d514beb1d22af:obs/hevc-vaapi.diff
-f:4c9f6a605a0b23204f0b8a32790fa367:obs/spkgbuild
+f:1efc816308b6174bed2f196b56ad8cf1:obs/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:obs/.checksums
 f:e4ea2ad64f38e3d140ab0fd4bedd1789:ocl-icd/.pkgfiles
 f:cdc93765e7bd471bfd956d984fa27c2f:ocl-icd/spkgbuild
@@ -692,3 +693,5 @@ f:c9583a0769d6df4d09542717d51a033c:lazarus/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:lazarus/.checksums
 f:ac9f57fea5a64c7f9b0577fc27dae740:freepascal/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:freepascal/.checksums
+f:f929331808a9b79246d646bba129bee2:libsndio/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:libsndio/.checksums
