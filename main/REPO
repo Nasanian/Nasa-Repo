@@ -228,6 +228,7 @@ d:replaysorcery
 d:lazarus
 d:freepascal
 d:libsndio
+d:rofi
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -346,6 +347,7 @@ f:de5a6266bc8598a0e519a03d4e3414c4:ripgrep/spkgbuild
 f:a17b21254b171b16e0ce1a85b6a16748:ripgrep-all/spkgbuild
 f:976a6dcbc5e0c47ee669ec18fd230643:sccache/.pkgfiles
 f:8b5ad0d1d0059f538d35c66779a9e4f4:sccache/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:sccache/.checksums
 f:caf18930b0283b432a2394a93583c0da:sdl2mixer/.pkgfiles
 f:6dbd64c100ada37a271ce21ff579a0c2:sdl2mixer/spkgbuild
 f:2ff8ae0513dfe88864a1c8a58c6fba29:selinux/.pkgfiles
@@ -411,7 +413,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:2a2f78c731cbc9c8669036aef09571bb:.httpup-repo.current
+f:7b4646c466d747a1e8499a5bdac5ac6c:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:fa55a7c3296e3bcd1e172bb5d909e388:bat/.pkgfiles
@@ -570,6 +572,7 @@ f:7e1a5531ea89d26cde106ba3c6a867bc:proxychains-ng/spkgbuild
 f:72b2d17b0b25aefbc28ec930c1038fa3:xdelta/spkgbuild
 f:a3caf8a09239ee247169b47319d8e406:vsftpd/.pkgfiles
 f:491833c9009d446720abdf8b13e48644:vsftpd/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:vsftpd/.checksums
 f:e56f8de4b832f430e7aca8c574df37e2:metasploit/.pkgfiles
 f:9d31ed4404f3432f3fe7dc8f5e912930:metasploit/attach
 f:dcc3ad4a96597b062ae41023f914194c:metasploit/detach
@@ -696,3 +699,5 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:freepascal/.checksums
 f:f929331808a9b79246d646bba129bee2:libsndio/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libsndio/.checksums
 f:1a8dbf569cb04464b58a235a836ee14a:libsndio/.pkgfiles
+f:440fc07cff65b86544f1114b99fd5203:rofi/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:rofi/.checksums

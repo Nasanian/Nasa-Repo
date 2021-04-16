@@ -1,0 +1,23 @@
+# description	: Lightweight application launcher with some addons.
+# homepage	: https://github.com/davatorium/rofi
+# depends	: flex cairo freetype2 libjpeg-turbo librsvg xdg-utils ninja meson git xorg libxkbcommon pango startup-notification
+
+name=rofi
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/davatorium/rofi.git --depth 1 --jobs $(nproc)
+	cd rofi
+	mkdir build
+  meson --prefix=/usr ./build
+  ninja -C build
+	DESTDIR=$PKG ninja -C build install
+  cd ..
+
+  # Custom addons.
+  git clone https://github.com/adi1090x/rofi.git rofi-addons --depth 1 --jobs $(nproc)
+  cd rofi-addons
+  chmod +x setup.sh
+  ./setup.sh
+}
