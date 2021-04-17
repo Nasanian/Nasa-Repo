@@ -113,7 +113,6 @@ d:arandr
 d:themix
 d:stalonetray
 d:streamlink-twitch-gui
-d:inkscape
 d:yarn
 d:yarn/node_modules
 d:slippi
@@ -229,6 +228,7 @@ d:lazarus
 d:freepascal
 d:libsndio
 d:rofi
+d:inkscape-patched
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -448,9 +448,6 @@ f:6c6d09b4b309790cf7e1b075b5554abd:stalonetray/.pkgfiles
 f:6054470935d08b978be6f8f09c844f80:stalonetray/spkgbuild
 f:33fc99a182f5631cf82536e7a6a0bdd6:streamlink-twitch-gui/.pkgfiles
 f:ed410f70e342c9730822e0e3652152b3:streamlink-twitch-gui/spkgbuild
-f:22dcfa0cce57f51c6858cb91789f8df1:inkscape/.pkgfiles
-f:4e3be6102404c77172745c5f6e3e9c31:inkscape/fixatomicrel.patch
-f:999a51acae16832182b4c623f2cd77da:inkscape/spkgbuild
 f:58b4c7a574a397ae61bf27b4b94f3681:yarn/spkgbuild
 f:d01540f29d7dd8e3ceceba993504739d:yarn/node_modules/.yarn-integrity
 f:dd07d22cbf9a738bdb68b591bc1bc742:yarn/yarn.lock
@@ -605,6 +602,7 @@ f:3372969ec9717978a25e379ffff1dac6:bchunk/.pkgfiles
 f:9bc4988d44bc3a6c91e5aea01d050b57:bchunk/spkgbuild
 f:1a0f93e307d4c4d0a541d8e7c1c1c07f:dino-git/.pkgfiles
 f:38c20141177d7293b06627157c9467aa:dino-git/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:dino-git/.checksums
 f:c87b9ca37bf6794d1973066f26843a9c:openal/.pkgfiles
 f:cb7250407bc51b16f9548c3b2ee4a7fb:openal/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:openal/.checksums
@@ -701,3 +699,8 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:libsndio/.checksums
 f:1a8dbf569cb04464b58a235a836ee14a:libsndio/.pkgfiles
 f:440fc07cff65b86544f1114b99fd5203:rofi/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:rofi/.checksums
+f:ab74c8836b9b7e02e1b60ebda31fae9e:rofi/.pkgfiles
+f:22dcfa0cce57f51c6858cb91789f8df1:inkscape-patched/.pkgfiles
+f:4e3be6102404c77172745c5f6e3e9c31:inkscape-patched/fixatomicrel.patch
+f:218bb38a79e51f3df22d759e73d923de:inkscape-patched/spkgbuild
+f:5f306fbd5219bba88795f1c76406977b:inkscape-patched/.checksums

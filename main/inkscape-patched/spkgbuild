@@ -1,7 +1,7 @@
 # description	: Scalable Vector Graphics editor
 # depends	: gsl boost imagemagick6 gc lcms2 poppler-glib popt libxslt gtkmm2 double-conversion potrace
 
-name=inkscape
+name=inkscape-patched
 version=1.0
 release=patched
 source="https://gitlab.com/inkscape/inkscape/-/archive/INKSCAPE_${version/./_}/inkscape-INKSCAPE_${version/./_}.tar.bz2
