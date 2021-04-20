@@ -121,7 +121,6 @@ d:thunar-noroot
 d:powercord
 d:bitmap-fonts-pack
 d:grub-btrfs
-d:btrfs-speed
 d:compsize
 d:syncplay
 d:kodi
@@ -313,7 +312,7 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:mpv-vk/.checksums
 f:d498856af918cb02d7500a516bb17911:ncnn/.pkgfiles
 f:c4c80315608831f9dc60fce8d6f9a2b6:ncnn/spkgbuild
 f:a1caa3e50775497384305dd39dcb841e:neovim/.pkgfiles
-f:9dc33b0ea7f4c6b8e86d598b08cafa49:neovim/spkgbuild
+f:2dde858a96d167da2a7aeb4bbf71db76:neovim/spkgbuild
 f:211ae474c707f87b043d6c2fb3cecac9:nginx/.pkgfiles
 f:6a093f0c2bf4fc808e93a7d5b34d6f55:nginx/spkgbuild
 f:2e4a11d6f4410220c6fff15f2617c192:npx/.pkgfiles
@@ -466,8 +465,6 @@ f:7db5ced2050771770d667365a19e5562:bitmap-fonts-pack/.pkgfiles
 f:8b6d9191a57be8c386ea85a4646ba24a:bitmap-fonts-pack/spkgbuild
 f:91afce2f12a1e541e1eac0b65ee79305:grub-btrfs/.pkgfiles
 f:fc1678515da8dd0bf6fe4ff3c70c1242:grub-btrfs/spkgbuild
-f:a5a7979f98f5e9eacd5734d37c5e1a4f:btrfs-speed/.pkgfiles
-f:3dcff9ead39589fa5ac926c297d58912:btrfs-speed/spkgbuild
 f:db4b77f9fdfff1fc4d7c5570ce2cdd07:compsize/.pkgfiles
 f:0c751e127ccbbca152e77676b7301b68:compsize/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:compsize/.checksums
