@@ -313,7 +313,7 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:mpv-vk/.checksums
 f:d498856af918cb02d7500a516bb17911:ncnn/.pkgfiles
 f:c4c80315608831f9dc60fce8d6f9a2b6:ncnn/spkgbuild
 f:a1caa3e50775497384305dd39dcb841e:neovim/.pkgfiles
-f:84b7fa7ea7e215d136d0faf8ae0f25aa:neovim/spkgbuild
+f:9dc33b0ea7f4c6b8e86d598b08cafa49:neovim/spkgbuild
 f:211ae474c707f87b043d6c2fb3cecac9:nginx/.pkgfiles
 f:6a093f0c2bf4fc808e93a7d5b34d6f55:nginx/spkgbuild
 f:2e4a11d6f4410220c6fff15f2617c192:npx/.pkgfiles
@@ -413,7 +413,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:7b4646c466d747a1e8499a5bdac5ac6c:.httpup-repo.current
+f:73b8793b00f4d2fc614980a019f47d49:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:fa55a7c3296e3bcd1e172bb5d909e388:bat/.pkgfiles

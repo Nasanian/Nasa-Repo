@@ -113,7 +113,6 @@ arandr
 themix
 stalonetray
 streamlink-twitch-gui
-inkscape
 yarn
 yarn/node_modules
 slippi
@@ -228,6 +227,8 @@ replaysorcery
 lazarus
 freepascal
 libsndio
+rofi
+inkscape-patched
 x265/spkgbuild
 x265/.pkgfiles
 amdvlk/spkgbuild
@@ -346,6 +347,7 @@ ripgrep/spkgbuild
 ripgrep-all/spkgbuild
 sccache/.pkgfiles
 sccache/spkgbuild
+sccache/.checksums
 sdl2mixer/.pkgfiles
 sdl2mixer/spkgbuild
 selinux/.pkgfiles
@@ -446,9 +448,6 @@ stalonetray/.pkgfiles
 stalonetray/spkgbuild
 streamlink-twitch-gui/.pkgfiles
 streamlink-twitch-gui/spkgbuild
-inkscape/.pkgfiles
-inkscape/fixatomicrel.patch
-inkscape/spkgbuild
 yarn/spkgbuild
 yarn/node_modules/.yarn-integrity
 yarn/yarn.lock
@@ -570,6 +569,7 @@ proxychains-ng/spkgbuild
 xdelta/spkgbuild
 vsftpd/.pkgfiles
 vsftpd/spkgbuild
+vsftpd/.checksums
 metasploit/.pkgfiles
 metasploit/attach
 metasploit/detach
@@ -602,6 +602,7 @@ bchunk/.pkgfiles
 bchunk/spkgbuild
 dino-git/.pkgfiles
 dino-git/spkgbuild
+dino-git/.checksums
 openal/.pkgfiles
 openal/spkgbuild
 openal/.checksums
@@ -696,3 +697,10 @@ freepascal/.checksums
 libsndio/spkgbuild
 libsndio/.checksums
 libsndio/.pkgfiles
+rofi/spkgbuild
+rofi/.checksums
+rofi/.pkgfiles
+inkscape-patched/.pkgfiles
+inkscape-patched/fixatomicrel.patch
+inkscape-patched/spkgbuild
+inkscape-patched/.checksums

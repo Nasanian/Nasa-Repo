@@ -1,9 +1,9 @@
 # description	: an improved version of VIM
-# depends	: gperf luajit lua libuv
+# depends	: gperf luajit lua libuv git
 
 name=neovim
 version=git
-release=r2
+release=r3
 
 build() {
   git clone https://github.com/neovim/neovim.git --depth 1 --jobs $(nproc)
