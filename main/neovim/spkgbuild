@@ -1,5 +1,5 @@
 # description	: an improved version of VIM
-# depends	: gperf luajit lua libuv git
+# depends	: gperf luajit lua libuv git cmake
 
 name=neovim
 version=git
