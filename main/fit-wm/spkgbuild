@@ -1,7 +1,7 @@
 # description	: Fitted-WM, highly customized DWM fork with some of InstantWM's features.
-# depends	: libx11 libxinerama fontconfig libxft dmenu ohsnap siji-font st libxcb gcc xorg libxft libxinerama yajl make
+# depends	: libx11 libxinerama fontconfig libxft dmenu ohsnap siji-font st libxcb gcc xorg libxft libxinerama yajl make rofi rxvt-unicode
 
-name=fitwm
+name=fit-wm
 version=git
 release=r2
 
