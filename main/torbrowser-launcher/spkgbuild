@@ -3,7 +3,7 @@
 
 name=torbrowser-launcher
 version=git
-release=r1
+release=r2
 source="https://github.com/yardenac/torbrowser-launcher/commit/5fe206b8fcc31ca6b5df444c2bdcf00c2d81a0d0.patch
         https://github.com/yardenac/torbrowser-launcher/commit/f4f3ae0eb5e8a3e52ff5e2d1b9078ae2ce6680c3.patch"
 
@@ -18,8 +18,8 @@ build() {
 	patch --forward --strip=1 --input="../f4f3ae0eb5e8a3e52ff5e2d1b9078ae2ce6680c3.patch"
 
   pip3 install PyQt5
-	python setup.py build
-	python setup.py install --root="$PKG/" --optimize=1 --skip-build
+	python3 setup.py build
+	python3 setup.py install --root="$PKG/" --optimize=1 --skip-build
 
 	install -Dm644 LICENSE -t "$PKG/usr/share/licenses/torbrowser-launcher"
 

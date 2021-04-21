@@ -1,10 +1,10 @@
 # description	: Lightweight application launcher with some addons.
 # homepage	: https://github.com/davatorium/rofi
-# depends	: flex cairo freetype2 libjpeg-turbo librsvg xdg-utils ninja meson git xorg libxkbcommon pango startup-notification
+# depends	: flex cairo freetype2 libjpeg-turbo librsvg xdg-utils ninja meson git xorg libxkbcommon pango startup-notification xcb-util-xrm
 
 name=rofi
 version=git
-release=r1
+release=r2
 
 build() {
   git clone https://github.com/davatorium/rofi.git --depth 1 --jobs $(nproc)

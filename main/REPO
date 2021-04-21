@@ -560,7 +560,7 @@ f:cc78901d326ca28723f3de8780787df9:libdbusmenu-qtgit/spkgbuild
 f:ebcb4c5c30a90c0214daccce6479b59b:ckbnext/.pkgfiles
 f:d289acfccd76a7a63bd0db669f2de348:ckbnext/spkgbuild
 f:e06761707eeb6518b69561c21cf942c6:torbrowser-launcher/.pkgfiles
-f:e65eb78348ee99acabac2a3377465c2f:torbrowser-launcher/spkgbuild
+f:f18c46435e3dbf4f2099ff727840a801:torbrowser-launcher/spkgbuild
 f:8efc06f48323fee7e6bb3cdaa7cb46bb:tor/.pkgfiles
 f:65111113c6d68dd7d52a055f5f0e4e6f:tor/spkgbuild
 f:cec7167048a929de5a46473e87f7089d:nvidia-32-beta/.pkgfiles
@@ -699,7 +699,7 @@ f:c1a5d97f6be1b463a7c0faf320eee13e:freepascal/.checksums
 f:f929331808a9b79246d646bba129bee2:libsndio/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libsndio/.checksums
 f:1a8dbf569cb04464b58a235a836ee14a:libsndio/.pkgfiles
-f:440fc07cff65b86544f1114b99fd5203:rofi/spkgbuild
+f:8ca14ae3deb49634941d0179c70541de:rofi/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:rofi/.checksums
 f:ab74c8836b9b7e02e1b60ebda31fae9e:rofi/.pkgfiles
 f:22dcfa0cce57f51c6858cb91789f8df1:inkscape-patched/.pkgfiles
