@@ -8,9 +8,6 @@
 
 set -e
 
-rm -rf /usr/lib32/libcairo.so.2
-rm -rf /usr/lib32/libfreetype.so.6
-rm -rf /usr/lib32/libfontconfig.so.1
 
 # Get the full name of this script
 STEAMSCRIPT="$(cd "${0%/*}" && echo "$PWD")/${0##*/}"
