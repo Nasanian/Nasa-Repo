@@ -3,12 +3,12 @@
 
 name=fit-wm
 version=git
-release=r2
+release=r3
 
 build() {
   git clone https://github.com/Nasanian/Fit-WM.git --depth 1 --jobs $(nproc)
   cd Fit-WM
-  cp -arv $PKG/Fit-WM ~/suckless
+  cp -arv ../Fit-WM ~/suckless
 	make
 	make DESTDIR=$PKG install
 }
