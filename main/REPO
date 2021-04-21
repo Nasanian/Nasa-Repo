@@ -709,4 +709,6 @@ f:5f306fbd5219bba88795f1c76406977b:inkscape-patched/.checksums
 f:6b8e6e8cd69053585a46eff4d26d075d:electrum/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:electrum/.checksums
 f:ef42997feb6516e46533c02aeb7bdbe3:electrum/.pkgfiles
-f:74554b914c9c07d875f8743bd127e3b8:secp256k1/spkgbuild
+f:4c63aded801908d74947e4a45da71922:secp256k1/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:secp256k1/.checksums
+f:41dd09c2ca6948b5860c5c89568360ec:secp256k1/.pkgfiles
