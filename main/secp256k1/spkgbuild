@@ -1,0 +1,16 @@
+# description	: Optimized C library for ECDSA signatures and secret/public key operations on curve secp256k1.
+# homepage	: https://github.com/bitcoin-core/secp256k1
+# depends	: make automake gmp git m4 autoconf pkgconf
+
+name=secp256k1
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/bitcoin-core/secp256k1
+  cd secp256k1
+  ./autogen.sh
+  ./configure --prefix=/usr --enable-module-recovery
+  make
+	make DESTDIR=$PKG install
+}

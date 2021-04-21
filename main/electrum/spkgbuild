@@ -1,0 +1,15 @@
+# description	: Ligthweight bitcoin client.
+# homepage	: https://github.com/spesmilo/electrum/
+# depends	: tor python3-pyqt5 python3-pycryptodome python3-pip python3-setuptools secp256k1
+
+name=electrum
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/spesmilo/electrum.git --depth 1 --jobs $(nproc)
+	cd electrum
+  pip3 install cryptography
+  python3 -m pip install --user .
+  python3 setup.py install --root=$PKG --optimize=1
+}

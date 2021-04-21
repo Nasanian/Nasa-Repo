@@ -228,6 +228,8 @@ d:freepascal
 d:libsndio
 d:rofi
 d:inkscape-patched
+d:electrum
+d:secp256k1
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -704,3 +706,7 @@ f:22dcfa0cce57f51c6858cb91789f8df1:inkscape-patched/.pkgfiles
 f:4e3be6102404c77172745c5f6e3e9c31:inkscape-patched/fixatomicrel.patch
 f:218bb38a79e51f3df22d759e73d923de:inkscape-patched/spkgbuild
 f:5f306fbd5219bba88795f1c76406977b:inkscape-patched/.checksums
+f:6b8e6e8cd69053585a46eff4d26d075d:electrum/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:electrum/.checksums
+f:ef42997feb6516e46533c02aeb7bdbe3:electrum/.pkgfiles
+f:74554b914c9c07d875f8743bd127e3b8:secp256k1/spkgbuild

@@ -1,0 +1,13 @@
+secp256k1-git-r1
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/include/
+-rw-r--r-- root/root    usr/local/include/secp256k1.h
+-rw-r--r-- root/root    usr/local/include/secp256k1_preallocated.h
+drwxr-xr-x root/root    usr/local/lib/
+-rw-r--r-- root/root    usr/local/lib/libsecp256k1.a
+lrwxrwxrwx root/root    usr/local/lib/libsecp256k1.so -> libsecp256k1.so.0.0.0
+lrwxrwxrwx root/root    usr/local/lib/libsecp256k1.so.0 -> libsecp256k1.so.0.0.0
+-rwxr-xr-x root/root    usr/local/lib/libsecp256k1.so.0.0.0
+drwxr-xr-x root/root    usr/local/lib/pkgconfig/
+-rw-r--r-- root/root    usr/local/lib/pkgconfig/libsecp256k1.pc
