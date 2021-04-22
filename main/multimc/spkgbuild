@@ -1,13 +1,10 @@
 # description	: A replacement for the twitch launcher
-# depends	: qt5 adoptjre mesa-vk zlib zlib-32 xrandr bzip2 bzip2-32
+# depends	: qt5 adoptjre mesa-vk zlib zlib-32 xrandr bzip2 bzip2-32 adoptjre11 adoptjre8
 
 name=multimc
 version=git
-release=r1
-options=""
-noextract=""
-backup=""
-source=""
+release=r2
+
 
 build() {
 	git clone --recursive https://github.com/MultiMC/MultiMC5.git --depth 1 --jobs $(nproc)
@@ -16,7 +13,7 @@ build() {
   mkdir build
   cd build
 
-  export JAVA_HOME=/opt/java-bin
+  export JAVA_HOME=/opt/java-8-bin
 
   cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="/usr" -DMultiMC_LAYOUT=lin-system -DMultiMC_NOTIFICATION_URL:STRING="https://files.multimc.org/notifications.json" ..
 	make
@@ -31,8 +28,8 @@ build() {
   #Was I high when i put this here? Why.
   #ln -s /usr/lib32/libbz2.so.1.0 /usr/lib32/libbz2.so.1
 
-  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
-  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
-  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
-  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
+  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-8-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
+  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-8-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
+  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-8-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
+  echo "\nSET YOUR JAVA HOME\! with -> export JAVA_HOME=/opt/java-8-bin IN YOUR BASHRC/ZSHRC OR /etc/profile \! \n"
 }
