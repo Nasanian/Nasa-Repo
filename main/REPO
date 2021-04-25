@@ -230,6 +230,7 @@ d:rofi
 d:inkscape-patched
 d:electrum
 d:secp256k1
+d:sdl2-32
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -507,6 +508,7 @@ f:51f985e1f51a1fa2d3eb36b22a27cd55:ghc/spkgbuild
 f:49fa1660e23230f933d534cebd3f9634:openrazer/spkgbuild
 f:7f429b434d46207343fbdd3288a52b1d:multimc/.pkgfiles
 f:dffcb2a63f2d35cae13519aa58c613b8:multimc/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:multimc/.checksums
 f:741eb18a783e3f180de70141fb31aafc:hidapi/.pkgfiles
 f:97324fbc00186f7f199fc001726a144f:hidapi/spkgbuild
 f:8c923c424850780268384699e9d5a998:python3-pyqt5-galaxy/.pkgfiles
@@ -712,3 +714,6 @@ f:ef42997feb6516e46533c02aeb7bdbe3:electrum/.pkgfiles
 f:4c63aded801908d74947e4a45da71922:secp256k1/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:secp256k1/.checksums
 f:41dd09c2ca6948b5860c5c89568360ec:secp256k1/.pkgfiles
+f:a9d43fda3b2bae972665b615cc6e4225:sdl2-32/spkgbuild
+f:76830f31b27f1c13d378fdfd463682cc:sdl2-32/.checksums
+f:0c98369efe9948aade89d9371a029e36:sdl2-32/.pkgfiles

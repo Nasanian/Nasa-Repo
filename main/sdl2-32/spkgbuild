@@ -1,0 +1,40 @@
+# description	: Cross-platform library designed to make it easy to write multimedia software (32-bit)
+
+name=sdl2-32
+version=2.0.14
+release=1
+source="https://www.libsdl.org/release/SDL2-$version.tar.gz"
+
+build() {
+	cd SDL2-$version
+
+  export CC='gcc -m32'
+  export CXX='g++ -m32'
+  export PKG_CONFIG_PATH=/usr/lib32/pkgconfig
+
+  # fix libdir
+  sed -i 's|lib/cmake|lib32/cmake|' CMakeLists.txt
+  # Don't try to link against ibus
+  sed -i '/pkg_search_module.*ibus-1.0/d' CMakeLists.txt
+
+  mkdir build
+  cd build
+
+  cmake .. \
+      -DCMAKE_INSTALL_PREFIX=/usr \
+      -DLIB_SUFFIX=32 \
+      -DSDL_STATIC=OFF \
+      -DSDL_DLOPEN=ON \
+      -DARTS=OFF \
+      -DESD=OFF \
+      -DNAS=OFF \
+      -DALSA=ON \
+      -DPULSEAUDIO_SHARED=ON \
+      -DVIDEO_WAYLAND=ON \
+      -DRPATH=OFF \
+      -DCLOCK_GETTIME=ON \
+      -DJACK_SHARED=ON
+
+	make DESTDIR=$PKG install
+	rm -v $PKG/usr/lib32/libSDL2*.a
+}
