@@ -714,6 +714,6 @@ f:ef42997feb6516e46533c02aeb7bdbe3:electrum/.pkgfiles
 f:4c63aded801908d74947e4a45da71922:secp256k1/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:secp256k1/.checksums
 f:41dd09c2ca6948b5860c5c89568360ec:secp256k1/.pkgfiles
-f:a9d43fda3b2bae972665b615cc6e4225:sdl2-32/spkgbuild
+f:2fec70b06cfb94fa98ed5b84065a2770:sdl2-32/spkgbuild
 f:76830f31b27f1c13d378fdfd463682cc:sdl2-32/.checksums
 f:0c98369efe9948aade89d9371a029e36:sdl2-32/.pkgfiles

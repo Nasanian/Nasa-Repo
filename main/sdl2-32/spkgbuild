@@ -13,7 +13,7 @@ build() {
   export PKG_CONFIG_PATH=/usr/lib32/pkgconfig
 
   # fix libdir
-  sed -i 's|lib/cmake|lib32/cmake|' CMakeLists.txt
+  #sed -i 's|lib/cmake|lib32/cmake|' CMakeLists.txt
   # Don't try to link against ibus
   sed -i '/pkg_search_module.*ibus-1.0/d' CMakeLists.txt
 
@@ -34,6 +34,7 @@ build() {
       -DRPATH=OFF \
       -DCLOCK_GETTIME=ON \
       -DJACK_SHARED=ON
+
 
 	make DESTDIR=$PKG install
 	rm -v $PKG/usr/lib32/libSDL2*.a
