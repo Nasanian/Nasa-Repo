@@ -1,0 +1,25 @@
+# description	: Server and user space API to deal with multimedia (Git version)
+# depends	: meson alsa-lib gstreamer ffmpeg dbus gst-plugins-base bluez sbc jack pulseaudio git
+
+name=pipewire-git
+version=git
+release=r1
+source=""
+
+build() {
+  git clone https://github.com/PipeWire/pipewire.git --depth 1 --jobs $(nproc)
+  cd pipewire
+
+	mkdir build
+	cd build
+
+	meson --prefix=/usr \
+	      -Dsystemd=disabled \
+	      -Ddocs=disabled \
+              -Dvulkan=enabled \
+              -Dexamples=disabled \
+	      -Dpipewire-pulseaudio=enabled
+	ninja
+	DESTDIR=$PKG ninja install
+
+}

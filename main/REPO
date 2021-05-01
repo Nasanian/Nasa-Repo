@@ -231,6 +231,7 @@ d:inkscape-patched
 d:electrum
 d:secp256k1
 d:sdl2-32
+d:pipewire-git
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -719,3 +720,5 @@ f:41dd09c2ca6948b5860c5c89568360ec:secp256k1/.pkgfiles
 f:2fec70b06cfb94fa98ed5b84065a2770:sdl2-32/spkgbuild
 f:76830f31b27f1c13d378fdfd463682cc:sdl2-32/.checksums
 f:0c98369efe9948aade89d9371a029e36:sdl2-32/.pkgfiles
+f:cb2ba9b6494341b284ccf844a1c6e403:pipewire-git/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:pipewire-git/.checksums
