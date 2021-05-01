@@ -5,12 +5,12 @@
 
 name=qutebrowser-galaxy
 
-galver=2.0.2
+galver=2.2.1
 sipver=12.8.1
 qtver=5.15.2
 
 version=git
-release=r3
+release=r4
 
 source="https://github.com/qutebrowser/qutebrowser/releases/download/v$galver/qutebrowser-$galver.tar.gz
       qutebox"

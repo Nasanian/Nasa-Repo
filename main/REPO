@@ -403,6 +403,7 @@ f:8eee520bb9467f6fc83c7a1cd978d673:waifu2x/.pkgfiles
 f:06932a371b6ed08a2de359bf797a2c98:waifu2x/spkgbuild
 f:8cf1300552edffee109854ddcf179343:waifu2x-vulkan/spkgbuild
 f:92174cd793e922ccae23e7403c9bea93:xephyr/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:xephyr/.checksums
 f:3b43afaeb2c50d08d682c5ceec60be60:zerotier/spkgbuild
 f:df2c090ffe001638b763c7b3f5023329:zerotier/.pkgfiles
 f:773d8b57e430f67632962eb0b1a33353:zram-init/spkgbuild
@@ -499,7 +500,8 @@ f:a8513fd36cc1ff2dbe4dbc4cbef81a04:python3-rencode/.pkgfiles
 f:472aa9f2b444dd1fd8882ed6ca1bbcf9:python3-rencode/spkgbuild
 f:ddf5cfb1dee166c3c47f56cb9b017b83:qutebrowser-galaxy/.pkgfiles
 f:565030e233d4b3276cff4f9778a246b2:qutebrowser-galaxy/qutebox
-f:112bc60b326337bbfae6d5867694f0bb:qutebrowser-galaxy/spkgbuild
+f:e2e7ce615e668328d2d3964c9c035db1:qutebrowser-galaxy/spkgbuild
+f:d53bbaec18653f86f2037f8dc3af6632:qutebrowser-galaxy/.checksums
 f:fc58913219694fe615a1d2083112eca3:libav1/.pkgfiles
 f:257efdba6a843a76ba763b1ba62558b2:libav1/spkgbuild
 f:47aabdeafcb1deee9a347651f54164d1:uget-stable/spkgbuild
