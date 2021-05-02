@@ -232,6 +232,7 @@ d:electrum
 d:secp256k1
 d:sdl2-32
 d:pipewire-git
+d:pulseeffects
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -539,7 +540,7 @@ f:8d41d06973a6e77173686b2bba7c1eed:jsoncpp/spkgbuild
 f:6fa18546c68fd77e6042d9f258adde0c:timeshift/spkgbuild
 f:f03bbaf3bf64dbcc9d3d6add2c15af70:linux-xanmod-rt/.pkgfiles
 f:94a38818fb2daf756831897b250f845d:linux-xanmod-rt/compilefastlinux
-f:007036062aac5bf181a7c408a8ac0a00:linux-xanmod-rt/spkgbuild
+f:49e48f1931e1f2a1307f68beaec25c4d:linux-xanmod-rt/spkgbuild
 f:74e384556c05cf797d790c39807aab27:linux-xanmod-rt/.checksums
 f:fbf32bcdcd514887433dbe3305ed4114:cutter/.pkgfiles
 f:b3ea9ad4905c8ea5359ebe56472ccebf:cutter/spkgbuild
@@ -720,5 +721,7 @@ f:41dd09c2ca6948b5860c5c89568360ec:secp256k1/.pkgfiles
 f:2fec70b06cfb94fa98ed5b84065a2770:sdl2-32/spkgbuild
 f:76830f31b27f1c13d378fdfd463682cc:sdl2-32/.checksums
 f:0c98369efe9948aade89d9371a029e36:sdl2-32/.pkgfiles
-f:cb2ba9b6494341b284ccf844a1c6e403:pipewire-git/spkgbuild
+f:097d8ab78a33797f9d17d012ded4f4bd:pipewire-git/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:pipewire-git/.checksums
+f:4e5d1de0681955e867f8f111371196a0:pipewire-git/.pkgfiles
+f:9b87d6fbc45a0514aa349d3d04dd3c70:pulseeffects/spkgbuild

@@ -1,0 +1,14 @@
+# description	:
+# homepage	:
+# depends	: pipewire pulseaudio
+
+name=pulseeffects
+version=git
+release=r1
+
+build() {
+  git clone https://github.com/wwmm/pulseeffects.git --depth 1
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
