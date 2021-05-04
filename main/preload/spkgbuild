@@ -1,0 +1,19 @@
+# description	: Improves application load times by prefetching commonly used resources into memory.
+# homepage	: http://downloads.sourceforge.net/sourceforge/preload/
+# depends	: help2man make glib bash
+
+name=preload
+version=forge
+release=0.6.4
+source="https://cfhcable.dl.sourceforge.net/project/preload/preload/0.6.4/preload-$release.tar.gz"
+
+build() {
+	cd $name-$release
+  ./configure --prefix=/usr \
+              --sysconfdir=/etc \
+              --mandir=/usr/share/man \
+              --sbindir=/usr/bin \
+              --localstatedir=/var
+	make
+	make DESTDIR=$PKG install
+}
