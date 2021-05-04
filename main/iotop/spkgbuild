@@ -1,0 +1,14 @@
+# description	: Helps keep track of disk IO on your drives in a fancy terminal UI.
+# homepage	: https://github.com/Tomas-M/iotop
+# depends	: gcc make git ncurses
+
+name=iotop
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/Tomas-M/iotop.git --depth 1 --jobs $(nproc)
+	cd iotop
+	make
+	make DESTDIR=$PKG install
+}

@@ -233,6 +233,7 @@ d:secp256k1
 d:sdl2-32
 d:pipewire-git
 d:pulseeffects
+d:iotop
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -418,7 +419,7 @@ f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
 f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
 f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
 f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
-f:5d6f66c2dc5b930c121acc6d56b73970:.httpup-repo.current
+f:beac83fb3338452c083ba49dc199beaa:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
 f:fa55a7c3296e3bcd1e172bb5d909e388:bat/.pkgfiles
@@ -574,7 +575,8 @@ f:768a64259f7e8d8a46a13b876d6c443c:nvidia-32-beta/nvidia-drm-outputclass.conf
 f:b8abf1f0559fb7f9bae9cea33a5f8c1f:nvidia-32-beta/spkgbuild
 f:a3caf8a09239ee247169b47319d8e406:proxychains-ng/.pkgfiles
 f:7e1a5531ea89d26cde106ba3c6a867bc:proxychains-ng/spkgbuild
-f:72b2d17b0b25aefbc28ec930c1038fa3:xdelta/spkgbuild
+f:92cf699cefca5ff7363ed8b0c84f0add:xdelta/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:xdelta/.checksums
 f:a3caf8a09239ee247169b47319d8e406:vsftpd/.pkgfiles
 f:491833c9009d446720abdf8b13e48644:vsftpd/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:vsftpd/.checksums
@@ -725,3 +727,6 @@ f:097d8ab78a33797f9d17d012ded4f4bd:pipewire-git/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:pipewire-git/.checksums
 f:4e5d1de0681955e867f8f111371196a0:pipewire-git/.pkgfiles
 f:9b87d6fbc45a0514aa349d3d04dd3c70:pulseeffects/spkgbuild
+f:b50befc2640e9e79182f04e0d3815d6e:iotop/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:iotop/.checksums
+f:59bff3dc1b563639815eedfcf8e23040:iotop/.pkgfiles

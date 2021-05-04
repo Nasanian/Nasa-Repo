@@ -230,6 +230,9 @@ rofi
 inkscape-patched
 electrum
 secp256k1
+sdl2-32
+pipewire-git
+pulseeffects
 x265/spkgbuild
 x265/.pkgfiles
 amdvlk/spkgbuild
@@ -402,6 +405,7 @@ waifu2x/.pkgfiles
 waifu2x/spkgbuild
 waifu2x-vulkan/spkgbuild
 xephyr/spkgbuild
+xephyr/.checksums
 zerotier/spkgbuild
 zerotier/.pkgfiles
 zram-init/spkgbuild
@@ -499,6 +503,7 @@ python3-rencode/spkgbuild
 qutebrowser-galaxy/.pkgfiles
 qutebrowser-galaxy/qutebox
 qutebrowser-galaxy/spkgbuild
+qutebrowser-galaxy/.checksums
 libav1/.pkgfiles
 libav1/spkgbuild
 uget-stable/spkgbuild
@@ -507,6 +512,7 @@ ghc/spkgbuild
 openrazer/spkgbuild
 multimc/.pkgfiles
 multimc/spkgbuild
+multimc/.checksums
 hidapi/.pkgfiles
 hidapi/spkgbuild
 python3-pyqt5-galaxy/.pkgfiles
@@ -712,3 +718,10 @@ electrum/.pkgfiles
 secp256k1/spkgbuild
 secp256k1/.checksums
 secp256k1/.pkgfiles
+sdl2-32/spkgbuild
+sdl2-32/.checksums
+sdl2-32/.pkgfiles
+pipewire-git/spkgbuild
+pipewire-git/.checksums
+pipewire-git/.pkgfiles
+pulseeffects/spkgbuild
