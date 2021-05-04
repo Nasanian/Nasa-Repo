@@ -234,6 +234,7 @@ d:sdl2-32
 d:pipewire-git
 d:pulseeffects
 d:iotop
+d:preload
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -730,3 +731,6 @@ f:9b87d6fbc45a0514aa349d3d04dd3c70:pulseeffects/spkgbuild
 f:b50befc2640e9e79182f04e0d3815d6e:iotop/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:iotop/.checksums
 f:59bff3dc1b563639815eedfcf8e23040:iotop/.pkgfiles
+f:3ec94cd0410af4c28ad99bed26a20cf4:preload/spkgbuild
+f:1fe62f831235284d49677f4565ca59b7:preload/.checksums
+f:f2c37af7cad8799ac9392d7c3b2e5a03:preload/.pkgfiles
