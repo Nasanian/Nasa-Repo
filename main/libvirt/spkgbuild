@@ -1,9 +1,9 @@
 # description	: lib needed for libvirt-python. which is then needed for virt-manager / gnome-boxes
-# depends	: python3-pip python3 selinux qemu gtksourceview4 python-docutils python3-gobject gtk3 gettext libpcap libnl libtirpc parted selinux selinux-32 rst2html5 tar aria2 dnsmasq
+# depends	: python3-pip python3 selinux qemu gtksourceview4 python-docutils python3-gobject gtk3 gettext libpcap libnl libtirpc parted selinux selinux-32 rst2html5 tar aria2 dnsmasq dmidecode firewalld
 
 name=libvirt
 version=git
-release=r5
+release=r6
 
 build() {
 

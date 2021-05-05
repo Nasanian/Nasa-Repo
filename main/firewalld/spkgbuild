@@ -1,0 +1,16 @@
+# description	: Firewall daemon.
+# homepage	: https://github.com/firewalld/firewalld
+# depends	: dbus make gcc autoconf automake
+
+name=firewalld
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/firewalld/firewalld.git --depth 1 --jobs $(nproc)
+  cd firewalld
+	autoreconf -fi
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

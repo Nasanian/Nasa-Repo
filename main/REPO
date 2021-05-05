@@ -235,6 +235,8 @@ d:pipewire-git
 d:pulseeffects
 d:iotop
 d:preload
+d:dmidecode
+d:firewalld
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -432,7 +434,7 @@ f:2e60ca414a938084862d7c46fdd19182:exa/spkgbuild
 f:fc2647d98ddb7a8034041c8ede100b64:oss/spkgbuild
 f:84d4296d564c03750aaa60f8a9773f1e:gpa/spkgbuild
 f:060d886291393b2d135ba261163247ed:libvirt/.pkgfiles
-f:7e453f26b76c91f072f659c42ce9f3eb:libvirt/spkgbuild
+f:075200fcaf5da366668c651e19cebd0b:libvirt/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:libvirt/.checksums
 f:53c5935186135897f1c5e075a73e61cb:rpcgen/spkgbuild
 f:e5cccf2e953ca0bf8ace7e3495109e28:scratchfast/scratch
@@ -734,3 +736,9 @@ f:59bff3dc1b563639815eedfcf8e23040:iotop/.pkgfiles
 f:3ec94cd0410af4c28ad99bed26a20cf4:preload/spkgbuild
 f:1fe62f831235284d49677f4565ca59b7:preload/.checksums
 f:f2c37af7cad8799ac9392d7c3b2e5a03:preload/.pkgfiles
+f:92961195dfdd77699d648791b467c842:dmidecode/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:dmidecode/.checksums
+f:968ff4cff004f530c9375c04ef8197dd:dmidecode/.pkgfiles
+f:716702ef25fe4ceb37bd1394ad00901c:firewalld/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:firewalld/.checksums
+f:189cdb273d62e982d09090de2cb8d1d0:firewalld/.pkgfiles
