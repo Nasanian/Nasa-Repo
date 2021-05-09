@@ -1,0 +1,14 @@
+# description	: Report your system information from your BIOS to your system.
+# homepage	: https://github.com/mirror/dmidecode
+# depends	: make gcc bash git
+
+name=dmidecode
+version=git
+release=r1
+
+build() {
+	git clone https://github.com/mirror/dmidecode.git --depth 1 --jobs $(nproc)
+  cd dmidecode
+	make
+	make DESTDIR=$PKG install
+}

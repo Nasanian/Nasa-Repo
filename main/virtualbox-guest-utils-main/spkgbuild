@@ -1,7 +1,7 @@
 # description	: Guest utilities for virtualbox (Fixed version)
 # depends	: libglvnd linux-pam p7zip fltk
 
-name=virtualbox-guest-utils
+name=virtualbox-guest-utils-main
 version=6.1.14
 release=1
 source="http://download.virtualbox.org/virtualbox/$version/VBoxGuestAdditions_${version}.iso

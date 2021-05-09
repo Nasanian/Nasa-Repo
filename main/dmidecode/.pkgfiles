@@ -1,0 +1,20 @@
+dmidecode-git-r1
+drwxr-xr-x root/root    usr/
+drwxr-xr-x root/root    usr/local/
+drwxr-xr-x root/root    usr/local/sbin/
+-rwxr-xr-x root/root    usr/local/sbin/biosdecode
+-rwxr-xr-x root/root    usr/local/sbin/dmidecode
+-rwxr-xr-x root/root    usr/local/sbin/ownership
+-rwxr-xr-x root/root    usr/local/sbin/vpddecode
+drwxr-xr-x root/root    usr/local/share/
+drwxr-xr-x root/root    usr/local/share/doc/
+drwxr-xr-x root/root    usr/local/share/doc/dmidecode/
+-rw-r--r-- root/root    usr/local/share/doc/dmidecode/AUTHORS
+-rw-r--r-- root/root    usr/local/share/doc/dmidecode/NEWS
+-rw-r--r-- root/root    usr/local/share/doc/dmidecode/README
+drwxr-xr-x root/root    usr/local/share/man/
+drwxr-xr-x root/root    usr/local/share/man/man8/
+-rw-r--r-- root/root    usr/local/share/man/man8/biosdecode.8.gz
+-rw-r--r-- root/root    usr/local/share/man/man8/dmidecode.8.gz
+-rw-r--r-- root/root    usr/local/share/man/man8/ownership.8.gz
+-rw-r--r-- root/root    usr/local/share/man/man8/vpddecode.8.gz

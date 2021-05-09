@@ -1,7 +1,7 @@
 # description	: Powerful x86 virtualization for enterprise as well as home use
 # depends	: sdl qt5 virtualbox-modules
 
-name=virtualbox
+name=virtualbox-main
 version=6.1.14
 release=1
 _name=Oracle_VM_VirtualBox_Extension_Pack

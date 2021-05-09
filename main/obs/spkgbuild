@@ -3,10 +3,8 @@
 
 name=obs
 version=git
-release=r3
-options=""
-noextract=""
-backup=""
+release=r4
+
 
 build() {
   git clone https://github.com/obsproject/obs-studio.git --depth 1 --jobs $(nproc)
