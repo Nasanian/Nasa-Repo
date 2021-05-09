@@ -1,9 +1,9 @@
 # description	: Fast and light lolcat based on C.
-# depends	: gcc
+# depends	: gcc make
 
 name=c-lolcat
 version=git
-release=r2
+release=r3
 
 
 build() {

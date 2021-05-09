@@ -93,8 +93,6 @@ d:xephyr
 d:zerotier
 d:zram-init
 d:p7zip-frozen
-d:virtualbox-guest-utils
-d:virtualbox
 d:downline
 d:bat
 d:fd
@@ -237,6 +235,8 @@ d:iotop
 d:preload
 d:dmidecode
 d:firewalld
+d:virtualbox-main
+d:virtualbox-guest-utils-main
 f:f0fc748b1b814d5eaa31bd46e96e9768:x265/spkgbuild
 f:f82ebcac500f17a7ec58562f884eb182:x265/.pkgfiles
 f:411f4e9c8b220622e08a68d6b77feff6:amdvlk/spkgbuild
@@ -254,7 +254,7 @@ f:17dc317aafe7d58454a796427d1698a9:bazel/spkgbuild
 f:e6cfec536076f76747f369496c276c96:bazybooz/spkgbuild
 f:acddb365498b8288878f438f2714db6e:brotli/spkgbuild
 f:a3caf8a09239ee247169b47319d8e406:c-lolcat/.pkgfiles
-f:d532ed12313cb54d0c276977a9ea6c03:c-lolcat/spkgbuild
+f:4afc577f9c2e91bb1ce4b237227280cd:c-lolcat/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:c-lolcat/.checksums
 f:c7192e1afe2f2c7dcb60be29845f7afe:corectrl/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:corectrl/.checksums
@@ -328,7 +328,7 @@ f:2e4a11d6f4410220c6fff15f2617c192:npx/.pkgfiles
 f:c707a4c029f2ab7bc4974e3d404683d3:npx/spkgbuild
 f:8f2ca76edffe79d8087f4123213ddb7b:obs/.pkgfiles
 f:5b54a7b83d088d95ba7d514beb1d22af:obs/hevc-vaapi.diff
-f:632479197fb69f8c94484540e5123456:obs/spkgbuild
+f:bd4d342d637cdae99f13c5cd90ca71aa:obs/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:obs/.checksums
 f:e4ea2ad64f38e3d140ab0fd4bedd1789:ocl-icd/.pkgfiles
 f:cdc93765e7bd471bfd956d984fa27c2f:ocl-icd/spkgbuild
@@ -416,12 +416,6 @@ f:773d8b57e430f67632962eb0b1a33353:zram-init/spkgbuild
 f:24ee6f1da430454d689770d367dc4c41:p7zip-frozen/gcc10-conversion.patch
 f:94479fb2470230fb66e72f03c921ecc4:p7zip-frozen/gcc10-conversion2.patch
 f:70bb843c1362266e3ee7677e9b6e9af1:p7zip-frozen/spkgbuild
-f:9710904e9e86ec3da272cbe9fe48dbf8:virtualbox-guest-utils/60-vboxguest.rules
-f:2de4c2c28ee6e324188f16f5cef17532:virtualbox-guest-utils/install
-f:2be0b7ee0677a69aa125e257ba53d8f7:virtualbox-guest-utils/spkgbuild
-f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox/install
-f:17a30de3c4e67ed02e591f20f1823555:virtualbox/spkgbuild
-f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox/virtualbox.60-vboxdrv.rules
 f:beac83fb3338452c083ba49dc199beaa:.httpup-repo.current
 f:e2fcf408a7d18f61f18a22483efdae9c:.httpup-urlinfo
 f:611e09b42ed668833d7295cdd101c3ff:downline/spkgbuild
@@ -742,3 +736,9 @@ f:968ff4cff004f530c9375c04ef8197dd:dmidecode/.pkgfiles
 f:716702ef25fe4ceb37bd1394ad00901c:firewalld/spkgbuild
 f:c1a5d97f6be1b463a7c0faf320eee13e:firewalld/.checksums
 f:189cdb273d62e982d09090de2cb8d1d0:firewalld/.pkgfiles
+f:dbd34df1b7ed8a1dcffdea462cfc3938:virtualbox-main/install
+f:9ae4b46e2dafc77e5925516546d142ed:virtualbox-main/spkgbuild
+f:7e2790e8c21dd5fc7af08d1e3a3f95d9:virtualbox-main/virtualbox.60-vboxdrv.rules
+f:9710904e9e86ec3da272cbe9fe48dbf8:virtualbox-guest-utils-main/60-vboxguest.rules
+f:2de4c2c28ee6e324188f16f5cef17532:virtualbox-guest-utils-main/install
+f:d6a6bc5da646580c6cbb918c807484c9:virtualbox-guest-utils-main/spkgbuild
