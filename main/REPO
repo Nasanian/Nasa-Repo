@@ -441,7 +441,8 @@ f:72275057d062c3bdb90c9c9fd5e541e7:obs-v4l2/spkgbuild
 f:b80ae00a84a92c966b9fa8522bcd7d5e:noip/spkgbuild
 f:3e817f369eaff04c41fe7d2414b7636a:trayer/spkgbuild
 f:d3ae6cbb2292c213ada7dca0679756f3:discord-canary/.pkgfiles
-f:89dffb879660bdea50cb2fe2847b75e0:discord-canary/spkgbuild
+f:4b17465324fc379e844d0dd42f554929:discord-canary/spkgbuild
+f:c1a5d97f6be1b463a7c0faf320eee13e:discord-canary/.checksums
 f:c1c61ad2d5c12e30bd51c48e5e6c458b:arandr/.pkgfiles
 f:ffd1ed924bf2d9c3ee232b46b27aa453:arandr/spkgbuild
 f:2b15dabc46b4d4066dd9f60714816644:themix/.pkgfiles
