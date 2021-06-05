@@ -2,7 +2,7 @@
 # depends : apulse nss cups
 
 name=discord-canary
-version=0.0.123
+version=0.0.124
 release=9999
 
 build() {
